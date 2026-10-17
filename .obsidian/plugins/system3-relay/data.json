@@ -1,0 +1,279 @@
+{
+  "release": {
+    "channel": "stable"
+  },
+  "sharedFolders": [
+    {
+      "path": "01 - Visión",
+      "guid": "797e61f4-4e16-4eff-b856-7c3ef013cbb2",
+      "relay": "ae0e07e2-e365-44fc-bb39-dadbaaff9bdc",
+      "sync": {
+        "canvas": true,
+        "bases": true,
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      },
+      "remoteActivity": [
+        {
+          "guid": "09d2dca1-3d3a-4200-bdab-1a29a04414c9",
+          "timestamp": 1792191062587
+        },
+        {
+          "guid": "ddf4327d-5220-4427-9559-785e4594da2a",
+          "timestamp": 1792190781971
+        },
+        {
+          "guid": "ec0474fb-7cdb-48d7-aa6d-7b92ba29af6b",
+          "timestamp": 1792189627743
+        },
+        {
+          "guid": "688a604f-efa0-4135-a26d-3d7809cc933e",
+          "timestamp": 1792189626999
+        }
+      ]
+    },
+    {
+      "path": "02 - Diseño",
+      "guid": "62ef8a36-dc53-4f88-a571-2c83160b5da0",
+      "relay": "ae0e07e2-e365-44fc-bb39-dadbaaff9bdc",
+      "sync": {
+        "canvas": true,
+        "bases": true,
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      },
+      "remoteActivity": [
+        {
+          "guid": "c426742e-1fd1-4224-b5f6-0332fe15ba47",
+          "timestamp": 1792201741997
+        },
+        {
+          "guid": "a8609947-0879-401d-84ef-3111fbf09fcb",
+          "timestamp": 1792201168954
+        },
+        {
+          "guid": "318e1d59-32f0-4338-8443-0753c7799f3f",
+          "timestamp": 1792197679356
+        },
+        {
+          "guid": "cac52e72-aec6-4a7a-af62-6ebdcd980994",
+          "timestamp": 1792196917932
+        },
+        {
+          "guid": "f0551467-594f-46ca-85cc-a029f433b7aa",
+          "timestamp": 1792196173518
+        },
+        {
+          "guid": "17fab44b-f0b8-4b94-9b62-67fa042c74d8",
+          "timestamp": 1792195913280
+        },
+        {
+          "guid": "052c973d-4e92-40bb-8332-47ec068ad4c2",
+          "timestamp": 1792189628868
+        }
+      ]
+    },
+    {
+      "path": "03 - Historia y Mundo",
+      "guid": "91e755cc-31f9-43bd-82b6-a7ee9e5b72cf",
+      "relay": "ae0e07e2-e365-44fc-bb39-dadbaaff9bdc",
+      "sync": {
+        "canvas": true,
+        "bases": true,
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      },
+      "remoteActivity": [
+        {
+          "guid": "e912c9d3-046a-4f1d-a96e-f3cb5d313180",
+          "timestamp": 1792201816325
+        },
+        {
+          "guid": "b3e0c873-5242-42b9-bcbe-d1a66b645f43",
+          "timestamp": 1792201773868
+        },
+        {
+          "guid": "276e63a5-70fa-4089-b09c-547fbcfc8569",
+          "timestamp": 1792189631931
+        },
+        {
+          "guid": "8d93cec2-eb21-4f58-939c-02910faf00c7",
+          "timestamp": 1792189631520
+        }
+      ]
+    },
+    {
+      "path": "04 - Contenido",
+      "guid": "a84e4fba-fa27-41c4-8727-845613922fa6",
+      "relay": "ae0e07e2-e365-44fc-bb39-dadbaaff9bdc",
+      "sync": {
+        "canvas": true,
+        "bases": true,
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      },
+      "remoteActivity": [
+        {
+          "guid": "c176cf7b-ddc1-43e7-ad30-2e8bf3a92d70",
+          "timestamp": 1792201953929
+        },
+        {
+          "guid": "7e69b7ab-bbee-4287-9a7b-fc75096b57ba",
+          "timestamp": 1792201931195
+        },
+        {
+          "guid": "ec504210-45c3-4250-9795-60c0f7afba51",
+          "timestamp": 1792201906954
+        },
+        {
+          "guid": "495df88c-bafe-4bc7-958b-2c50755733b4",
+          "timestamp": 1792201874698
+        },
+        {
+          "guid": "021d1e08-5ce3-4628-af96-0f6cc8351d1a",
+          "timestamp": 1792189633465
+        }
+      ]
+    },
+    {
+      "path": "05 - Arte y Audio",
+      "guid": "0cb3053e-9244-4e8b-8a48-33320c4ff9c1",
+      "relay": "ae0e07e2-e365-44fc-bb39-dadbaaff9bdc",
+      "sync": {
+        "canvas": true,
+        "bases": true,
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      },
+      "remoteActivity": [
+        {
+          "guid": "ae689b98-9652-4adf-9a83-6cc950a2c9b8",
+          "timestamp": 1792193028260
+        },
+        {
+          "guid": "8346579e-bc93-4d8b-8302-01760f70032b",
+          "timestamp": 1792191548313
+        },
+        {
+          "guid": "5219c1f8-07eb-40a1-8db6-1447b9f01d1b",
+          "timestamp": 1792189635764
+        },
+        {
+          "guid": "09d54f3c-d9b3-44e0-b8b4-d442107e0713",
+          "timestamp": 1792189635385
+        },
+        {
+          "guid": "927a9429-655e-4b6c-a4bf-d26073995b49",
+          "timestamp": 1792189634993
+        }
+      ]
+    },
+    {
+      "path": "06 - Experiencia",
+      "guid": "3c4cef78-72cd-4bc9-aa4d-44992a3bec6f",
+      "relay": "ae0e07e2-e365-44fc-bb39-dadbaaff9bdc",
+      "sync": {
+        "canvas": true,
+        "bases": true,
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      },
+      "remoteActivity": [
+        {
+          "guid": "222f88e5-db7a-4177-b060-a5653830a818",
+          "timestamp": 1792200014275
+        },
+        {
+          "guid": "a4be3681-8d75-4708-ae11-7c937df2f081",
+          "timestamp": 1792198932691
+        },
+        {
+          "guid": "a531b358-b93d-414e-9e50-94f8b0b6aece",
+          "timestamp": 1792194578236
+        },
+        {
+          "guid": "69613f92-a6dd-414e-abc7-77c59a7fac2a",
+          "timestamp": 1792189637696
+        }
+      ]
+    },
+    {
+      "path": "07 - Tecnología",
+      "guid": "28e2ec08-174e-4f96-bd72-31b93e3a3d4f",
+      "relay": "ae0e07e2-e365-44fc-bb39-dadbaaff9bdc",
+      "sync": {
+        "canvas": true,
+        "bases": true,
+        "images": true,
+        "audio": true,
+        "videos": true,
+        "pdfs": true,
+        "otherTypes": false
+      },
+      "remoteActivity": [
+        {
+          "guid": "6e373a84-ccda-43d3-bc2d-08732faea406",
+          "timestamp": 1792201286915
+        },
+        {
+          "guid": "cc9f6b69-031b-4238-aec3-f5c3af7f245f",
+          "timestamp": 1792201229200
+        },
+        {
+          "guid": "02498655-8de3-445d-a891-f2656e679587",
+          "timestamp": 1792198711749
+        },
+        {
+          "guid": "68d8e6b6-e260-4b62-b28d-9b03f9596c08",
+          "timestamp": 1792198255626
+        },
+        {
+          "guid": "6789bb21-afb1-47a0-8d2e-789f914c9584",
+          "timestamp": 1792197965023
+        }
+      ]
+    }
+  ],
+  "endpoints": {},
+  "enableDocumentStatus": false,
+  "enableNewLinkFormat": false,
+  "enableDiffLinkStatus": false,
+  "enableDiscordLogin": false,
+  "enableDeviceManagement": true,
+  "enableResourceMeter": false,
+  "enableDeltaLogging": false,
+  "enableNetworkLogging": false,
+  "enableVerifyUploads": false,
+  "enableHSMRecording": false,
+  "enableHSMResourceContracts": false,
+  "enableDraftMode": false,
+  "enableFolderIdbMigration": false,
+  "enableMetadataHealthNotice": true,
+  "enableNoteStateInspector": false,
+  "enableSavingFlagPolyfill": true,
+  "enableFrontmatterDuplicateRecovery": false,
+  "enableSingleUserHistory": true,
+  "enableStreamerMode": false,
+  "debugging": false,
+  "login": {
+    "provider": "github"
+  }
+}
