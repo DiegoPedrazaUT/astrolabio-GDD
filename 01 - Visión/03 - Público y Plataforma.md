@@ -1,4 +1,4 @@
-# Público y Plataforma
+	# Público y Plataforma
 
 ## Descripción de la sección
 
@@ -36,13 +36,13 @@ Documenta limitaciones de hardware, controles, memoria, almacenamiento, distribu
 
 - Distribución: la build de Windows se publicará en itch.io.
 - Controles: el anclaje y el gancho dependen de apuntar; con mando se apunta con el stick derecho y se diseñan ayudas de puntería para compensar la menor precisión del stick (ver [[04 - Controles]]).
-- Almacenamiento: el progreso se guarda al descansar en un observatorio mayor y al tomar el ascensor entre Casas (ver [[04 - Guardado y Configuración]]).
+- Almacenamiento: el progreso se guarda al tomar el ascensor entre niveles (ver [[04 - Guardado y Configuración]]).
 
 ## Sesión de juego
 
-**Duración esperada de una sesión:** 10 minutos
+**Duración esperada de una sesión:** Entre 15 y 20 minutos
 
-**Duración total estimada del juego:** Entre 45 y 90 minutos (demo con tres niveles; depende de la habilidad del jugador)
+**Duración total estimada del juego:** Entre 30 y 60 minutos (demo con tres niveles; depende de la habilidad del jugador)
 
 ## Modelo de distribución
 

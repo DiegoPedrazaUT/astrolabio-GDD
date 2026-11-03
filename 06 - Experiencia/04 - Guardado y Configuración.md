@@ -6,19 +6,18 @@ Define cómo se conserva el progreso y qué opciones puede modificar el jugador.
 
 ## Guardado
 
-**Tipo:** Mixto
+**Tipo:** Automático
 
 **Cuándo se guarda:**
-- Al descansar en un observatorio mayor (el de las Dos Lentes en Géminis, el del Cauce en Acuario y, en la versión completa, el de Ofiuco).
 - Al tomar el ascensor hacia otra Casa, incluido el que sale de las Entrañas.
 
-No hay observatorios menores: entre dos puntos de guardado, morir solo devuelve al jugador al inicio de la sala o al último checkpoint, con todo recargado. Al salir del juego, "Continuar" regresa al último punto guardado.
+Entre dos puntos de guardado, morir solo devuelve al jugador al inicio de la sala o al último checkpoint, con todo recargado. Al salir del juego, "Continuar" regresa al último punto guardado.
 
 **Qué datos se guardan:**
 - Casas restauradas y fragmentos de estrella obtenidos.
 - Habilidades entregadas (hilo y estrella).
-- Poemas encontrados y notas del Almanaque XI leídas.
-- Último punto guardado (Casa y observatorio).
+- Poemas encontrados.
+- Último punto guardado (nivel).
 - Muertes y tiempo de juego (para la tarjeta final).
 
 **Cantidad de ranuras:** 1 en la demo.

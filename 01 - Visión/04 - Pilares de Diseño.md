@@ -25,14 +25,14 @@ El diseño de niveles exige saltos milimétricos y un uso inteligente del anclaj
 **Descripción:** La historia se descubre mirando, no leyendo largos textos.
 
 **¿Cómo se refleja en el juego?**
-La historia del Gran Reloj Cósmico y de la liberación de Ofiuco por el Almanaque XI no se cuenta con textos que interrumpan la acción, sino con el arte de los escenarios, los hologramas, las notas de XI y los poemas que suben desde la Tierra. Efeméride, la voz del Reloj, aparece con burbujas de texto cortas al inicio y al final de las zonas, y nunca habla dentro de un observatorio. El protagonista no habla: se expresa con animaciones breves.
+La historia del Gran Reloj Cósmico y de la liberación de Ofiuco por el Almanaque XI no se cuenta con textos que interrumpan la acción, sino con el arte de los escenarios, los poemas que suben desde la Tierra y la carta de despedida de XI. Efeméride, la voz del Reloj, aparece con burbujas de texto cortas al inicio y al final de las zonas, y nunca habla dentro del Observatorio de Ofiuco. El protagonista no habla: se expresa con animaciones breves.
 
 ## Pilar 4  - Crear el camino
 
 **Descripción:** El jugador no sigue una ruta fija: la construye. Es la fantasía central del juego.
 
 **¿Cómo se refleja en el juego?**
-El anclaje lo escribe el jugador y el gancho solo engancha en superficies y anclajes marcados como enganchables. Las salas admiten más de una solución, y cada Casa reinterpreta la regla (anclaje reflejado, corrientes). Ninguna mecánica nueva debe reemplazar esa creatividad.
+El anclaje lo escribe el jugador y el gancho solo engancha en superficies y anclajes marcados como enganchables. Las salas admiten más de una solución, y cada Casa reinterpreta la regla (por ejemplo, el anclaje reflejado de Géminis). Ninguna mecánica nueva debe reemplazar esa creatividad.
 
 ## Reglas de decisión
 

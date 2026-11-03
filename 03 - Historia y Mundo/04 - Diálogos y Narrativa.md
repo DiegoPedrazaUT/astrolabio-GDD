@@ -7,17 +7,16 @@ Define cómo se presenta la historia al jugador y cómo funcionan los diálogos.
 ## Métodos narrativos
 
 - **Diálogo:** Efeméride habla con burbujas de texto junto a su holograma. No tiene voz grabada; cada burbuja se acompaña de un sonido propio. Las letras aparecen animadas.
-- **Cinemáticas:** pausas cortas y saltables (manteniendo Espacio) donde el jugador no controla al Almanaque: el despertar, el elevador, el cielo del Pozo Celeste y el viaje en ascensor hacia la siguiente Casa.
+- **Cinemáticas:** pausas cortas y saltables (manteniendo Espacio) donde el jugador no controla al Almanaque: el despertar, el viaje en elevador (montacargas), el cielo del Pozo Celeste y el viaje en ascensor hacia la siguiente Casa.
 - **Texto ambiental:** carteles de controles en el escenario y rótulos con el nombre de cada zona.
-- **Objetos:** poemas coleccionables, notas del Almanaque XI y la carta de despedida.
-- **Exploración:** hologramas y telescopios que muestran la Tierra; los poemas ocultos premian explorar.
-- **Audio:** el tic-tac del Reloj como metrónomo y una melodía de piano para los observatorios, con variaciones por Casa.
+- **Objetos:** poemas coleccionables y la carta de despedida de XI.
+- **Exploración:** los poemas ocultos premian explorar.
+- **Audio:** el tic-tac del Reloj como metrónomo.
 - **Narración:** no hay narrador. El protagonista no habla.
 
 ## Estructura de diálogo
 
-Las conversaciones que bloquean al jugador son breves: el jugador no se mueve mientras habla Efeméride. Para que el cambio de zona no se sienta forzado, el elevador dura lo que dura la conversación y la cámara acompaña el viaje.
-
+Las conversaciones que detienen al jugador son breves: mientras habla Efeméride, el Almanaque no se mueve. Para que el cambio de zona no se sienta forzado, el trayecto en elevador dura lo mismo que la conversación y la cámara acompaña el viaje.
 
 ### Escena / Conversación: Inicio en la Sala de los Nichos
 
@@ -68,41 +67,33 @@ Las conversaciones que bloquean al jugador son breves: el jugador no se mueve mi
 
 **Transición:** El Almanaque entra al ascensor; la música de las Entrañas se desvanece y entra el tema de Géminis.
 
-### Escena / Conversación: Efeméride en cada Casa
+### Escena / Conversación: Efeméride en Géminis y en el Observatorio de Ofiuco
 
-| Lugar                    | Lo que dice Efeméride                                                                                          |
-| ------------------------ | -------------------------------------------------------------------------------------------------------------- |
-| Géminis, hologramas      | «Esa transmisión contiene interferencias. No es necesario que la observes.» «Un reflejo no es la realidad, Almanaque. Solo una copia defectuosa.» |
-| Observatorio de las Dos Lentes (al salir) | «El Almanaque XI presentó fallas. No es necesario que leas lo que dejó.»                       |
-| Acuario, hologramas      | «Lo que ves no es libertad, Almanaque. Es ruido.» «Los mecanismos defectuosos son reemplazados. Tú eres el reemplazo.» |
-| Observatorio del Cauce (al salir) | «Ese mecanismo ya no existe. No lo busques. Sigue subiendo.»                                          |
-| Observatorio de Ofiuco (al salir) | «Él también se detuvo a mirar. Ya ves cómo terminó.»                                                  |
-
-Efeméride nunca habla dentro de un observatorio, solo al salir.
+| Lugar                                     | Lo que dice Efeméride                                                                                                                             |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Géminis                                   | «Un reflejo no es la realidad, Almanaque. Solo una copia defectuosa.» |
+| Observatorio de Ofiuco (al salir)         | «Él también se detuvo a mirar. Ya ves cómo terminó.»                                                                                              |
 
 ## Tono
 
 Describe el lenguaje, humor, formalidad y estilo de comunicación.
 
 - **Efeméride:** serena, cálida y maternal en las Entrañas; habla con frases cortas. Se vuelve fría y distante a medida que el jugador descubre la verdad.
-- **Notas de XI:** al principio curiosas y luego decididas.
 - **Poemas:** íntimos, cotidianos y en primera persona; hablan de cosas pequeñas con ternura, a veces con humor.
 - **Estilo visual del texto:** texto blanco cálido sobre un marco dorado tenue, con un tipo de letra legible a baja resolución.
 - **El Almanaque:** silencioso; se comunica solo con animaciones breves.
 
 ## Decisiones narrativas
 
-| Decisión                                          | Opciones                                                  | Consecuencia                                                        |
-| ------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------- |
-| Leer o no las notas de XI                          | Leerlas o ignorar el consejo de Efeméride                 | Descubre la verdad antes o después; es opcional                     |
-| Observar o no los hologramas y telescopios         | Detenerse a mirar o seguir subiendo                       | Más contexto del mundo; es opcional                                 |
-| Devolver o no a Ofiuco a su prisión (Cámara Central) | Obedecer o elegir                                        | Desenlace: por definir por el equipo de narrativa                   |
+| Decisión                                             | Opciones                                  | Consecuencia                                      |
+| ---------------------------------------------------- | ----------------------------------------- | ------------------------------------------------- |
+| Devolver o no a Ofiuco a su prisión (Cámara Central) | Obedecer o elegir                         | Desenlace: por definir por el equipo de narrativa |
 
 ## Localización
 
 ¿El juego tendrá diferentes idiomas?
 
-El idioma base es el español. El inglés queda por confirmar por el equipo; hasta entonces todos los textos están solo en español.
+Por ahora, todos los textos están solo en español.
 
 Idiomas previstos: español (base); inglés por definir.
 

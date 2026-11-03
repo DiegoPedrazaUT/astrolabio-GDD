@@ -20,10 +20,8 @@ Describe el ciclo que se repite durante la experiencia.
 | Poner un anclaje     | Crear un punto de enganche donde no lo hay          | Estrella temporal que el gancho puede usar |
 | Lanzar el gancho     | Balancearse o lanzarse hacia un objetivo            | Cruzar abismos y ganar velocidad           |
 | Cortar el gancho     | Soltarse en el momento justo                        | Salir con la velocidad acumulada           |
-| Observar             | Ver el mundo por hologramas y telescopios           | Contexto de la historia                    |
 | Recolectar fragmento | Cumplir el objetivo principal                       | El Astrolabio brilla más                   |
-| Leer notas y poemas  | Descubrir la historia del Almanaque XI y la Tierra  | Narrativa opcional                         |
-| Descansar            | Dar cuerda a la llave en un observatorio mayor      | Guardado de progreso                       |
+| Leer poemas          | Descubrir la vida en la Tierra                      | Narrativa opcional                         |
 
 ## Experiencia segundo a segundo
 
@@ -40,14 +38,13 @@ Despierta en la Sala de los Nichos, escucha a Efeméride y recupera el control p
 - Morir.
 - Reintentar de inmediato desde el inicio de la sala.
 - Pasar a la siguiente sala.
-- Descansar en el observatorio mayor de la Casa.
 
 ## Experiencia a largo plazo
 
 ¿Qué hace que el jugador quiera continuar?
 
 - Continuar con la historia: descubrir la verdad sobre el Reloj y el Almanaque XI.
-- Dominar cada nueva regla: el anclaje reflejado de Géminis, las corrientes de Acuario.
+- Dominar cada nueva regla: el anclaje reflejado de Géminis.
 - Completar desafíos opcionales y reunir los poemas.
 - Dominar la combinación de escalar, anclar y lanzarse.
 
@@ -55,7 +52,8 @@ Despierta en la Sala de los Nichos, escucha a Efeméride y recupera el control p
 
 ¿Qué debe lograr el jugador para avanzar o terminar?
 
-- Reunir los fragmentos de estrella y entregarlos en su cámara (la Cámara de los Gemelos, la Cámara del Portador) para devolver la constelación a su órbita.
+- Reunir los fragmentos de estrella de Géminis y entregarlos en la Cámara de los Gemelos para devolver la constelación a su órbita.
+- Llegar a la Cámara Central y tomar la decisión final (el desenlace está pendiente del equipo de narrativa).
 
 ## Condición de derrota
 
@@ -74,10 +72,10 @@ Describe cómo alternan:
 - **Desafío:** domina el juego; cada sala es un reto de precisión.
 - **Exploración:** las salas y los poemas escondidos premian mirar más allá de la ruta principal.
 - **Recompensa:** fragmentos de estrella, poemas y la restauración de cada Casa.
-- **Descanso:** los observatorios mayores (uno por Casa y uno final) y los ascensores entre Casas son los únicos momentos tranquilos.
-- **Historia:** burbujas de Efeméride al inicio y al final de las zonas, y notas de XI en los observatorios mayores.
+- **Descanso:** los ascensores entre niveles son los únicos momentos tranquilos.
+- **Historia:** burbujas de Efeméride al inicio y al final de las zonas, y la carta de XI al final.
 
-Las Entrañas incluyen pinchos y vacío letal desde el principio, aunque cada idea nueva se presenta antes en un espacio sin riesgo. En Géminis el reto es combinar escalada y anclaje; en Acuario las corrientes y las esclusas imponen el ritmo.
+Las Entrañas incluyen pinchos y vacío letal desde el principio, aunque cada idea nueva se presenta antes en un espacio sin riesgo. En Géminis el reto es combinar escalada y anclaje.
 
 ## Principios de interacción
 

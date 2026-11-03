@@ -10,7 +10,7 @@ Define qué información necesita conservar el juego y cómo se estructura.
 - **Configuración:** audio, video, controles y accesibilidad.
 - **Inventario:** no aplica (no hay inventario).
 - **Estadísticas:** muertes y tiempo de juego, que se muestran en la tarjeta final.
-- **Desbloqueos:** habilidades entregadas (hilo y estrella) y poemas y notas encontrados.
+- **Desbloqueos:** habilidades entregadas (hilo y estrella) y poemas encontrados.
 - **Otros:** ninguno.
 
 ## Modelo de datos
@@ -19,6 +19,11 @@ Describe las entidades y relaciones.
 
 | Entidad         | Contenido                                                 | Se guarda                     |
 | --------------- | --------------------------------------------------------- | ----------------------------- |
+| Partida | Casas restauradas, fragmentos obtenidos, habilidades entregadas, último punto guardado (nivel), muertes y tiempo de juego | Sí (archivo de partida) |
+| Coleccionables | Identificadores de los poemas encontrados | Sí (dentro de la Partida) |
+| Catálogo de Casas | Identificador, nombre, si es jugable, y cantidad de fragmentos de cada Casa | No (datos fijos del juego) |
+| Salas | Límites de cámara y puntos de aparición de cada sala | No (forma parte de las escenas) |
+| Estado temporal | Usos del gancho y del anclaje, cuerda, sala actual y checkpoint activo | No (se reinicia al reaparecer o al cargar) |
 | Configuración   | Valores de audio, video, controles y accesibilidad        | Sí (archivo aparte)           |
 
 Relaciones: una Partida referencia Casas y Coleccionables por identificador; la Configuración es independiente de la Partida.

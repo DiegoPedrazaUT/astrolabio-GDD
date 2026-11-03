@@ -12,7 +12,8 @@ Menú principal
 ├── Continuar                      (solo si existe una partida guardada)
 ├── Configuración
 │   ├── Audio
-│   ├── Idioma 
+│   ├── Video
+│   ├── Accesibilidad
 │   └── Controles
 ├── Créditos
 └── Salir
@@ -22,8 +23,7 @@ Durante el juego
 │   ├── Continuar
 │   ├── Configuración
 │   └── Volver al menú principal
-├── Selector de Casa (dial de reloj, en el Pozo Celeste)
-└── Tarjeta final (al restaurar las Casas jugables)
+└── Tarjeta final (al terminar la demo)
 ```
 
 Los menús se manejan con teclado, ratón o mando. Confirmar: Espacio o A.
@@ -66,23 +66,11 @@ Los menús se manejan con teclado, ratón o mando. Confirmar: Espacio o A.
 
 **Transiciones:** Regresa a la pantalla desde la que se abrió (menú o pausa).
 
-### Selector de Casa
-
-**Propósito:** Elegir a qué Casa subir después de las Entrañas.
-
-**Elementos:** Un dial de reloj con las doce Casas; las que no se pueden visitar se muestran apagadas.
-
-**Acciones disponibles:** Mover el dial (izquierda y derecha) y confirmar con salto.
-
-**Estados:** Casa disponible, Casa restaurada y Casa no jugable.
-
-**Transiciones:** Al confirmar, el ascensor sube mientras Efeméride habla y carga la Casa elegida.
-
 ### Tarjeta final
 
 **Propósito:** Cerrar la demo mostrando el resultado de la partida.
 
-**Elementos:** Casas restauradas, poemas y notas encontrados, muertes y tiempo de juego.
+**Elementos:** Casas restauradas, poemas encontrados, muertes y tiempo de juego.
 
 **Acciones disponibles:** Ver créditos o volver al menú principal.
 

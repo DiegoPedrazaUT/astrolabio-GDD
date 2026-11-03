@@ -8,11 +8,11 @@ UX (experiencia de usuario) describe qué tan comprensible, cómoda y coherente 
 
 ```text
 Inicio → Menú → Nueva partida → Introducción con Efeméride → Entrañas del Reloj (tutorial)
-       → Ascensor y dial de Casas → Casa de Géminis / Casa de Acuario → Juego ⇄ Pausa
+       → Ascensor → Casa de Géminis
        → Observatorio de Ofiuco → Cámara Central → Final → Créditos
 ```
 
-En la demo, el recorrido termina con la tarjeta final al restaurar las dos Casas jugables.
+En la demo, el recorrido termina con la tarjeta final tras la Cámara Central.
 
 ## Primeros minutos
 
@@ -23,13 +23,13 @@ El objetivo es que el jugador entienda cada herramienta jugándola, no leyendo. 
 | Momento (objetivo) | Qué descubre                                                                                                                        |
 | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
 | Minuto 0           | Despierta en un nicho y escucha a Efeméride. No controla al personaje hasta la última burbuja de texto.                             |
-| Minutos 1 a 3      | Aprende a moverse y a saltar en la Sala de los Nichos, por demostraciones  en el escenario.                                         |
-| Minutos 3 a 6      | Aprende a agarrarse y escalar en la Galería de Engranajes; descubre que su aguante (stamina)  se agota y se recarga al tocar suelo. |
+| Minutos 1 a 3      | Aprende a moverse y a saltar en la Sala de los Nichos, por demostraciones en el escenario.                                         |
+| Minutos 3 a 6      | Aprende a agarrarse y escalar en la Galería de Engranajes; descubre que su cuerda se agota y se recarga al tocar suelo. |
 | Minutos 6 a 9      | Recibe el gancho en el Puente Roto: balanceo, arrastre y faroles.                                                                   |
-| Minutos 9 a 14     | Pone a prueba todo lo aprendido en el Pozo de Cadenas y recibe el astrolabio en el Pozo Celeste.                                    |
-| Minuto 14 a 15     | Obtiene el primer fragmento de estrella y elige hacia qué Casa subir.                                                               |
+| Minutos 9 a 14     | Pone a prueba todo lo aprendido en el Pozo de Cadenas y recibe el anclaje en el Pozo Celeste.                                    |
+| Minutos 14 a 15     | Obtiene el primer fragmento de estrella y toma el ascensor hacia Géminis.                                                               |
 
-Para enseñar los controles se usa y un holograma del Almanaque que repite el movimiento y desaparece cuando el jugador lo logra.
+Para enseñar los controles se usan los carteles pintados en el escenario.
 
 ## Retroalimentación
 
@@ -41,7 +41,7 @@ Para cada acción importante define:
 | --------------------------- | -------------------------------------------------------------- | ---------------------- | --------------------------------------- |
 | Saltar                      | Polvo y chispa breve; aplastar y estirar del personaje         | Salto pesado           | El personaje salta                      |
 | Aterrizar                   | Polvo; aplastar del personaje                                  | Golpe seco de metal    | Se recargan los usos                    |
-| Agarrarse a la pared        | El personaje se aferra; la estamina se consume                 | Clic metálico          | Puede escalar mientras haya cuerda      |
+| Agarrarse a la pared        | El personaje se aferra; la cuerda se consume                 | Clic metálico          | Puede escalar mientras haya cuerda      |
 | Cuerda por agotarse         | La llave tiembla y parpadea en rojo                            | Clic acelerado         | El jugador decide dónde soltarse        |
 | Lanzar el hilo              | Anillo sobre el objetivo; el hilo sale disparado y vibra       | Chasquido con chispa   | Balanceo o arrastre                     |
 | Lanzar el hilo sin objetivo | Círculo que muestra el alcance; el anillo no se gasta          | Aviso apagado          | No se gasta ningún uso                  |
@@ -57,7 +57,7 @@ Para cada acción importante define:
 **Dificultad intencional (parte del diseño):**
 - Saltos de precisión, calcular el balanceo y gestionar los usos y la cuerda.
 - Morir muchas veces: un toque mata.
-- Combinar escalar, poner un punto de apoyo  y lanzarse sin tocar el suelo.
+- Combinar escalar, poner un anclaje y lanzarse sin tocar el suelo.
 
 **Fricción que se debe evitar (mala experiencia):**
 - Controles que no responden como el jugador pretendía: por eso hay *coyote time*, memoria de pulsación y ayuda de puntería.
@@ -72,7 +72,7 @@ Para cada acción importante define:
 
 - **Qué hacer?** Efeméride presenta el objetivo (reunir los fragmentos y restaurar la Casa) y cada sala presenta una idea nueva.
 - **Dónde ir?** La cámara muestra la sala completa; la luz cálida y los faroles marcan el camino; en algunos puntos la cámara viaja para enseñar lo que viene.
-- **Qué puede interactuar?** Poemas y asientos de observatorio.
+- **Qué puede interactuar?** Poemas y la carta de XI.
 - **Qué ocurrió?** Cada acción tiene una señal visual y una sonora propias (ver la tabla de retroalimentación).
 - **Por qué ganó o perdió?** Al morir se ve el peligro que mató al personaje y se reaparece de inmediato para reintentar; no existe una pantalla de derrota.
 

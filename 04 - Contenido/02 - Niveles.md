@@ -48,9 +48,9 @@ Cada nivel debe documentar su propósito jugable, estructura, dificultad, conten
 
 **Mecánicas introducidas:** moverse y saltar; agarrarse y escalar con aguante limitado; plataformas (patrulla, zip, rejillas y losas que se rompen); gancho (balanceo y arrastre) y cristal de recarga; anclaje; la combinación de escalar, anclar y lanzarse.
 
-**Mecánicas utilizadas:** las cuatro habilidades. Las reglas de las Casas (espejos, corrientes) no aparecen aquí.
+**Mecánicas utilizadas:** las cuatro habilidades.
 
-**Enemigos / obstáculos:** pinchos (de aspecto provisional: se sustituirán por engranajes u otro elemento del espacio) y vacío letal.
+**Enemigos / obstáculos:** pinchos de engranajes y vacío letal.
 
 **Recompensas:** primer fragmento de estrella; el Astrolabio brilla; el poema escondido.
 
@@ -113,50 +113,6 @@ Cada nivel debe documentar su propósito jugable, estructura, dificultad, conten
 | La Torre Invertida                | Tramo final donde los reflejos ya no coinciden con el original                        |
 | La Cámara de los Gemelos          | El jugador entrega los fragmentos y devuelve a Géminis a su órbita                     |
 
-
-### Nivel 3 — Casa de Acuario, la Casa de las Corrientes
-
-**Objetivo principal:** Reunir los fragmentos de estrella de la Casa y entregarlos en la Cámara del Portador para devolver a Acuario a su órbita.
-
-**Objetivos secundarios:** Reunir 4 o 5 poemas (varios dentro de corrientes difíciles de leer) y leer las notas de XI en el Observatorio del Cauce.
-
-**Duración estimada:** Por definir.
-
-**Dificultad:** Alta: el jugador deja de controlarlo todo y avanza aprendiendo a moverse con fuerzas que no dependen de él.
-
-**Mecánicas introducidas:**
-- **Corrientes:** empujan al jugador y alteran su balanceo y su inercia; de pie lo arrastran; las verticales sostienen o suman velocidad.
-- **Anclajes a la deriva:** la estrella escrita en una corriente se desplaza con ella; también hay faroles a la deriva.
-- **Muros mojados:** gastan el doble de cuerda y resbalan.
-- **Esclusas:** corrientes que corren y se paran por ciclos.
-- **El remolino y la marea:** una corriente circular que arrastra todo hacia el centro y un agua que cambia de nivel y quita peso.
-
-**Mecánicas utilizadas:** las cuatro habilidades y lo aprendido en Géminis.
-
-**Enemigos / obstáculos:** caídas largas, canales elevados, pinchos.
-
-**Recompensas:** fragmentos de estrella, poemas, notas de XI.
-
-**Puntos de guardado:** checkpoints en las salas largas y el Observatorio del Cauce, antes del final.
-
-**Condición de entrada:** ascensor desde el Eje (por decidir si exige haber restaurado Géminis).
-
-**Condición de salida:** entregar los fragmentos en la Cámara del Portador.
-
-**Eventos narrativos:** el Observatorio del Cauce revela que XI liberó a Ofiuco; Efeméride pierde la calma.
-
-**Zonas:**
-
-| Zona                         | Propósito                                                                       |
-| ---------------------------- | ------------------------------------------------------------------------------- |
-| Las Fuentes Rotas            | Entrada amplia con corrientes suaves; presenta las corrientes y los anclajes a la deriva |
-| Los Acueductos               | Canales elevados con muros mojados y caídas largas                              |
-| Las Esclusas                 | Tramo de ritmo: corrientes que se activan y detienen en ciclos                  |
-| El Remolino                  | Sala vertical donde una corriente circular arrastra todo hacia el centro        |
-| El Observatorio del Cauce    | Observatorio mayor y zona de calma antes del final                              |
-| La Cámara del Portador       | El jugador entrega los fragmentos y devuelve a Acuario a su órbita              |
-
-### Nivel final (final de la demo) — Observatorio de Ofiuco y Cámara Central
 
 **Objetivo principal:** Leer la carta de XI y decidir en la Cámara Central.
 

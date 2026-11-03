@@ -10,12 +10,12 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Nombre del proyecto**      | Astrolabio                                                                                                                                                         |
 | **Nombre clave**             | Astro                                                                                                                                                              |
-| **Versión del GDD**          | 0.2.0                                                                                                                                                              |
+| **Versión del GDD**          | 0.3.0                                                                                                                                                              |
 | **Estado del proyecto**      | Diseño (elaboración del GDD)                                                                                                                                       |
 | **Equipo**                   | Aleksander Rocha Baeza<br>Diego Roman Pedraza Keb<br>Diego Angel Ramirez Fernandez<br>Dalia Jimena Chim Uc<br>Felipe Natanael Chan Uc<br>Victor Alexis Yah Alpuche |
 | **Responsable del proyecto** | Diego Roman Pedraza Keb                                                                                                                                            |
 | **Fecha de inicio**          | 21/09/2026                                                                                                                                                         |
-| **Última actualización**     | 16/10/2026                                                                                                                                                         |
+| **Última actualización**     | 02/11/2026                                                                                                                                                         |
 | **Repositorio**              | https://github.com/DiegoPedrazaUT/astrolabio-game.git                                                                                                              |
 
 ## Identidad del videojuego
@@ -55,12 +55,12 @@ Unity 6 (C#, URP, nuevo Input System) y Aseprite
 > Describe el videojuego en **una o dos frases**. Debe explicar quién juega, qué hace y qué lo hace interesante.
 
 **Respuesta:**
-Eres el Almanaque XII, un pequeño autómata que asciende por el Gran Reloj Cósmico, la máquina que fijó el destino de todos, para devolver dos constelaciones a su órbita. En este plataformas 2D de precisión escalas, escribes estrellas-anclaje en el vacío y te lanzas con un hilo de luz, convirtiendo el abismo en tu propio camino mientras descubres si reparar el Reloj es realmente lo correcto.
+Eres el Almanaque XII, un pequeño autómata que asciende por el Gran Reloj Cósmico, la máquina que fijó el destino de todos, para devolver las constelaciones rotas a su órbita. En este plataformas 2D de precisión escalas, escribes estrellas-anclaje en el vacío y te lanzas con un hilo de luz, convirtiendo el abismo en tu propio camino mientras descubres si reparar el Reloj es realmente lo correcto.
 
 ## Estado actual
 
 - [x] Concepto definido
-- [x] Alcance inicial definido (tutorial + dos Casas jugables: Géminis y Acuario)
+- [x] Alcance inicial definido (tutorial, Casa de Géminis y final)
 - [x] Mecánica principal definida
 - [x] Arte del personaje y paleta de color (SLSO8) definidos
 - [ ] GDD completo y aprobado

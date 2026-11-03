@@ -112,7 +112,7 @@ El jugador apunta a una posición y pulsa la entrada. Se coloca el anclaje si qu
 - Se puede colocar en el aire o sobre superficies, y puede engancharse con el gancho.
 - Dura unos segundos si no se usa, para no abusar de la habilidad.
 - Una vez usado, desaparece cuando el gancho lo suelta o a los pocos segundos de estar enganchado ya que el punto de anclaje no dura mucho.
-- El uso se recarga al tocar suelo: al instante si el anclaje se usó (el gancho se enganchó a él) y, si no se usó. El cristal de recarga lo devuelve sin espera.
+- El uso se recarga al tocar suelo: al instante si el anclaje se usó (el gancho se enganchó a él) y, si no se usó, no antes de unos segundos desde que se colocó (para no abusar de la habilidad desde el suelo). El cristal de recarga lo devuelve sin espera.
 - Mientras el jugador apunta se muestra una vista previa de dónde quedará el anclaje.
 
 **Entrada:**  
@@ -122,7 +122,7 @@ Tecla E. Con mando: LB.
 El personaje está en el suelo, en el aire o en una pared, con el uso del anclaje disponible.
 
 **Estado final:**  
-Existe una estrella-anclaje en el mundo. Si no se usa, desaparece a los ; si pocos segundos se usa, desaparece según se describe arriba.
+Existe una estrella-anclaje en el mundo. Si no se usa, desaparece a los pocos segundos; si se usa, desaparece según se describe arriba.
 
 **Recursos utilizados:**  
 El uso del anclaje (1).
@@ -140,12 +140,10 @@ El uso del anclaje (1).
 - Escalada: E no depende del estado, así que se puede colocar desde la pared.
 - Cristal de recarga: devuelve el uso sin esperar a tocar el piso.
 - Casa de Géminis: dentro de un espejo, cada estrella escrita tiene una gemela al otro lado de la línea, que también se puede enganchar.
-- Casa de Acuario: un anclaje dentro de una corriente deriva con ella.
 
 **Casos límite:**  
 - Reaparecer borra el anclaje.
 - Si el anclaje desaparece estando enganchado, el gancho se libera.
-
 
 ### Mecánica 03
 ### Agarre y escalada
@@ -183,7 +181,6 @@ Al agotarse la cuerda, el jugador cae.
 
 **Interacciones con otras mecánicas:**
 - Anclaje y gancho: se coloca un anclaje y se lanza el gancho desde la pared.
-- Casa de Acuario: los muros mojados gastan el doble de estamina y resbalan.
 - Casa de Géminis: el muro espejo es pulido (sin agarre ni salto de pared) y devuelve el impulso de quien llega con velocidad.
 
 **Casos límite:**  
@@ -223,7 +220,6 @@ Al agotarse la cuerda, el jugador cae.
 - No atraviesan sólidos ni otras plataformas: se detienen y dan la vuelta. Vuelven a su inicio cuando el jugador reaparece.
 - Además hay rejillas (se atraviesan desde abajo), losas que tiemblan y se rompen al pisarlas y elevadores (montacargas) que llevan al jugador mientras habla Efeméride.
 
-
 ### Mecánica 07
 ### Peligros, salas, muerte y reaparición
 
@@ -231,9 +227,9 @@ Al agotarse la cuerda, el jugador cae.
 **Reglas:**
 - Cualquier peligro (pinchos, vacío) o un aplastamiento mata. Un toque basta; no hay vidas ni salud.
 - Al instante el jugador reaparece en su punto de aparición con todo recargado, y el nivel se reinicia (plataformas a su inicio, cristales disponibles, anclaje borrado).
-- Cada sala tiene su cámara; al entrar en otra, la cámara cambia con una transición de  y el punto de reaparición pasa a ser el más cercano a la entrada. El juego no se pausa durante la transición.
+- Cada sala tiene su cámara; al entrar en otra, la cámara cambia con una transición de medio segundo y el punto de reaparición pasa a ser el más cercano a la entrada. El juego no se pausa durante la transición.
 - Los checkpoints son opcionales y van dentro de salas largas: al tocarlos pasan a ser el punto de reaparición hasta que se entra en otra sala.
-- El progreso se guarda al descansar en un observatorio mayor y al tomar el ascensor entre Casas.
+- El progreso se guarda al tomar el ascensor entre niveles.
 
 ### Mecánica 08
 ### Habilidades narrativas
@@ -242,11 +238,9 @@ Al agotarse la cuerda, el jugador cae.
 
 | Habilidad                  | Qué hace                                                                                  |
 | -------------------------- | ----------------------------------------------------------------------------------------- |
-| Observar                   | Se detiene frente a hologramas y telescopios para ver el mundo; lo que ve cambia según la Casa. |
 | Recolectar fragmentos      | Objetivo principal; cada fragmento se guarda en el Astrolabio, que brilla más con cada uno. |
-| Leer notas del Almanaque XI | Solo en los observatorios mayores.                                                        |
-| Descansar                  | En un observatorio mayor se sienta, da cuerda a su llave y guarda el progreso.             |
+| Leer | Se detiene frente a un poema o a la carta de XI y la lee. |
 
-Interactuar: W (o flecha arriba) en teclado e Y en mando; el equipo debe confirmar la tecla.
+Interactuar: W (o flecha arriba) en teclado e Y en mando.
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Jugabilidad]] · [[03 - Sistemas]] →

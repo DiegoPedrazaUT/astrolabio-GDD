@@ -6,22 +6,22 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 
 ## Inventario de sistemas
 
-| Sistema                           | Propósito                                                             | Dependencias                         |
-| --------------------------------- | --------------------------------------------------------------------- | ------------------------------------ |
-| Movimiento y salto                | Desplazamiento de precisión                                           | Sensores de suelo y pared, entrada   |
-| Agarre y escalada                 | Subir por superficies rugosas con una reserva de cuerda               | Sensor de pared, tipos de superficie |
-| Gancho                            | Movilidad principal (balanceo y arrastre)                             | Entrada, superficies enganchables    |
-| Anclaje de apoyo                  | Crear puntos de enganche                                              | Gancho, entrada                      |
-| Recarga de usos                   | Devolver usos de gancho, anclaje y cuerda                             | Suelo, cristal de recarga            |
-| Plataformas móviles               | Movimiento en el nivel                                                | Física, gancho                       |
-| Salas y cámara                    | Dividir el nivel en pantallas con su propia cámara                    | Cámara, reaparición                  |
-| Muerte, reaparición y checkpoints | Reintento rápido sin vidas                                            | Salas, peligros                      |
-| Peligros                          | Obstáculos que matan (pinchos, vacío, aplastamiento)                  | Salas, reaparición                   |
-| Observatorios y guardado          | Descanso, progreso guardado y lectura de poemas y notas               | Guardado de partida, coleccionables  |
-| Coleccionables                    | Fragmentos de estrella (objetivo), poemas y notas del Almanaque XI    | Observatorios                        |
-| Diálogos de Efeméride             | Burbujas de texto con disparadores por zona                           | Tecla de interactuar, zonas          |
-| Ascensor y transición             | Pasar de una Casa a otra; pantalla de carga                           | Progresión, audio                    |
-| Sistemas de cada Casa             | Anclaje reflejado (Géminis) y corrientes, deriva y esclusas (Acuario) | Anclaje, gancho, física              |
+| Sistema                           | Propósito                                                          | Dependencias                         |
+| --------------------------------- | ------------------------------------------------------------------ | ------------------------------------ |
+| Movimiento y salto                | Desplazamiento de precisión                                        | Sensores de suelo y pared, entrada   |
+| Agarre y escalada                 | Subir por superficies rugosas con una reserva de cuerda            | Sensor de pared, tipos de superficie |
+| Gancho                            | Movilidad principal (balanceo y arrastre)                          | Entrada, superficies enganchables    |
+| Anclaje de apoyo                  | Crear puntos de enganche                                           | Gancho, entrada                      |
+| Recarga de usos                   | Devolver usos de gancho, anclaje y cuerda                          | Suelo, cristal de recarga            |
+| Plataformas móviles               | Movimiento en el nivel                                             | Física, gancho                       |
+| Salas y cámara                    | Dividir el nivel en pantallas con su propia cámara                 | Cámara, reaparición                  |
+| Muerte, reaparición y checkpoints | Reintento rápido sin vidas                                         | Salas, peligros                      |
+| Peligros                          | Obstáculos que matan (pinchos, vacío, aplastamiento)               | Salas, reaparición                   |
+| Guardado                          | Guardar el progreso al tomar el ascensor                           | Ascensor, coleccionables             |
+| Coleccionables                    | Fragmentos de estrella (objetivo) y poemas                         | Guardado                             |
+| Diálogos de Efeméride             | Burbujas de texto con disparadores por zona                        | Tecla de interactuar, zonas          |
+| Ascensor y transición             | Pasar de una Casa a otra; pantalla de carga                        | Progresión, audio                    |
+| Sistemas de cada Casa             | Anclaje reflejado (Géminis).                                       | Anclaje, gancho, física              |
 
 ## Plantilla de sistema
 
@@ -59,7 +59,7 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 
 **Procesamiento / reglas:**
 - Cada sala tiene su cámara y uno o varios puntos de aparición. Al entrar el centro del jugador en otra sala, se activa su cámara y el punto de aparición pasa a ser el más cercano a la entrada.
-- Al morir, unos segundos después el jugador reaparece con todo recargado y el nivel se reinicia (plataformas, cristales y anclaje).
+- Al morir, el jugador reaparece en 0.4 s con todo recargado y el nivel se reinicia (plataformas, cristales y anclaje).
 - Un checkpoint dentro de una sala larga sustituye el punto de aparición hasta que se entra en otra sala.
 
 **Salidas:** nueva cámara, nueva posición del jugador, nivel reiniciado.
@@ -76,21 +76,19 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 
 **Criterios de aceptación:** al morir se reaparece en la sala correcta con todo recargado; cambiar de sala no pausa el juego.
 
-### Observatorios y guardado
+### Guardado
 
-**Objetivo:** Dar descanso al jugador, guardar el progreso y servir de espacio de lectura.
+**Objetivo:** Guardar el progreso del jugador.
 
-**Entradas:** el jugador interactúa con el asiento del observatorio.
+**Entradas:** el jugador toma el ascensor al terminar un nivel.
 
 **Procesamiento / reglas:**
-- El Almanaque se sienta, da cuerda a su llave y se guarda el progreso. Si el jugador sale del juego, continúa desde el último punto guardado. El progreso también se guarda al tomar el ascensor hacia otra Casa.
-- Al morir, el jugador reaparece al inicio de la sala, no en el observatorio.
-- Solo existen observatorios mayores: uno por Casa (el de las Dos Lentes en Géminis y el del Cauce en Acuario) y uno final (Ofiuco). Sirven para descansar, guardar, leer las notas del Almanaque XI, releer los poemas encontrados y mirar la Tierra por el telescopio.
-- Efeméride nunca habla dentro de un observatorio, solo al salir.
+- El progreso se guarda al tomar el ascensor hacia el siguiente nivel. Si el jugador sale del juego, continúa desde el último punto guardado.
+- Al morir, el jugador reaparece al inicio de la sala; morir no carga la partida guardada.
 
-**Estados posibles:** libre, sentado, leyendo, observando.
+**Estados posibles:** sin guardar, guardando y guardado.
 
-**Dependencias:** sistema de guardado, tecla de interactuar.
+**Dependencias:** ascensor y transición, coleccionables.
 
 ### Relaciones entre sistemas
 
@@ -98,7 +96,7 @@ Describe qué sistemas dependen de otros y qué información intercambian.
 
 - El anclaje es un objetivo del gancho, y el cristal de recarga devuelve usos a ambos.
 - Salas, muerte y reaparición reinician plataformas, cristales y anclajes mediante un evento de reinicio.
-- Observatorios guardan los coleccionables recogidos; los diálogos de Efeméride dependen de las zonas.
+- El guardado registra los coleccionables recogidos; los diálogos de Efeméride dependen de las zonas.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Mecánicas]] · [[04 - Controles]] →

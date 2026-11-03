@@ -7,7 +7,7 @@ Define la identidad visual del videojuego y las reglas que deben seguir los recu
 ## Identidad visual
 
 **Estilo:**
-Pixel art 2D de baja resolución, con una paleta oscura con colores calidos y escenarios por capas de parallax. La unidad base es de 16 px: los tiles miden 16×16 px y el personaje, 32×32 px. Se dibuja en Aseprite.
+Pixel art 2D de baja resolución, con una paleta oscura de colores cálidos y escenarios por capas de parallax. La unidad base es de 16 px: los tiles miden 16×16 px y el personaje, 32×32 px. Se dibuja en Aseprite.
 
 **Referencias:**
 - *Celeste*: legibilidad de las superficies, cámara por sala y pixel art de baja resolución.
@@ -28,11 +28,11 @@ Círculos y arcos (engranajes, aros del Astrolabio, cúpulas) contrastados con l
 Luz global baja y luces cálidas puntuales (faroles, cristales, estrellas y el Astrolabio) que guían el recorrido. El fondo siempre es más oscuro y menos saturado que el primer plano. Se complementa con un poco de bloom, viñeta y ajuste de color.
 
 **Materiales:**
-Latón envejecido, hierro oxidado, piedra pulida y piedra rugosa, cristal y luz estelar. Cada Casa añade su carácter: Géminis (dorado pulido frente a hierro oxidado) y Acuario (ánfora agrietada y cascadas de luz).
+Latón envejecido, hierro oxidado, piedra pulida y piedra rugosa, cristal y luz estelar. Cada Casa añade su carácter: Géminis (dorado pulido frente a hierro oxidado).
 
 ## Paleta de color
 
-La paleta base es **SLSO8**, de Luis Miguel Maldonado ([Lospec](https://lospec.com/palette-list/slso8)). Es una decisión del equipo; si hiciera falta un color adicional por Casa, se documenta como excepción en el [[03 - Registro de Decisiones]].
+La paleta base es **SLSO8**, de Luis Miguel Maldonado ([Lospec](https://lospec.com/palette-list/slso8)). Es una decisión del equipo; si hiciera falta un color adicional por Casa, se documenta como excepción en el registro de [[05 - Gestión de Cambios]].
 
 | Muestra | Código    | Uso previsto (propuesta que valida el equipo de arte)                       |
 | ------- | --------- | --------------------------------------------------------------------------- |

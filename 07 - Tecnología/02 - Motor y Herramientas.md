@@ -8,7 +8,7 @@ Documenta las herramientas utilizadas para crear el videojuego y por qué fueron
 
 **Motor:** Unity. Se eligió por su soporte para 2D, su editor visual de niveles y porque el equipo lo conoce.
 
-**Versión:** Unity 6 (serie 6000.6.4f1).
+**Versión:** Unity 6.
 
 **Renderizado:** Universal Render Pipeline (URP) con el renderizador 2D: luces 2D, bloom, viñeta y ajuste de color.
 
@@ -26,7 +26,7 @@ Documenta las herramientas utilizadas para crear el videojuego y por qué fueron
 
 | Herramienta            | Propósito                                                  | Versión                    |
 | ---------------------- | ---------------------------------------------------------- | -------------------------- |
-| Unity                  | Motor, editor de niveles y construcción del juego          | Unity 6 (serie 6000.6.4f1) |
+| Unity                  | Motor, editor de niveles y construcción del juego          | Unity 6 |
 | Aseprite               | Pixel art y animación de sprites                           | Última estable             |
 | Git y Git LFS (GitHub) | Control de versiones; los recursos pesados van por LFS     | Última estable             |
 | Obsidian               | Documento de diseño (GDD)                                  | Última estable             |

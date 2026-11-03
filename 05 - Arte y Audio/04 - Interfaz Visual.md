@@ -60,7 +60,6 @@ El texto aparece letra a letra, con etiquetas para pausas, ondas y temblor. Las 
 - Menú principal
 - Pausa
 - Configuración
-- Selector de Casa (un dial de reloj en el Pozo Celeste, con las doce Casas)
 - Créditos
 - Tarjeta final (estadísticas de la partida)
 

@@ -17,8 +17,8 @@ El juego es para PC, por lo que no se contempla entrada táctil.
 | Gancho: balanceo                        |                 | Clic izquierdo       | RT (mantener)             |
 | Gancho: arrastre                        |                 | Clic derecho         | RB                        |
 | Anclaje de apoyo                        | E               |                      | LB                        |
-| Interactuar (observar, leer, descansar) | W               |                      | Y                         |
-| Menú / pausa                            | TAB             |                      | Start (por confirmar)     |
+| Interactuar (leer) | W               |                      | Y                         |
+| Menú / pausa                            | TAB             |                      | Start     |
 
 ## Principios de control
 
@@ -34,7 +34,7 @@ El juego es para PC, por lo que no se contempla entrada táctil.
 
 ¿El jugador puede cambiar los controles?
 
-No
+Sí: teclado y mando se pueden reasignar desde Configuración › Controles (ver [[04 - Guardado y Configuración]]).
 
 ## Entrada y retroalimentación
 
