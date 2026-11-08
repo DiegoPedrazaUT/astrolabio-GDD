@@ -41,13 +41,13 @@ El HUD se oculta cuando el jugador no tiene el control (conversaciones y cinemá
 ## Convenciones
 
 **Tipografía:**
-Fuente de píxeles propia, legible a 640×360 px. Texto blanco cálido (`#ffecd6`) sobre un marco dorado tenue; cada hablante tiene su propio color de apoyo.
+Fuente de píxeles propia, legible a 1280×720 px. Texto blanco cálido (`#ffecd6`) sobre un marco dorado tenue; cada hablante tiene su propio color de apoyo.
 
 **Iconografía:**
 Las teclas y los botones se dibujan al estilo de los carteles pintados en el escenario. Los iconos cambian solos según el último dispositivo usado (teclado o mando); si dos teclas hacen lo mismo en el mando, se dibuja una sola.
 
 **Tamaños mínimos:**
-El texto debe leerse a la resolución base (640×360 px, escala ×3 en 1080p).
+El texto debe leerse a la resolución base (1280×720 px, escalada con filtro de píxel en 1080p).
 
 **Contraste:**
 Texto claro sobre fondo oscuro; la información jugable nunca se apoya solo en el color.

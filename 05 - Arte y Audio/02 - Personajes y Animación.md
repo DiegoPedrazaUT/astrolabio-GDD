@@ -56,7 +56,7 @@ La capa es una línea que sigue al cuerpo con retraso: ondea al saltar y al bala
 ## Convenciones
 
 - Sprites dibujados en Aseprite y exportados a PNG, sin compresión y con filtro de píxel (*Point*).
-- Tamaño del personaje: 32×32 px; tiles: 16×16 px.
+- Tamaño del personaje: 32×32 px, mostrado al doble de tamaño (unos 2 tiles de alto); tiles: 32×32 px, pintados con *Rule Tiles*.
 - El personaje se dibuja mirando a la derecha y se voltea para mirar a la izquierda.
 - El pivote del sprite queda en los pies.
 - La animación debe mostrar la velocidad propia del personaje, no la que le suma una plataforma: sobre una cinta o plataforma se ve quieto, no «caminando».

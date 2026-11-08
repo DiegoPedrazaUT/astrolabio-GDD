@@ -10,12 +10,12 @@ Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien qu
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Nombre del proyecto**      | Astrolabio                                                                                                                                                         |
 | **Nombre clave**             | Astro                                                                                                                                                              |
-| **Versión del GDD**          | 0.3.0                                                                                                                                                              |
+| **Versión del GDD**          | 0.4.0                                                                                                                                                              |
 | **Estado del proyecto**      | Diseño (elaboración del GDD)                                                                                                                                       |
 | **Equipo**                   | Aleksander Rocha Baeza<br>Diego Roman Pedraza Keb<br>Diego Angel Ramirez Fernandez<br>Dalia Jimena Chim Uc<br>Felipe Natanael Chan Uc<br>Victor Alexis Yah Alpuche |
 | **Responsable del proyecto** | Diego Roman Pedraza Keb                                                                                                                                            |
 | **Fecha de inicio**          | 21/09/2026                                                                                                                                                         |
-| **Última actualización**     | 02/11/2026                                                                                                                                                         |
+| **Última actualización**     | 03/11/2026                                                                                                                                                         |
 | **Repositorio**              | https://github.com/DiegoPedrazaUT/astrolabio-game.git                                                                                                              |
 
 ## Identidad del videojuego

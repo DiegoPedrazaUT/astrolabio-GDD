@@ -18,7 +18,7 @@ Los valores son objetivos de diseño y se confirman al medir el rendimiento de l
 
 **Almacenamiento:** 500 MB libres
 
-**Resolución:** 1920×1080 (el juego se dibuja a 640×360 y se escala ×3); otras resoluciones con escalado entero y bandas negras si hace falta
+**Resolución:** 1920×1080 (el juego se dibuja a 1280×720, es decir, 40 × 22,5 tiles de 32 px, y se escala con filtro de píxel); otras resoluciones 16:9 con bandas negras si hace falta
 
 **Conexión:** No requerida
 
@@ -48,7 +48,7 @@ Documenta límites conocidos del proyecto.
 
 - Solo Windows en la demo; no hay versión para consola ni móvil.
 - Relación de aspecto 16:9; otras relaciones se resuelven con bandas negras.
-- El pixel art exige escala entera para no deformar los píxeles.
+- El pixel art exige filtro de píxel y tiles sin costuras para no deformar los píxeles; la escala es entera en 720p, 1440p y 2160p, y de ×1,5 en 1080p.
 - Tres archivos de partida (tres ranuras).
 
 

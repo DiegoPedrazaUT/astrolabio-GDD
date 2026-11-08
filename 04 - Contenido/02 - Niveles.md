@@ -42,11 +42,11 @@ Cada nivel debe documentar su propósito jugable, estructura, dificultad, conten
 
 **Objetivos secundarios:** Encontrar el poema escondido en la Galería de Engranajes.
 
-**Duración estimada:** Entre 5 a 8 minutos para un jugador con experiencia en el género; para un jugador nuevo entre 15 a 20 minutos.
+**Duración estimada:** Entre 5 y 8 minutos para un jugador con experiencia en el género; para un jugador nuevo, unos 15 minutos.
 
-**Dificultad:** Sencilla para ser un tutorial. Cada idea nueva se presenta primero en un espacio seguro y después se examina con riesgo. El Puente Roto es el primer gran desafío del gancho y el Pozo de Cadenas, el examen vertical de lo aprendido.
+**Dificultad:** Baja, como corresponde a un tutorial. Cada idea nueva se presenta primero en un espacio seguro y después se pone a prueba con riesgo. El Puente Roto es el primer gran desafío del gancho y el Pozo de Cadenas, el examen vertical de lo aprendido.
 
-**Mecánicas introducidas:** moverse y saltar; agarrarse y escalar con aguante limitado; plataformas (patrulla, zip, rejillas y losas que se rompen); gancho (balanceo y arrastre) y cristal de recarga; anclaje; la combinación de escalar, anclar y lanzarse.
+**Mecánicas introducidas:** moverse y saltar; agarrarse y escalar con cuerda limitada; plataformas (patrulla, zip, rejillas y losas que se rompen); gancho (balanceo y arrastre) y cristal de recarga; anclaje; la combinación de escalar, anclar y lanzarse.
 
 **Mecánicas utilizadas:** las cuatro habilidades.
 
@@ -54,23 +54,23 @@ Cada nivel debe documentar su propósito jugable, estructura, dificultad, conten
 
 **Recompensas:** primer fragmento de estrella; el Astrolabio brilla; el poema escondido.
 
-**Puntos de guardado:** un checkpoint por sala larga; el progreso se guarda al tomar el ascensor al terminar el nivel. No hay observatorio en las Entrañas.
+**Puntos de guardado:** un checkpoint por sala larga; el progreso se guarda al tomar el ascensor al terminar el nivel.
 
 **Condición de entrada:** despertar en el nicho XII.
 
-**Condición de salida:** obtener el primer fragmento de estrella y tomar el ascensor hacia la siguiente Casa (con un dial para elegir).
+**Condición de salida:** obtener el primer fragmento de estrella y tomar el ascensor hacia Géminis.
 
-**Eventos narrativos:** introducción de Efeméride, indicaciones en tres zonas, hologramas del «desorden» y cierre en el Pozo Celeste con el cielo y sus huecos (ver [[04 - Diálogos y Narrativa]]).
+**Eventos narrativos:** introducción de Efeméride, indicaciones en tres zonas, cierre en el Pozo Celeste con el cielo y sus huecos (ver [[04 - Diálogos y Narrativa]]).
 
 **Zonas:**
 
 | Zona                     | Qué se aprende                                                                                     | Salas previstas               | Peligros        |
 | ------------------------ | -------------------------------------------------------------------------------------------------- | ----------------------------- | --------------- |
-| La Sala de los Nichos    | Moverse y saltar viendo los nichos; Efeméride habla                                                | 1 sala                        | —               |
+| La Sala de los Nichos    | Moverse y saltar; se presentan los nichos y habla Efeméride                                                | 1 sala                        | —               |
 | La Galería de Engranajes | Saltar con hueco, agarrarse y escalar; la cuerda se agota; plataformas, rejillas y losas           | 2 salas                       | Pinchos         |
 | El Puente Roto           | Se entrega el gancho: arrastre, balanceo y faroles; cristal de recarga                             | 1 sala                        | Vacío y pinchos |
 | El Pozo de Cadenas       | Examen vertical: escalar, lanzarse desde la pared y recargar al tocar suelo; sin anclaje           | 2 salas                       | Pinchos         |
-| El Pozo Celeste          | Se entrega el anclaje; escribir y usar la estrella sobre el vacío; primer fragmento; dial de Casas | 2 salas (la salida y el pozo) | Vacío           |
+| El Pozo Celeste          | Se entrega el anclaje; escribir y usar la estrella sobre el vacío; primer fragmento | 2 salas (la salida y el pozo) | Vacío           |
 
 **Mapa / diagrama:** por elaborar en el diseño de niveles.
 
@@ -78,9 +78,9 @@ Cada nivel debe documentar su propósito jugable, estructura, dificultad, conten
 
 **Objetivo principal:** Reunir los fragmentos de estrella de la Casa y entregarlos en la Cámara de los Gemelos para devolver a Géminis a su órbita.
 
-**Objetivos secundarios:** Reunir 3 o 4 poemas y leer las notas de XI en el Observatorio de las Dos Lentes.
+**Objetivos secundarios:** Reunir 3 o 4 poemas.
 
-**Duración estimada:** Por definir.
+**Duración estimada:** Entre 15 y 30 minutos (estimación; se ajustará con pruebas).
 
 **Dificultad:** Media-alta: se combinan escalada y anclaje; hacia el final los reflejos dejan de coincidir con el original.
 
@@ -92,15 +92,15 @@ Cada nivel debe documentar su propósito jugable, estructura, dificultad, conten
 
 **Enemigos / obstáculos:** caídas largas, engranajes en movimiento.
 
-**Recompensas:** fragmentos de estrella, poemas, notas de XI.
+**Recompensas:** fragmentos de estrella y poemas.
 
-**Puntos de guardado:** checkpoints en las salas largas y el Observatorio de las Dos Lentes, a dos tercios del nivel.
+**Puntos de guardado:** checkpoints en las salas largas; el progreso se guarda al tomar el ascensor al terminar el nivel.
 
 **Condición de entrada:** ascensor desde las Entrañas.
 
 **Condición de salida:** entregar los fragmentos en la Cámara de los Gemelos.
 
-**Eventos narrativos:** hologramas con dos caras que Efeméride interrumpe; primeras notas de XI; primera mención de XI; el holograma final de la persona que vuelve a su fila.
+**Eventos narrativos:** por definir tras los recortes; quedan los poemas y las intervenciones de Efeméride (ver [[04 - Diálogos y Narrativa]]).
 
 **Zonas:**
 
@@ -109,20 +109,19 @@ Cada nivel debe documentar su propósito jugable, estructura, dificultad, conten
 | El Atrio de los Gemelos           | Sala de entrada simétrica; presenta el anclaje reflejado en un espacio seguro         |
 | La Galería de Espejos             | Pasillos de muros espejo donde se combinan escalada y anclaje                         |
 | Los Puentes Paralelos             | Recorrido exterior entre las dos torres, con caídas largas y engranajes en movimiento |
-| El Observatorio de las Dos Lentes | Zona de calma a dos tercios del nivel                                                 |
 | La Torre Invertida                | Tramo final donde los reflejos ya no coinciden con el original                        |
 | La Cámara de los Gemelos          | El jugador entrega los fragmentos y devuelve a Géminis a su órbita                     |
 
 
 **Objetivo principal:** Leer la carta de XI y decidir en la Cámara Central.
 
-**Duración estimada:** Breve: no es un nivel de plataformas, sino una sala final.
+**Duración estimada:** Breve; no es un nivel de plataformas, sino una sala final.
 
 **Enemigos / obstáculos:** ninguno.
 
 **Condición de entrada:** haber restaurado las Casas jugables.
 
-**Eventos narrativos:** el cuerpo de XI, su última nota («No las repares»), su carta de despedida y el desenlace (por definir).
+**Eventos narrativos:** el cuerpo de XI, su carta de despedida y el desenlace (por definir).
 
 ## Flujo del nivel
 
@@ -133,7 +132,7 @@ Inicio → Zona A → Desafío → Zona B → Recompensa → Final
 **Flujo de una Casa:**
 
 ```text
-Ascensor → Zona de presentación (segura) → Zonas de reto → Observatorio (descanso) → Último tramo → Cámara (entrega de fragmentos) → Ascensor
+Ascensor → Zona de presentación (segura) → Zonas de reto → Último tramo → Cámara (entrega de fragmentos) → Ascensor
 ```
 
 ## Criterios de calidad
@@ -143,8 +142,8 @@ Ascensor → Zona de presentación (segura) → Zonas de reto → Observatorio (
 - El desafío corresponde al nivel de progresión.
 - Existe retroalimentación suficiente.
 - El jugador entiende por qué tuvo éxito o fracaso.
-- Cada sala presenta una idea nueva antes de examinarla con riesgo.
-- Los saltos tienen una ventana de entrada justa (por ejemplo, un hueco de 3 deja un margen cómodo y uno de 5 subiendo es injusto).
+- Cada sala presenta una idea nueva antes de ponerla a prueba con riesgo.
+- Los saltos tienen una ventana de entrada justa (por ejemplo, un hueco de 3 unidades deja un margen cómodo y uno de 5 unidades en subida es injusto).
 - Hay un checkpoint o una repisa cada 15 a 20 unidades en tramos verticales.
 - Los límites de una sala no cortan un balanceo.
 

@@ -15,7 +15,7 @@ Documenta riesgos técnicos y medidas para reducir fallos, pérdida de datos o a
 | Cambia la estructura de los datos entre versiones | Media | Medio | Número de versión en cada archivo y valores predeterminados para los campos nuevos |
 | Conflictos al combinar escenas y prefabs en Git | Alta | Medio | Gitflow, Git LFS, una persona por escena y no editar a mano los archivos .unity, .prefab ni .meta |
 | El rendimiento baja de 60 FPS por las luces 2D y el post-proceso | Baja | Medio | Medir en la build y ofrecer la opción de calidad de efectos |
-| El pixel art se deforma o tiembla al escalar | Media | Medio | Escala entera (×3 sobre 640×360) y filtro de píxel en todas las texturas |
+| El pixel art se deforma o tiembla al escalar | Media | Medio | Filtro de píxel en todas las texturas, tiles sin costuras y vista base de 1280×720 (escala ×1,5 en 1080p; entera en 720p, 1440p y 2160p) |
 | La build de Windows no se ejecuta en un equipo limpio | Baja | Alto | Probar la build en un equipo sin Unity antes de publicarla en itch.io |
 
 ## Datos sensibles

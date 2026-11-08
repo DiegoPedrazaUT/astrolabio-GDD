@@ -25,7 +25,7 @@ Familiaridad con el género de plataformas.
 | Plataformas secundarias | Consola (por evaluar a futuro)                        |
 | Distribución            | itch.io                                               |
 | Método de entrada       | Teclado y mouse; mando (se apunta con el stick derecho)                    |
-| Resolución objetivo     | 1920x1080 (base de pixel art de 640x360, escala entera ×3) |
+| Resolución objetivo     | 1920x1080 (vista base de pixel art de 1280x720, tiles de 32 px) |
 | Relación de aspecto     | 16:9                                                  |
 | Rendimiento objetivo    | 60 FPS estables                                       |
 | Conexión requerida      | No                                                    |

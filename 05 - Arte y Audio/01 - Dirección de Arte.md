@@ -7,7 +7,7 @@ Define la identidad visual del videojuego y las reglas que deben seguir los recu
 ## Identidad visual
 
 **Estilo:**
-Pixel art 2D de baja resolución, con una paleta oscura de colores cálidos y escenarios por capas de parallax. La unidad base es de 16 px: los tiles miden 16×16 px y el personaje, 32×32 px. Se dibuja en Aseprite.
+Pixel art 2D de baja resolución, con una paleta oscura de colores cálidos y escenarios por capas de parallax. La unidad base es de 32 px: los tiles miden 32×32 px y el personaje se dibuja en 32×32 px y se muestra al doble de tamaño, de modo que mide unos 2 tiles de alto. La vista de referencia es de 1280×720 px (40 × 22,5 tiles). Se dibuja en Aseprite.
 
 **Referencias:**
 - *Celeste*: legibilidad de las superficies, cámara por sala y pixel art de baja resolución.
@@ -19,7 +19,7 @@ Pixel art 2D de baja resolución, con una paleta oscura de colores cálidos y es
 Inmensidad silenciosa: un mundo antiguo, solitario y oscuro, con luz cálida escasa (ver [[04 - Pilares de Diseño]], Pilar 1). El jugador debe sentirse pequeño, pero protegido.
 
 **Nivel de realismo:**
-Estilizado. No se busca realismo: se busca una silueta clara y una forma legible incluso a 640×360 px.
+Estilizado. No se busca realismo: se busca una silueta clara y una forma legible incluso a 1280×720 px.
 
 **Formas predominantes:**
 Círculos y arcos (engranajes, aros del Astrolabio, cúpulas) contrastados con líneas largas y rectas (cadenas, puentes, torres). Los engranajes tienen el tamaño de edificios; el personaje es diminuto.
@@ -63,7 +63,7 @@ La paleta base es **SLSO8**, de Luis Miguel Maldonado ([Lospec](https://lospec.c
 2. Lo que se puede agarrar tiene textura rugosa y borde claro; lo liso no tiene borde ni textura.
 3. Lo que se puede enganchar brilla; lo que mata se reconoce por su silueta.
 4. Se usa únicamente la paleta SLSO8 (más las excepciones documentadas).
-5. Se respeta la rejilla de 16 px y se escala solo con múltiplos enteros (×3 en 1080p) para evitar píxeles de tamaños distintos.
+5. Se respeta la rejilla de 32 px y los tiles se pintan con *Rule Tiles*, de modo que esquinas, bordes e interiores encajan sin costuras. Los píxeles nunca se deforman: filtro de punto y sin líneas entre tiles al escalar la imagen.
 6. El personaje siempre se lee sobre el fondo: nunca se coloca un detalle del fondo con el mismo contraste que el personaje.
 7. La luz cálida marca el camino o lo importante.
 

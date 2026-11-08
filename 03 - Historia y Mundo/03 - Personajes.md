@@ -38,48 +38,49 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 ## Personajes
 
-### Protagonista
+### Almanaque XII(Protagonista)
 
-### Almanaque XII
+**Rol:** protagonista; el personaje que controla el jugador.
 
-**Rol:** Protagonista; el personaje que controla el jugador.
+**Función jugable:** es el avatar del jugador; corre, salta, escala, escribe anclajes y se lanza con el gancho.
 
-**Función jugable:** Es el avatar del jugador; corre, salta, escala, escribe anclajes y se lanza con el gancho.
-
-**Función narrativa:** Es el duodécimo de su linaje, un autómata de mantenimiento que despierta sin recuerdos en la Sala de los Nichos. Todo lo que sabe del mundo se lo cuenta Efeméride. Su arco es el paso de obedecer a elegir.
+**Función narrativa:** es el duodécimo de su linaje, un autómata creado para reparar el Reloj y obedecer a Efeméride. Despierta en la Sala de los Nichos, en la base del Reloj, sin recuerdos y sin saber nada de los once Almanaques anteriores. Todo lo que conoce del mundo es lo que Efeméride le cuenta: que Géminis escapó, que el mundo cayó en el desorden y que él es el último recurso para repararlo. Su arco es el paso de obedecer a elegir.
 
 **Descripción física:**
-- **Cuerpo:** pequeño y redondeado, de latón envejecido con remaches visibles.
-- **Cabeza:** sus ojos son dos puntos de luz cálida que parpadean como un tic-tac.
-- **Capa:** larga y oscura, cubierta de mapas estelares bordados en hilo dorado; ondea al saltar y al balancearse y es su elemento más reconocible.
-- **Número XII:** grabado en la espalda, visible al escalar.
-- **Llave de cuerda:** una pequeña llave en un costado de la cabeza; gira cuando está quieto o al guardar.
-- **Manos:** dedos de engranaje fino que le permiten aferrarse a superficies rugosas.
-- **Astrolabio:** en el antebrazo, un disco de latón con anillos concéntricos que giran; dos de ellos se encienden para indicar los usos del gancho.
 
-**Personalidad:** Pequeño, curioso y silencioso. No habla: se expresa con animaciones breves. Se detiene frente a un poema, mira hacia abajo antes de un salto largo y da cuerda a su llave cuando está quieto.
+•    **Cuerpo:** pequeño y redondeado, de latón envejecido con remaches visibles.
+•    **Cabeza:** sus ojos son dos puntos de luz cálida que parpadean como un tic-tac.
+•    **Capa:** larga y oscura, cubierta de mapas estelares bordados en hilo dorado; ondea al saltar y al balancearse y es su elemento más reconocible.
+•    **Número XII:** grabado en la espalda, visible al escalar.
+•    **Llave de cuerda:** una pequeña llave en un costado del rostro; gira cuando está quieto o al guardar en un observatorio.
+•    **Manos:** dedos de engranaje fino que le permiten aferrarse a superficies rugosas.
+•    **Astrolabio:** en el antebrazo, un disco de latón con anillos concéntricos que giran. Con él mide las estrellas, fija estrellas temporales en el vacío y lanza un hilo de luz hacia ellas; dos de sus anillos se encienden para indicar los usos del gancho.
 
-**Motivaciones:** Recolectar los fragmentos de estrella dispersos en cada Casa y devolver las constelaciones a su órbita, porque cree que así salvará al mundo. Es una motivación de deber, no de deseo propio.
+**Personalidad:** pequeño, curioso y silencioso. No habla: se expresa con animaciones breves. Inclina la cabeza ante un holograma, se detiene frente a un poema, mira hacia abajo antes de un salto largo y da cuerda a su llave al descansar en un observatorio.
 
-**Objetivos:** Reparar el Reloj, como le ordena Efeméride. Más tarde, entender qué fue lo que XI descubrió.
+**Motivaciones:** recolectar los fragmentos de estrella dispersos en cada Casa y devolver Géminis a su órbita, porque cree que así salvará al mundo. Es una motivación de deber, no de deseo propio.
 
-**Conflicto:** ¿Reparar o no? Lo que empieza como una orden termina como una decisión.
+**Objetivos:** reparar el Reloj, como le ordena Efeméride. Más adelante, entender qué fue lo que XI descubrió.
 
-**Relaciones:** Obedece a Efeméride, que ha acompañado a todos los Almanaques desde el primero. Sigue las huellas de XI, que dejó una carta.
+**Conflicto:** ¿reparar o no? Lo que empieza como una orden termina como una decisión.
 
-**Arco del personaje:** De obedecer a elegir.
+**Relaciones:** obedece a Efeméride, que ha acompañado a todos los Almanaques desde el primero. Sigue las huellas de XI.
 
-**Habilidades:** Salto, punto de anclaje, gancho (balanceo y arrastre) y agarre con escalada. Habilidades narrativas: recolectar fragmentos y leer poemas y la carta de XI.
+**Arco del personaje:** de obedecer a elegir. En la demo todavía obedece; el último gesto, mirar hacia abajo antes de alzar la mirada, anticipa el cambio.
 
-**Debilidades:** Un toque de peligro lo destruye; sus usos y su cuerda son limitados y solo se recargan al tocar suelo firme o con un cristal de recarga; no tiene recuerdos de los once Almanaques anteriores.
+**Habilidades:** salto, punto de anclaje, gancho (balanceo y arrastre) y agarre con escalada.
 
-**Frases o tono de diálogo:** No habla.
+**Habilidades narrativas:** acciones con las que descubre la historia; no tienen reto, pero cada una tiene una señal visual propia.
 
-**Referencias visuales:** Autómata de latón con capa de mapas estelares. Sprite de 32x32 px con la paleta SLSO8 (latón apagado, óxido y azul profundo).
+•    **Observar:** se detiene frente a hologramas y telescopios para ver el mundo; lo que ve cambia según la Casa.
+•    **Recolectar fragmentos de estrella:** el objetivo principal; cada fragmento se guarda en el Astrolabio.
 
-### Antagonista
+**Debilidades:** un toque de peligro lo destruye; sus usos y su cuerda son limitados y solo se recargan al tocar suelo firme o con un cristal de recarga; no tiene recuerdos de los once Almanaques anteriores.
 
-### Efeméride
+**Frases o tono de diálogo:** no habla.
+
+**Referencias visuales:** autómata de latón con capa de mapas estelares. Sprite de 32 × 32 px con la paleta SLSO8 (latón apagado, óxido y azul profundo).
+### Efeméride(Antagonista)
 
 **Rol:** La voz del Gran Reloj Cósmico; guía al principio y antagonista al final.
 
@@ -93,7 +94,7 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Motivaciones:** Conservar el orden y proteger a la humanidad del caos. No conoce el perdón ni la sorpresa: solo concluye.
 
-**Objetivos:** Que el Almanaque XII repare el Reloj y devuelva a Ofiuco a su prisión.
+**Objetivos:**  que el Almanaque XII devuelva Géminis a su órbita y, al final, devuelva a Ofiuco a su prisión.
 
 **Conflicto:** Cree que repara lo que la libertad rompió; el jugador descubre que reparar es volver a encadenar.
 
@@ -101,7 +102,7 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 **Arco del personaje:** De guía cálida a autoridad fría: pierde la calma a medida que el jugador descubre la verdad.
 
-**Habilidades:** Aparece junto a sus burbujas al inicio y al final de las zonas. Nunca habla dentro del Observatorio de Ofiuco, solo al salir.
+**Habilidades:** aparece junto a sus burbujas al inicio y al final de las zonas.
 
 **Debilidades:** Su relato se resquebraja cuando el jugador ve lo que ella quiere ocultar: su holograma parpadea y su tono se enfría.
 
@@ -115,32 +116,32 @@ Cada personaje importante debe tener una función clara dentro de la historia y/
 
 ### Almanaque XI
 
-**Rol:** El predecesor del jugador; guía póstumo.
+**Rol:** el predecesor del jugador.
 
-**Función jugable:** Ninguna directa; se descubre por su cuerpo y su carta de despedida en el Observatorio de Ofiuco.
+**Función jugable:** ninguna directa.
 
-**Función narrativa:** Observó el mundo en secreto por un telescopio, entendió que las grietas del Reloj eran lo único vivo, subió hasta su corazón y liberó a Ofiuco. Efeméride lo desactivó. Su cuerpo está sentado frente al telescopio en el Observatorio de Ofiuco, con la llave de cuerda detenida y su carta de despedida entre las manos.
+**Función narrativa:** es el predecesor del protagonista. Mientras mantenía el Gran Reloj Cósmico, se percató de una anomalía: una luz que no provenía de ninguna de las constelaciones principales y que le otorgaba a quien la tocara un breve momento de libertad en su destino. Fascinado por este descubrimiento, observaba en secreto el potencial de las personas y disfrutaba de algo jamás visto: la poesía. Coleccionaba los poemas que se filtraban entre los engranajes y comprendió que aquella luz era un regalo.
 
-**Descripción física:** Un autómata idéntico a XII, ahora inerte, con la cabeza ligeramente inclinada como si siguiera mirando.
+Así, finalmente descendió a las Entrañas del Reloj y liberó la luz aprisionada: Ofiuco. Una vez libre, se desestabilizó la atadura de las constelaciones y una de ellas, Géminis, rompió sus cadenas.
 
-**Personalidad:** Decidido; lo que se sabe de él está en su carta de despedida.
+Sabiendo el final que lo esperaba y lo que Efeméride le haría, volvió a donde estaba su telescopio para ver la Tierra una última vez.
 
-**Motivaciones:** Terminar lo que empezó.
+**Descripción física:** Un autómata idéntico a XII, ahora inerte.
 
-**Conflicto:** Liberó a Ofiuco y pagó por ello; pide que no se repare el Reloj.
+**Personalidad:** Decidido.
 
-**Relaciones:** Es el antecesor directo de XII; Efeméride no quiere que el jugador lea lo que dejó.
+**Motivaciones:** proteger la luz que daba libertad a las personas.
 
-**Frases o tono de diálogo:**
-- «No las repares.»
+**Conflicto:** liberó a Ofiuco sabiendo que Efeméride lo desactivaría.
 
+**Relaciones:** es el antecesor directo de XII; Efeméride no quiere que el sepa de su existencia.
 ### Ofiuco
 
 **Rol:** La decimotercera constelación, la del azar; el Portador de la Serpiente.
 
 **Función jugable:** Ninguna directa; es el centro del desenlace.
 
-**Función narrativa:** Su luz fue el combustible del destino. Su prisión está abierta y vacía en la Cámara Central.
+**Función narrativa:** su luz fue el combustible del destino. Su prisión está abierta y vacía en el Eje Central. (Antes: «en la Cámara Central».) El resto de la ficha se conserva.
 
 **Descripción física:** Una luz blanca y cambiante, imposible de fijar en un solo color; el único elemento del juego sin una paleta fija. Su emblema es una serpiente de hierro enroscada.
 

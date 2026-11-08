@@ -6,7 +6,7 @@ Aquí se documenta la narrativa que sostiene la experiencia. La historia debe ex
 
 ## Premisa
 
-Hace eones, una civilización que temía a la incertidumbre construyó el Gran Reloj Cósmico para no volver a elegir nunca. El Reloj encadenó las estrellas y encerró a Ofiuco, la constelación del azar, para usar su luz como combustible del destino de todos. El Almanaque XI liberó a Ofiuco y fue desactivado. Ahora despierta el Almanaque XII, un pequeño autómata, con una orden: recolectar los fragmentos de estrella y devolver las constelaciones a su órbita.
+Hace eones, una civilización que temía a la incertidumbre construyó el Gran Reloj Cósmico para no volver a elegir nunca. El Reloj encadenó las estrellas y encerró a Ofiuco, la constelación del azar, para usar su luz como combustible del destino de todos. El Almanaque XI liberó a Ofiuco; sin ella, Géminis rompió sus cadenas y escapó de su órbita, y Efeméride desactivó a XI. Ahora despierta el Almanaque XII, un pequeño autómata, con una orden: recolectar los fragmentos de estrella y devolver Géminis a su órbita.
 
 Pero reparar el Reloj significa volver a quitarle la elección a la humanidad. El conflicto del juego es el paso de **obedecer a elegir**: ¿reparar o no?
 
@@ -14,36 +14,30 @@ Pero reparar el Reloj significa volver a quitarle la elección a la humanidad. E
 
 Describe el argumento completo sin entrar todavía en cada escena.
 
-**Antes del juego.** Los creadores del Reloj temían tanto a la incertidumbre que fijaron su propio destino, pero el Reloj no distingue entre pocos y muchos y encadenó a todo ser vivo. Durante eones nadie temió en quién se convertiría: lo llamaron paz. Por las grietas del corazón del Reloj se filtraba a veces la influencia de Ofiuco, y esa influencia rompía el destino dictado de quien la recibía. El Almanaque XI observó en secreto ese efecto por un telescopio que apuntaba a la Tierra, entendió que las grietas eran lo único vivo del Reloj, subió hasta su corazón y liberó a Ofiuco.
+**Antes del juego.** Los creadores del Reloj quisieron fijar su propio destino, pero el Reloj no distingue entre pocos y muchos: una vez en marcha, encadenó las estrellas, y las estrellas encadenaron a todo ser vivo. Durante eones nadie temió en quién se convertiría; lo llamaron paz. Ninguna prisión es perfecta: por pequeñas grietas en el corazón del Reloj, la luz de Ofiuco se filtraba de vez en cuando hacia el mundo, y donde caía, alguien hacía algo que ninguna estrella le había ordenado.
 
-**Consecuencias.** Con Ofiuco libre, la constelación de Géminis se liberó de sus cadenas y volvió a brillar con luz propia. En la humanidad nació el libre albedrío: la gente conoció la incertidumbre, la angustia por el mañana, los errores y el desorden, y también algo que nunca había existido, la poesía. Efeméride desactivó a XI por considerarlo una falla. El Reloj, que no conoce el perdón ni la sorpresa, concluyó que la humanidad debía ser reparada y salvada del caos que ella misma creaba, y despertó al siguiente Almanaque. 
+El Almanaque XI lo vio por un telescopio que apuntaba a la Tierra. Observó en secreto, coleccionó los poemas que se filtraban entre los engranajes y comprendió que aquella luz era un regalo. Finalmente, liberó a Ofiuco.
 
-**El juego.** El Almanaque XII despierta en la base del Reloj y cree lo que Efeméride le cuenta: que el mundo cayó en el desorden y que él es el último recurso para repararlo. Sube por las Entrañas (el tutorial), restaura Géminis recolectando sus fragmentos de estrella y, por el camino, encuentra poemas de la Tierra. Al final llega al Observatorio de Ofiuco, donde encuentra el cuerpo de XI y su carta, y después a la Cámara Central, donde deberá decidir. 
+**Consecuencias.** Sin Ofiuco, una constelación rompió sus cadenas: Géminis, que volvió a iluminar el cielo con su brillo propio y efímero. En la humanidad nació el libre albedrío: la gente conoció la incertidumbre, la angustia por el mañana, los errores y el desorden, y también algo que nunca había existido, la poesía. Efeméride desactivó a XI por haber ocasionado la falla. El Reloj, que no conoce el perdón ni la sorpresa, concluyó que la humanidad debía ser reparada y salvada del caos que ella misma creaba, y despertó al siguiente Almanaque. En la torre, la Casa de Géminis perdió su simetría y en las demás se debilitó el sello que las ataba; en el cielo quedó un hueco oscuro donde antes había doce puntos de luz, y los poemas de la Tierra empezaron a subir y a atorarse entre los engranajes.
+
+**La demo.** El Almanaque XII despierta en la Sala de los Nichos y cree lo que Efeméride le cuenta: que Géminis escapó, que el mundo cayó en el desorden y que él es el último recurso para repararlo. Recorre las Entrañas del Reloj (el tutorial), encuentra el primer poema escondido, obtiene el primer fragmento de estrella en el Pozo Celeste y sube al Eje Central. Durante el ascenso en el elevador mira una última vez hacia abajo y alza la mirada: ahí termina la demo.
 
 ## Estructura narrativa
 
-### Acto / Etapa 1 — Obedecer (las Entrañas del Reloj)
+### Demo — Etapa 1: Obedecer (las Entrañas del Reloj y el Eje Central)
 
-El tutorial. Aquí la historia oficial de Efeméride se cuenta sin fisuras, con tono sereno, cálido y maternal. El Almanaque despierta, aprende sus habilidades y obtiene el primer fragmento de estrella en el Pozo Celeste, desde donde ve el Eje completo y un cielo con huecos oscuros. Solo hay una pequeña pista de que algo sube desde la Tierra: un poema escondido en la Galería de Engranajes.
-
-### Acto / Etapa 2 — Dudar (Casa de Géminis)
-
-Las verdades empiezan a contradecirse. Los poemas que encuentra en Géminis muestran una Tierra distinta de la que describe Efeméride. Al restaurar Géminis, el orden recuperado se siente frío.
-
-### Acto / Etapa 3 — Elegir (Observatorio de Ofiuco y Cámara Central)
-
-El jugador llega al cuerpo de XI y lee su carta de despedida. En la Cámara Central, Efeméride le pide devolver a Ofiuco a su prisión. El desenlace está pendiente del equipo de narrativa (ver Finales).
+El tutorial. La historia oficial de Efeméride se cuenta sin fisuras, con tono sereno, cálido y maternal. El Almanaque despierta, aprende sus habilidades y obtiene el primer fragmento de estrella en el Pozo Celeste, desde donde ve el Eje completo, Géminis a lo lejos y un cielo con un hueco oscuro. Solo hay una pequeña pista de que algo sube desde la Tierra: un poema escondido en la Galería de Engranajes. La etapa termina con el ascenso desde el Eje Central.
 
 ## Eventos principales
 
-| Orden | Evento                                                                                                 | Participación del jugador                           | Consecuencia                                         |
-| ----- | ------------------------------------------------------------------------------------------------------ | --------------------------------------------------- | ---------------------------------------------------- |
-| 1     | El Almanaque despierta en su nicho; Efeméride lo recibe y le encarga la misión                         | Escucha; recupera el control con la última burbuja  | Acepta la misión: reparar el Reloj                   |
-| 2     | Primer poema, escondido en la Galería de Engranajes                                                    | Opcional: escalar hasta el hueco                    | Primer adelanto de que algo sube desde la Tierra     |
-| 3     | Primer fragmento de estrella en el Pozo Celeste; el cielo muestra huecos oscuros donde faltan constelaciones | Recolecta el fragmento; mira hacia arriba           | El Astrolabio brilla; el ascensor lo lleva a Géminis |
-| 4     | Se restaura Géminis                                                                                   | Entrega los fragmentos                              | El orden se siente frío                              |
-| 5     | Observatorio de Ofiuco: el cuerpo de XI y su carta de despedida     | Toma la carta de las manos de XI y la lee           | Conoce la verdad completa                            |
-| 6     | Cámara Central: la prisión de Ofiuco, abierta y vacía, bajo el telescopio gigante                      | Decide                                              | Desenlace (por definir)                              |
+| Orden | Evento                                                                                | Participación del jugador                           | Consecuencia                                       |
+| ----- | ------------------------------------------------------------------------------------- | --------------------------------------------------- | -------------------------------------------------- |
+| 1     | El Almanaque despierta en su nicho; Efeméride lo recibe y le encarga la misión        | Escucha; recupera el control con la última burbuja  | Acepta la misión: reparar el Reloj                 |
+| 2     | Primer poema, escondido en la Galería de Engranajes                                   | Opcional: escalar hasta el hueco                    | Primer vistazo de los cambios que están ocurriendo |
+| 3     | Efeméride muestra cómo usar el Astrolabio en el Puente Roto                           | Coloca un anclaje y se balancea con el gancho       | Obtiene el gancho de luz                           |
+| 4     | Se restaura Géminis                                                                   | Entrega los fragmentos                              | El orden se siente frío                            |
+| 5     | Primer fragmento de estrella en el Pozo Celeste; el cielo muestra el hueco de Géminis | Recolecta el fragmento; mira hacia arriba           | El ascensor lo lleva al Eje Central                |
+| 6     | El Eje Central: la prisión de Ofiuco, abierta y vacía                                 | Sube al elevador; mira hacia abajo y alza la mirada | Fin de la demo                                     |
 
 ## Finales
 

@@ -41,8 +41,9 @@ Paquetes de Unity:
 - Input System
 - Cinemachine (una cámara por sala, transiciones y confinamiento)
 - 2D Tilemap Editor (*Tilemap* y *Tile Palette*)
+- 2D Tilemap Extras (*Rule Tiles*)
 
-**Decisión del equipo:** no se usan *Rule Tiles* ni el paquete 2D Tilemap Extras. Los tiles se pintan a mano con *Tile Palette*, porque es un flujo más simple y suficiente para el alcance del proyecto (ver [[05 - Gestión de Cambios]]).
+**Decisión del equipo:** los tiles de 32×32 px se pintan con *Rule Tiles* (paquete 2D Tilemap Extras), que eligen solos la esquina, el borde o el interior según los tiles vecinos. Reduce el trabajo de pintar niveles y mantiene continuas las costuras. Sustituye a la decisión del 16/10/2026, que los descartaba (ver [[05 - Gestión de Cambios]]).
 
 No hay servicios externos ni conexión a internet.
 

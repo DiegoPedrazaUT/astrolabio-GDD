@@ -19,43 +19,41 @@ Describe las etapas principales del juego.
 
 ¿Qué aprende el jugador y en qué orden?
 
-1. Sala de los Nichos: moverse y saltar.
-2. Galería de Engranajes: agarrarse y escalar; la cuerda se agota.
-3. Puente Roto: se entrega el gancho; balanceo y arrastre.
-4. Pozo de Cadenas: escalar, lanzarse con el gancho desde la pared y recargar al tocar suelo (el anclaje se entrega después).
-5. Pozo Celeste: se entrega el anclaje, se combina con el gancho y se obtiene el primer fragmento de estrella.
-6. Casa de Géminis: la regla del anclaje reflejado (estrella gemela y muro espejo).
+1. **Sala de los Nichos:** moverse y saltar.
+2. **Galería de Engranajes:** agarrarse y escalar; la cuerda se agota.
+3. **Puente Roto:** Efeméride muestra cómo usar el Astrolabio; colocar un anclaje y balancearse con el gancho.
+4. **Pozo de Cadenas:** escalar, anclar desde la pared y lanzarse; recargar al tocar suelo. Es el pico de dificultad de la demo.
+5. **Pozo Celeste:** se obtiene el fragmento de estrella.
+6. **Eje Central:** sala sin plataformas; el ascenso en el elevador cierra la demo.
 
 ## Progresión del personaje
 
 ¿Qué mejora el personaje?
 
-El Almanaque no sube de nivel ni mejora estadísticas. Las cuatro habilidades se aprenden en el tutorial. Lo que cambia es:
+El Almanaque no sube de nivel ni mejora estadísticas. Lo que cambia es:
 
-- **Fragmentos de estrella:** cada uno hace brillar un poco más el Astrolabio.
-- **Conocimiento:** el jugador descubre la historia con los poemas, las palabras de Efeméride y la carta de XI.
+- **Fragmentos de estrella:** cada uno se guarda en el Astrolabio.
+- **Conocimiento:** el jugador descubre la historia con los poemas, las palabras de Efeméride.
 - **Arco narrativo:** el paso de obedecer a elegir.
 
 ## Desbloqueos
 
-| Desbloqueo             | Requisito                                      | Efecto                                     |
-| ---------------------- | ---------------------------------------------- | ------------------------------------------ |
-| Ascensor a Géminis     | Obtener el primer fragmento de estrella        | Pasar de las Entrañas a la Casa de Géminis |
-| Observatorio de Ofiuco | Restaurar la Casa de Géminis *(por confirmar)* | Acceso a la antesala de la Cámara Central  |
-| Cámara Central         | Observatorio de Ofiuco                         | Desenlace del juego                        |
+| Desbloqueo                   | Requisito                                                  | Efecto                                                          |
+| ---------------------------- | ---------------------------------------------------------- | --------------------------------------------------------------- |
+| Gancho de luz                | Llegar al Puente Roto                                      | Balanceo y arrastre                                             |
+| Ascensor al Eje Central      | Obtener el primer fragmento de estrella en el Pozo Celeste | Pasar de las Entrañas al Eje Central                            |
+| Ascenso desde el Eje Central | Llegar al Eje Central                                      | Fin de la demo; en el juego completo, acceso al siguiente nivel |
 
 ## Curva de dificultad
 
 Describe cómo aumenta el desafío y qué nuevos elementos aparecen.
 
-- **Entrañas:** Cada idea nueva se presenta sin riesgo y luego se pone a prueba con pinchos y vacío letal. El Puente Roto es el muro; el Pozo de Cadenas, el examen de lo aprendido.
-- **Géminis:** caídas largas y engranajes en movimiento; se combinan escalada y anclaje. Hacia el final, los reflejos dejan de coincidir con el original.
+- **Entrañas:** cada idea nueva se presenta sin riesgo y luego se pone a prueba con pinchos y vacío letal. El Puente Roto es el muro y el Pozo de Cadenas, el examen de lo aprendido y el punto más difícil de la demo.
 
 ## Curva de aprendizaje
 
 ¿Qué debe dominar el jugador antes de introducir el siguiente concepto?
 
-Moverse y saltar, luego escalar, luego el gancho (balanceo y arrastre) y, al final, el anclaje y su combinación (escalar, escribir una estrella y lanzarse). Después de las Entrañas cada Casa añade una sola regla nueva y la presenta primero en un espacio seguro: el Atrio de los Gemelos.
-
+Moverse y saltar; luego escalar; luego el anclaje y el gancho (balanceo y arrastre); y, al final, su combinación: escalar, escribir una estrella en la pared y lanzarse sin soltarse.
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Controles]] · [[06 - Economía y Recursos]] →
