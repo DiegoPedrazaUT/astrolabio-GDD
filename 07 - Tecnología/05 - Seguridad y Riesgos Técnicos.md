@@ -20,7 +20,7 @@ Documenta riesgos técnicos y medidas para reducir fallos, pérdida de datos o a
 
 ## Datos sensibles
 
-¿El juego almacena información personal, cuentas, estadísticas en línea u otros datos?
+**¿El juego almacena información personal, cuentas, estadísticas en línea u otros datos?**
 
 No. No hay cuentas, datos personales, estadísticas en línea ni conexión a internet. El único archivo del jugador es su partida y su configuración, guardados de forma local.
 
@@ -32,12 +32,9 @@ No aplica: el juego es de un jugador y no usa red. No hay autenticación, valida
 
 ## Recuperación
 
-¿Qué ocurre ante corrupción de datos, pérdida de conexión o fallo del programa?
-
 - **Corrupción de datos:** se usa la copia de respaldo; si no sirve, el juego avisa y ofrece una partida nueva sin borrar el archivo dañado.
 - **Pérdida de conexión:** no aplica.
-- **Fallo del programa:** al reiniciar, "Continuar" regresa al último punto guardado (el último ascensor tomado).
+- **Fallo del programa:** con el guardado implementado, "Continuar" regresará al último punto guardado; en la demo actual no hay guardado y se empieza de nuevo.
 - **Pérdida de trabajo del equipo:** el repositorio remoto y las ramas de Gitflow permiten recuperar versiones anteriores.
-
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Datos y Persistencia]] · [[01 - Alcance]] →

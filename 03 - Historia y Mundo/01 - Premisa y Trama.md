@@ -35,9 +35,8 @@ El tutorial. La historia oficial de Efeméride se cuenta sin fisuras, con tono s
 | 1     | El Almanaque despierta en su nicho; Efeméride lo recibe y le encarga la misión        | Escucha; recupera el control con la última burbuja  | Acepta la misión: reparar el Reloj                 |
 | 2     | Primer poema, escondido en la Galería de Engranajes                                   | Opcional: escalar hasta el hueco                    | Primer vistazo de los cambios que están ocurriendo |
 | 3     | Efeméride muestra cómo usar el Astrolabio en el Puente Roto                           | Coloca un anclaje y se balancea con el gancho       | Obtiene el gancho de luz                           |
-| 4     | Se restaura Géminis                                                                   | Entrega los fragmentos                              | El orden se siente frío                            |
-| 5     | Primer fragmento de estrella en el Pozo Celeste; el cielo muestra el hueco de Géminis | Recolecta el fragmento; mira hacia arriba           | El ascensor lo lleva al Eje Central                |
-| 6     | El Eje Central: la prisión de Ofiuco, abierta y vacía                                 | Sube al elevador; mira hacia abajo y alza la mirada | Fin de la demo                                     |
+| 4     | Primer fragmento de estrella en el Pozo Celeste; el cielo muestra el hueco de Géminis | Recolecta el fragmento; mira hacia arriba           | El ascensor lo lleva al Eje Central                |
+| 5     | El Eje Central: la prisión de Ofiuco, abierta y vacía                                 | Sube al elevador; mira hacia abajo y alza la mirada | Fin de la demo                                     |
 
 ## Finales
 
@@ -51,10 +50,5 @@ Posibles finales, como punto de partida para que el equipo decida (propuestas, n
 | --------------- | ---------------------------------------------------- | ---------------------------------------------------------------------- |
 | Obedecer        | Devuelve a Ofiuco a su prisión                       | El Reloj vuelve a fijar el destino; Efeméride tenía razón              |
 | Elegir          | Se niega a devolverla                                | La humanidad conserva el libre albedrío, con su dolor y su poesía      |
-
-
-> [!warning] Spoilers
-> Si el documento se compartirá con estudiantes o colaboradores, considera separar información sensible de la documentación general.
-
 
 > **Navegación:** [[00 - Índice]] · ← [[07 - Reglas y Estados del Juego]] · [[02 - Mundo]] →

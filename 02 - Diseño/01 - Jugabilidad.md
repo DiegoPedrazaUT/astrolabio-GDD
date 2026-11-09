@@ -25,13 +25,9 @@ Describe el ciclo que se repite durante la experiencia.
 
 ## Experiencia segundo a segundo
 
-¿Qué hace el jugador durante los primeros minutos?
-
 Despierta en la Sala de los Nichos, escucha a Efeméride y recupera el control para aprender a moverse y saltar; después aprende a agarrarse y escalar en la Galería de Engranajes. Durante el juego, cada segundo es una decisión pequeña: dónde apuntar, cuándo soltar el gancho, cuánta cuerda queda.
 
 ## Experiencia minuto a minuto
-
-¿Qué actividades se repiten durante una sesión?
 
 - Planear la ruta.
 - Saltar, escalar, escribir anclajes y lanzar el gancho.
@@ -41,23 +37,19 @@ Despierta en la Sala de los Nichos, escucha a Efeméride y recupera el control p
 
 ## Experiencia a largo plazo
 
-¿Qué hace que el jugador quiera continuar?
-
 - Continuar con la historia: descubrir la verdad sobre el Reloj y el Almanaque XI.
-- Dominar cada nueva regla: el anclaje reflejado de Géminis.
+- Dominar cada nueva regla: el gancho, el anclaje y su combinación.
 - Completar desafíos opcionales y reunir los poemas.
 - Dominar la combinación de escalar, anclar y lanzarse.
 
 ## Condición de victoria
 
-¿Qué debe lograr el jugador para avanzar o terminar?
-
-- Reunir los fragmentos de estrella de Géminis y entregarlos en la Cámara de los Gemelos para devolver la constelación a su órbita.
-- Llegar a la Cámara Central y tomar la decisión final (el desenlace está pendiente del equipo de narrativa).
+- En la demo: obtener el primer fragmento de estrella, subir al Eje Central y cruzar las puertas de Géminis.
+- En el juego completo: reunir los fragmentos de estrella de las Casas y devolver las constelaciones a su órbita (fuera de la demo; ver [[01 - Alcance]]).
 
 ## Condición de derrota
 
-¿Qué situaciones provocan fracaso?
+**¿Qué situaciones provocan fracaso?**
 
 No existe un «Game Over»: el juego no tiene vidas ni salud.
 
@@ -71,15 +63,13 @@ Describe cómo alternan:
 
 - **Desafío:** domina el juego; cada sala es un reto de precisión.
 - **Exploración:** las salas y los poemas escondidos premian mirar más allá de la ruta principal.
-- **Recompensa:** fragmentos de estrella, poemas y la restauración de cada Casa.
+- **Recompensa:** el primer fragmento de estrella, los poemas y el avance hacia la siguiente Casa.
 - **Descanso:** los ascensores entre niveles son los únicos momentos tranquilos.
-- **Historia:** burbujas de Efeméride al inicio y al final de las zonas, y la carta de XI al final.
+- **Historia:** burbujas de Efeméride al inicio y al final de las zonas.
 
-Las Entrañas incluyen pinchos y vacío letal desde el principio, aunque cada idea nueva se presenta antes en un espacio sin riesgo. En Géminis el reto es combinar escalada y anclaje.
+Las Entrañas incluyen pinchos y vacío letal desde el principio, aunque cada idea nueva se presenta antes en un espacio sin riesgo. El reto final del tutorial es combinar escalada, anclaje y gancho en un solo recorrido.
 
 ## Principios de interacción
-
-¿Qué reglas debe seguir el juego para que las acciones del jugador sean claras, consistentes y predecibles?
 
 - Principio 1: El jugador sabe qué puede hacer y qué es peligroso sin que se lo expliquen con texto.
 - Principio 2: La misma acción produce el mismo resultado en todo el juego.

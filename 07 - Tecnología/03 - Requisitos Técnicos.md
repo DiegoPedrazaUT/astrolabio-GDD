@@ -51,5 +51,4 @@ Documenta límites conocidos del proyecto.
 - El pixel art exige filtro de píxel y tiles sin costuras para no deformar los píxeles; la escala es entera en 720p, 1440p y 2160p, y de ×1,5 en 1080p.
 - Tres archivos de partida (tres ranuras).
 
-
 > **Navegación:** [[00 - Índice]] · ← [[02 - Motor y Herramientas]] · [[04 - Datos y Persistencia]] →

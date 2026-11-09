@@ -33,14 +33,11 @@ La presentación **solo escucha eventos**: cambiar el arte, el sonido o la inter
 | Plataformas y recogibles    | Plataformas móviles, cristales de recarga y piezas del nivel                                  | Física 2D, evento de reinicio   |
 | Salas y cámara              | Dividen el nivel en pantallas, cambian de cámara y fijan el punto de reaparición              | Cinemachine                     |
 | Reaparición                 | Muerte, reaparición  y reinicio del nivel                                                     | Salas, peligros                 |
-| Reglas de Casa              | Espejos y anclaje reflejado de Géminis                                                        | Mecánicas, física 2D            |
 | Cinemáticas y diálogos      | Secuencias de pasos, burbujas de texto y holograma de Efeméride                              | Lector de entrada, presentación |
 | Progreso y guardado         | Estado de la partida (Casas, fragmentos, poemas) y su archivo                                 | Datos y persistencia            |
 | Presentación                | Animación, efectos visuales, sonido, HUD y menús                                              | Eventos de las mecánicas        |
 
 ## Comunicación
-
-¿Cómo intercambian información los sistemas?
 
 - **Eventos.** Las mecánicas avisan de lo que ocurre (saltó, aterrizó, enganchó, soltó, murió, reapareció, obtuvo un fragmento) y la presentación se suscribe a esos eventos.
 - **Evento de reinicio del nivel.** Cuando el jugador reaparece, todo lo que se suscribe (plataformas, cristales, losas, estrellas) vuelve a su estado inicial.
@@ -56,4 +53,4 @@ La presentación **solo escucha eventos**: cambiar el arte, el sonido o la inter
 - Evitar dependencias innecesarias.
 
 
-> **Navegación:** [[00 - Índice]] · ← [[04 - Guardado y Configuración]] · [[02 - Motor y Herramientas]] →
+> **Navegación:** [[00 - Índice]] · ← [[04 - uardado y Configuración]] · [[02 - Motor y Herramientas]] →

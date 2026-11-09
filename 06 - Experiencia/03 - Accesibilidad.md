@@ -32,5 +32,4 @@ Documenta cualquier necesidad específica derivada del diseño del juego.
 - **Destellos y temblores.** Los eventos narrativos usan temblores y destellos que se pueden reducir.
 - **Color.** La mira del anclaje (azul o roja) y la cuerda del balanceo (que se pone roja) se apoyan en el color. Para cumplir con «la información jugable nunca se apoya solo en el color» (Interfaz Visual), conviene acompañarlas de una forma o un sonido.
 
-
 > **Navegación:** [[00 - Índice]] · ← [[02 - UI y Menús]] · [[04 - Guardado y Configuración]] →

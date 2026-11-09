@@ -1,55 +1,38 @@
-# Roadmap
+# Hitos del desarrollo documentado
 
-## Descripción de la sección
+| Fecha | Resultado incorporado al proyecto |
+| --- | --- |
+| 21 de septiembre | Inicio del proyecto y del GDD. |
+| 16 de octubre | Primer GDD subido al repositorio; paleta SLSO8 y recorte de los observatorios menores. |
+| 27 de octubre | Repositorio de producción nuevo y primer graybox: movimiento y salto de precisión, cámara con Cinemachine y escena de pruebas. |
+| 29 de octubre | Pared, salto de pared y escalada con cuerda; salas, muerte y reaparición, checkpoints, compuertas y peligros pintados con tiles; análisis estático y primera ejecución del CI en verde. Acuario queda descartado. |
+| 30 de octubre | Hilo de luz (balanceo, arrastre y cuerda que dobla esquinas); plataformas, estrella-anclaje, cristal, entrega de habilidades y gas. |
+| 31 de octubre – 1 de noviembre | Arte del nivel (tiles y paleta del tutorial) y el Almanaque XII con Animator a partir de siete hojas de 32 × 32. |
+| 2 de noviembre | Elevador de la sala 10, gas V3, sierras y metal estelar que responde al hilo. |
+| 3 de noviembre | Elevador del Pozo Celeste, escena del Eje Central, fondo y decorado de las Entrañas; Rule Tiles de 32 × 32. |
+| 7 de noviembre | Interfaz en UI Toolkit (menús, pausa, ajustes, créditos), HUD y caja de diálogo; 86 pruebas de EditMode y 212 de PlayMode en verde. |
+| 8 de noviembre | Luz verde del profesor y reducción de la demo al tutorial y al Eje Central. |
 
-El roadmap organiza el desarrollo en etapas y entregables.
+Las entradas salen de la bitácora del repositorio del juego y del historial del GDD ([[04 - Historial de Versiones]]).
 
-## Etapas
+## Fechas conocidas
 
-### Concepto
+- La bitácora del juego apunta a una demo lista para el **9–10 de noviembre de 2026**.
+- El GDD ya registraba la presentación en el evento el **20 de noviembre de 2026**.
+- Las fechas de entrega en itch.io de versiones anteriores del GDD (13 y 17 de noviembre) no coinciden entre sí: el líder fija la fecha definitiva con el equipo.
 
-**Objetivo:** Definir la idea del juego, su mundo y su mecánica central.
+## Hitos de cierre pendientes
 
-**Entregables:** Concepto, historia inicial, pilares de diseño y alcance inicial (tutorial, Casa de Géminis y final).
+| Hito | Responsable según el reparto | Depende de | Condición de cierre |
+| --- | --- | --- | --- |
+| Prueba a mano | Diego Angel Ramirez Fernandez y todo el equipo | Build jugable | El recorrido completo se juega con teclado y ratón, y con mando, y los fallos quedan en [[03 - Bugs y Seguimiento]]. |
+| Audio integrado | Felipe Natanael Chan Uc | Escenas finales | Música y efectos suenan en menús, Entrañas y Eje Central. |
+| Cierre de la demo | Diego Angel Ramirez Fernandez y Aleksander Rocha Baeza | Escena del Eje Central | El Almanaque cruza las puertas de Géminis y aparece la tarjeta final. |
+| Decisión de guardado | Equipo, coordinado por el líder | Propuesta de [[04 - Guardado y Configuración]] | El equipo decide si el guardado entra antes o después de la demo. |
+| Validación de la build | Diego Roman Pedraza Keb y Diego Angel Ramirez Fernandez | Build de Windows candidata y equipo limpio | La build descarga, abre y corre; la escena inicial es el menú. |
+| Prueba con jugadores nuevos | Todo el equipo | Prueba a mano | Una persona nueva termina el tutorial sin ayuda externa. |
 
-### Preproducción
-
-**Objetivo:** Documentar el diseño, definir la dirección de arte y planear la producción.
-
-**Entregables:** Documento de diseño (GDD) completo y aprobado, arte del personaje y paleta de color (SLSO8), plan de producción y backlog.
-
-### Producción
-
-**Objetivo:** Construir la demo de tres niveles.
-
-**Entregables:** Movimiento, escalada, gancho y anclaje; Las Entrañas del Reloj; Casa de Géminis; Observatorio de Ofiuco y Cámara Central; interfaz y menús; guardado; música, efectos y arte final.
-
-### Pruebas
-
-**Objetivo:** Ajustar la dificultad y corregir errores con jugadores nuevos.
-
-**Entregables:** Informe de pruebas, lista de errores corregidos y build candidata.
-
-### Publicación / Entrega
-
-**Objetivo:** Publicar la demo y presentarla.
-
-**Entregables:** Build para Windows en itch.io (entrega el 17 de noviembre de 2026) y presentación en el evento (20 de noviembre de 2026).
-
-## Hitos
-
-Las fechas son una propuesta de calendario y se ajustan cuando el profesor apruebe el GDD.
-
-| Hito                           | Entregable                                                                | Criterio de finalización                                                       | Fecha objetivo  |
-| ------------------------------ | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | --------------- |
-| GDD aprobado                   | Documento de diseño completo                                              | El profesor da luz verde para iniciar el desarrollo                            | Por confirmar   |
-| Núcleo y tutorial              | Movimiento, escalada, gancho, anclaje y Las Entrañas del Reloj            | Un jugador completa el tutorial de principio a fin                             | 6 de noviembre  |
-| Vertical Slice                 | Las Entrañas pulidas con arte final, música, efectos y diálogos           | Se ve y se siente como el producto final; probado con jugadores nuevos         | 9 de noviembre  |
-| Casa de Géminis                | Nivel completo con su regla, su observatorio y su cámara                  | Se completa y se entregan los fragmentos en la Cámara de los Gemelos           | 12 de noviembre |
-| Observatorio de Ofiuco y Cámara Central | Sala final con la carta de XI y el desenlace                     | Se lee la carta y se llega al desenlace elegido por narrativa                  | 14 de noviembre |
-| Contenido cerrado y pruebas    | Congelar el contenido; corregir errores                                   | Sin errores que impidan terminar la demo                                       | 15 de noviembre |
-| Entrega                        | Build para Windows publicada en itch.io                                   | Descarga y ejecución comprobadas en un equipo limpio                           | 17 de noviembre |
-| Presentación                   | Demostración en el evento                                                 | Demo funcionando y material de presentación listo                              | 20 de noviembre |
+Los hitos se ordenan por dependencia. Las reglas y los recursos se desarrollan en las secciones de diseño, contenido y [[06 - Registro visual]].
 
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Roles y Responsabilidades]] · [[04 - Backlog del Proyecto]] →

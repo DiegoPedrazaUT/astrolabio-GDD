@@ -1,64 +1,45 @@
-# Alcance
+# Alcance de la demo
 
-## Descripción de la sección
+La demo es un recorrido lineal de un solo jugador para Windows: menú principal, las Entrañas del Reloj (tutorial de 18 salas), el elevador del Pozo Celeste y la sala de llegada del Eje Central. Allí el Almanaque cruza las puertas de Géminis y la demo termina con una tarjeta final. Los dos niveles del juego completo quedaron fuera del alcance el 8 de noviembre de 2026, después de que el profesor diera luz verde y le gustara el tutorial (ver [[03 - Registro de Decisiones]]).
 
-Define qué se va a construir y, sobre todo, qué queda fuera del proyecto.
+## Incluido
 
-## Alcance de la versión objetivo
-
-La versión objetivo es una **demo jugable de tres niveles**, que se entrega el 17 de noviembre de 2026 y se presenta en el evento del 20 de noviembre de 2026.
-
-### Incluido
-
-- **Las Entrañas del Reloj (tutorial):** las cuatro habilidades (moverse y saltar, agarrarse y escalar, gancho y anclaje) y la combinación de todas, hasta obtener el primer fragmento de estrella.
-- **Casa de Géminis:** regla propia (estrella gemela, muro espejo y camino del espejo), con su observatorio mayor (las Dos Lentes) y su cámara.
-- **Observatorio de Ofiuco y Cámara Central:** el cuerpo de XI, su última nota y su carta de despedida, y la sala final con el desenlace (por definir).
-- **Narrativa ambiental:** Efeméride, hologramas, notas del Almanaque XI en los observatorios mayores y entre 4 y 5 poemas.
-- **Sistemas:** salas con cámara, reaparición inmediata, checkpoints, ascensor con selector de Casa y guardado.
-- **Interfaz:** menú principal, pausa, configuración, créditos y tarjeta final.
-- **Arte y audio:** pixel art con la paleta SLSO8, música por capas y efectos de sonido.
+- **Mecánicas del jugador:** movimiento y salto de precisión, agarre y escalada con cuerda limitada, hilo de luz (balanceo y arrastre) y estrella-anclaje.
+- **Las Entrañas del Reloj:** 18 salas que enseñan las cuatro habilidades y las combinan, con checkpoints, compuertas, plataformas (patrulla, zip, rejillas y losas), cristales, un elevador de solo ida en la sala 10 y los peligros de la zona: engranajes, sierras y gas nebuloso.
+- **Elevador del Pozo Celeste y Eje Central:** viaje en cielo abierto con cambio de escena y llegada a la sala del Eje Central.
+- **Narrativa ambiental:** Efeméride con burbujas de texto, poemas y la carta de despedida del Almanaque XI.
+- **Interfaz:** menú principal, pausa, ajustes, créditos, HUD y caja de diálogo.
+- **Arte y audio:** pixel art con la paleta SLSO8 y música y efectos de sonido a cargo del área de audio.
 - **Distribución:** build para Windows publicada en itch.io, en español.
 
-### No incluido
+## No incluido
 
-- Las otras once Casas, que solo se ven al fondo.
-- Consola o móvil.
-- Multijugador y cualquier función en línea.
-- Voz grabada.
-- Traducción al inglés (por confirmar para la versión completa).
+- La Casa de Géminis como nivel jugable y el Observatorio de Ofiuco con la Cámara Central y el desenlace (juego completo).
+- La Casa de Acuario, las demás Casas, los observatorios y las notas del Almanaque XI, que el equipo ya eliminó.
+- Guardado de partida: no existe en la demo; hay una propuesta pendiente de decisión (ver [[04 - Guardado y Configuración]]).
+- Consola o móvil, multijugador y cualquier función en línea.
+- Voz grabada y traducción al inglés.
 - Modo asistido y opciones avanzadas de accesibilidad (ver [[03 - Accesibilidad]]).
 
-## MVP
+## Criterio de cierre
 
-El **Producto Mínimo Viable** debe contener únicamente lo necesario para demostrar que la experiencia principal funciona.
+La demo está cerrada cuando una persona puede abrir la build de Windows, jugar desde el menú hasta el cierre en el Eje Central y volver a empezar, sin errores que impidan terminar. El contenido se contrasta con [[04 - Criterios de Aceptación]] y el estado real está en [[00 - Avance jugable]].
 
-**MVP del proyecto:**
-Las Entrañas del Reloj completas y una Casa jugable de principio a fin (Géminis), con el gancho, el anclaje y la escalada funcionando bien, el menú principal y el guardado.
-
-## Vertical Slice
-
-¿Qué parte del juego debe estar completamente terminada para demostrar la calidad y dirección del producto?
-
-Las Entrañas del Reloj completas y pulidas: arte final con la paleta SLSO8, música y efectos, diálogos de Efeméride, retroalimentación de todas las acciones y dificultad probada con jugadores nuevos.
+El cierre documental requiere que el alcance, las reglas y la evidencia refieran a una build identificada. Hoy quedan abiertos en [[04 - Backlog del Proyecto]]: la prueba a mano con teclado, ratón y mando, la prueba con jugadores nuevos, la validación de la build en un equipo limpio y la integración del audio.
 
 ## Criterios de recorte
 
-Si el tiempo o los recursos son insuficientes, ¿qué se elimina primero?
+Si el tiempo o los recursos son insuficientes, se elimina primero, en este orden:
 
-En este orden:
+1. Los poemas opcionales.
+2. La música dinámica por capas (queda un bucle por zona).
+3. Cinemáticas y efectos visuales secundarios.
 
-1. Los telescopios y las notas del Almanaque XI.
-2. Los poemas opcionales.
-3. Los tipos de farol especiales (como el farol-cañón) y las mecánicas secundarias de Géminis.
-4. La música dinámica por capas (queda un bucle por zona).
-5. Salas de Géminis (se reduce su número, no su regla).
-6. Cinemáticas y efectos visuales secundarios.
-
-**Nunca se recorta:** el movimiento, el gancho, el anclaje y la escalada; el tutorial; una Casa completa; el guardado básico.
+**Nunca se recorta:** el movimiento, el hilo, el anclaje y la escalada; el tutorial completo; el elevador y la llegada al Eje Central.
 
 ## Modelo de distribución y sostenibilidad
 
-El proyecto se plantea como un producto real: la demo gratuita es el producto mínimo que demuestra la propuesta de valor, y las donaciones voluntarias (inspiradas en juegos independientes como *Hollow Knight* y *Undertale*, que nacieron con financiamiento colectivo) servirían para financiar una versión completa con más Casas jugables y más contenido.
+La demo gratuita es el producto mínimo que demuestra la propuesta de valor. Las donaciones voluntarias, inspiradas en juegos independientes como *Hollow Knight* y *Undertale*, servirían para financiar una versión completa con los niveles que hoy quedan fuera.
 
 
 > **Navegación:** [[00 - Índice]] · ← [[05 - Seguridad y Riesgos Técnicos]] · [[02 - Roles y Responsabilidades]] →

@@ -70,7 +70,7 @@ Los menús se manejan con teclado, ratón o mando. Confirmar: Espacio o A.
 
 **Propósito:** Cerrar la demo mostrando el resultado de la partida.
 
-**Elementos:** Casas restauradas, poemas encontrados, muertes y tiempo de juego.
+**Elementos:** poemas encontrados, muertes y tiempo de juego.
 
 **Acciones disponibles:** Ver créditos o volver al menú principal.
 
@@ -89,6 +89,5 @@ Documenta acciones destructivas o irreversibles y cómo se confirman.
 | Salir del juego                               | Solo pide confirmación si hay progreso sin guardar                                           |
 | Restablecer configuración                     | Pide confirmación para volver a los valores predeterminados                                  |
 | Borrar la partida                             | Doble confirmación, separada del resto de las opciones                                       |
-
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - UX y Flujo del Jugador]] · [[03 - Accesibilidad]] →

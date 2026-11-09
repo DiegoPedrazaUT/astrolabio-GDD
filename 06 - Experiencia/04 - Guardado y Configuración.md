@@ -6,7 +6,9 @@ Define cómo se conserva el progreso y qué opciones puede modificar el jugador.
 
 ## Guardado
 
-**Tipo:** Automático
+**Tipo:** Automático (previsto)
+
+**Estado en la demo:** el guardado aún no existe. «Continuar» aparece bloqueado y «Volver al menú» avisa de que la demo no guarda el progreso. La propuesta de guardado queda pendiente de aprobación (ver [[04 - Backlog del Proyecto]]).
 
 **Cuándo se guarda:**
 - Al tomar el ascensor hacia otra Casa, incluido el que sale de las Entrañas.
@@ -14,13 +16,13 @@ Define cómo se conserva el progreso y qué opciones puede modificar el jugador.
 Entre dos puntos de guardado, morir solo devuelve al jugador al inicio de la sala o al último checkpoint, con todo recargado. Al salir del juego, "Continuar" regresa al último punto guardado.
 
 **Qué datos se guardan:**
-- Casas restauradas y fragmentos de estrella obtenidos.
+- Fragmentos de estrella obtenidos.
 - Habilidades entregadas (hilo y estrella).
 - Poemas encontrados.
 - Último punto guardado (nivel).
 - Muertes y tiempo de juego (para la tarjeta final).
 
-**Cantidad de ranuras:** 1 en la demo.
+**Cantidad de ranuras:** 3 registros (propuesta).
 
 **Qué ocurre si el guardado falla:**
 El juego avisa con un mensaje breve, sigue funcionando y reintenta en el siguiente punto de guardado. Antes de escribir, se conserva una copia de respaldo de la partida anterior.
@@ -37,11 +39,8 @@ El juego avisa con un mensaje breve, sigue funcionando y reintenta en el siguien
 
 ## Restablecimiento
 
-¿Qué opciones pueden volver a valores predeterminados?
-
 - Cada categoría de configuración se puede restablecer por separado.
 - También hay una opción para restablecer toda la configuración.
 - Borrar la partida es una acción aparte, con doble confirmación (ver [[02 - UI y Menús]]).
-
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Accesibilidad]] · [[01 - Arquitectura Técnica]] →

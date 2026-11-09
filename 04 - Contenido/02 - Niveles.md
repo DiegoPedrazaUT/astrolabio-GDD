@@ -50,78 +50,49 @@ Cada nivel debe documentar su propósito jugable, estructura, dificultad, conten
 
 **Mecánicas utilizadas:** las cuatro habilidades.
 
-**Enemigos / obstáculos:** pinchos de engranajes y vacío letal.
+**Enemigos / obstáculos:** engranajes giratorios, sierras en las paredes, gas nebuloso y vacío letal.
 
 **Recompensas:** primer fragmento de estrella; el Astrolabio brilla; el poema escondido.
 
-**Puntos de guardado:** un checkpoint por sala larga; el progreso se guarda al tomar el ascensor al terminar el nivel.
+**Puntos de guardado:** checkpoints en las salas largas. La demo todavía no guarda el progreso (ver [[04 - Guardado y Configuración]]).
 
 **Condición de entrada:** despertar en el nicho XII.
 
-**Condición de salida:** obtener el primer fragmento de estrella y tomar el ascensor hacia Géminis.
+**Condición de salida:** obtener el primer fragmento de estrella y tomar el elevador hacia el Eje Central.
 
 **Eventos narrativos:** introducción de Efeméride, indicaciones en tres zonas, cierre en el Pozo Celeste con el cielo y sus huecos (ver [[04 - Diálogos y Narrativa]]).
 
 **Zonas:**
 
-| Zona                     | Qué se aprende                                                                                     | Salas previstas               | Peligros        |
+| Zona                     | Qué se aprende                                                                                     | Salas                         | Peligros        |
 | ------------------------ | -------------------------------------------------------------------------------------------------- | ----------------------------- | --------------- |
 | La Sala de los Nichos    | Moverse y saltar; se presentan los nichos y habla Efeméride                                                | 1 sala                        | —               |
-| La Galería de Engranajes | Saltar con hueco, agarrarse y escalar; la cuerda se agota; plataformas, rejillas y losas           | 2 salas                       | Pinchos         |
-| El Puente Roto           | Se entrega el gancho: arrastre, balanceo y faroles; cristal de recarga                             | 1 sala                        | Vacío y pinchos |
-| El Pozo de Cadenas       | Examen vertical: escalar, lanzarse desde la pared y recargar al tocar suelo; sin anclaje           | 2 salas                       | Pinchos         |
-| El Pozo Celeste          | Se entrega el anclaje; escribir y usar la estrella sobre el vacío; primer fragmento | 2 salas (la salida y el pozo) | Vacío           |
+| La Galería de Engranajes | Saltar con hueco, agarrarse y escalar; la cuerda se agota; plataformas, rejillas y losas           | 9 salas (con un elevador de un solo sentido) | Engranajes y sierras |
+| El Puente Roto           | Se entrega el gancho: arrastre, balanceo y faroles; cristal de recarga                             | 3 salas                       | Vacío, sierras y gas |
+| El Pozo de Cadenas       | Examen vertical: escalar, lanzarse desde la pared y recargar al tocar suelo; sin anclaje           | 4 salas                       | Engranajes y sierras |
+| El Pozo Celeste          | Se entrega el anclaje; escribir y usar la estrella sobre el vacío; primer fragmento | 1 sala y el elevador al Eje Central | Vacío     |
 
-**Mapa / diagrama:** por elaborar en el diseño de niveles.
+**Mapa / diagrama:** el reparto de las 18 salas por zonas es provisional; el mapa se incorporará cuando el equipo lo confirme.
 
-### Nivel 2 — Casa de Géminis, la Casa de los Reflejos
+### Nivel 2 — El Eje Central (cierre de la demo)
 
-**Objetivo principal:** Reunir los fragmentos de estrella de la Casa y entregarlos en la Cámara de los Gemelos para devolver a Géminis a su órbita.
+**Objetivo principal:** Llegar a la sala del Eje Central y cruzar las puertas de Géminis, con lo que termina la demo.
 
-**Objetivos secundarios:** Reunir 3 o 4 poemas.
+**Duración estimada:** Breve; no es un nivel de plataformas, sino la sala de llegada. En el juego completo será la sala desde la que el jugador elija el siguiente nivel.
 
-**Duración estimada:** Entre 15 y 30 minutos (estimación; se ajustará con pruebas).
-
-**Dificultad:** Media-alta: se combinan escalada y anclaje; hacia el final los reflejos dejan de coincidir con el original.
-
-**Mecánicas introducidas:**
-- **Estrella gemela:** dentro de un espejo, cada estrella que se escribe tiene una gemela al otro lado de la línea (de pie o tumbada), que también se puede enganchar.
-- **Muro espejo:** un muro pulido sin agarre ni salto de pared que devuelve el impulso de quien llega con velocidad; sirve para subir pozos estrechos.
-
-**Mecánicas utilizadas:** las cuatro habilidades del tutorial.
-
-**Enemigos / obstáculos:** caídas largas, engranajes en movimiento.
-
-**Recompensas:** fragmentos de estrella y poemas.
-
-**Puntos de guardado:** checkpoints en las salas largas; el progreso se guarda al tomar el ascensor al terminar el nivel.
-
-**Condición de entrada:** ascensor desde las Entrañas.
-
-**Condición de salida:** entregar los fragmentos en la Cámara de los Gemelos.
-
-**Eventos narrativos:** por definir tras los recortes; quedan los poemas y las intervenciones de Efeméride (ver [[04 - Diálogos y Narrativa]]).
-
-**Zonas:**
-
-| Zona                              | Propósito                                                                            |
-| --------------------------------- | ------------------------------------------------------------------------------------ |
-| El Atrio de los Gemelos           | Sala de entrada simétrica; presenta el anclaje reflejado en un espacio seguro         |
-| La Galería de Espejos             | Pasillos de muros espejo donde se combinan escalada y anclaje                         |
-| Los Puentes Paralelos             | Recorrido exterior entre las dos torres, con caídas largas y engranajes en movimiento |
-| La Torre Invertida                | Tramo final donde los reflejos ya no coinciden con el original                        |
-| La Cámara de los Gemelos          | El jugador entrega los fragmentos y devuelve a Géminis a su órbita                     |
-
-
-**Objetivo principal:** Leer la carta de XI y decidir en la Cámara Central.
-
-**Duración estimada:** Breve; no es un nivel de plataformas, sino una sala final.
+**Mecánicas utilizadas:** ninguna nueva; el jugador camina.
 
 **Enemigos / obstáculos:** ninguno.
 
-**Condición de entrada:** haber restaurado las Casas jugables.
+**Condición de entrada:** subir en el elevador del Pozo Celeste.
 
-**Eventos narrativos:** el cuerpo de XI, su carta de despedida y el desenlace (por definir).
+**Condición de salida:** cruzar las puertas de Géminis (fin de la demo).
+
+**Eventos narrativos:** llegada del elevador, vista del Gran Reloj con las doce Casas y Géminis señalada; el Almanaque mira las puertas una última vez y las cruza (ver [[01 - Premisa y Trama]]).
+
+### Fuera de la demo
+
+La Casa de Géminis, las demás Casas y el desenlace están previstos para el juego completo y no forman parte de esta entrega (ver [[01 - Alcance]]).
 
 ## Flujo del nivel
 
@@ -129,7 +100,7 @@ Cada nivel debe documentar su propósito jugable, estructura, dificultad, conten
 Inicio → Zona A → Desafío → Zona B → Recompensa → Final
 ```
 
-**Flujo de una Casa:**
+**Flujo de una Casa (juego completo):**
 
 ```text
 Ascensor → Zona de presentación (segura) → Zonas de reto → Último tramo → Cámara (entrega de fragmentos) → Ascensor
@@ -146,6 +117,5 @@ Ascensor → Zona de presentación (segura) → Zonas de reto → Último tramo 
 - Los saltos tienen una ventana de entrada justa (por ejemplo, un hueco de 3 unidades deja un margen cómodo y uno de 5 unidades en subida es injusto).
 - Hay un checkpoint o una repisa cada 15 a 20 unidades en tramos verticales.
 - Los límites de una sala no cortan un balanceo.
-
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Estructura del Contenido]] · [[03 - Enemigos y NPC]] →

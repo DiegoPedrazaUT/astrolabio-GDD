@@ -17,11 +17,10 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 | Salas y cámara                    | Dividir el nivel en pantallas con su propia cámara                 | Cámara, reaparición                  |
 | Muerte, reaparición y checkpoints | Reintento rápido sin vidas                                         | Salas, peligros                      |
 | Peligros                          | Obstáculos que matan (pinchos, vacío, aplastamiento)               | Salas, reaparición                   |
-| Guardado                          | Guardar el progreso al tomar el ascensor                           | Ascensor, coleccionables             |
+| Guardado                          | Guardar el progreso (previsto; la demo actual no guarda)           | Elevador, coleccionables             |
 | Coleccionables                    | Fragmentos de estrella (objetivo) y poemas                         | Guardado                             |
 | Diálogos de Efeméride             | Burbujas de texto con disparadores por zona                        | Tecla de interactuar, zonas          |
 | Ascensor y transición             | Pasar de una Casa a otra; pantalla de carga                        | Progresión, audio                    |
-| Sistemas de cada Casa             | Anclaje reflejado (Géminis).                                       | Anclaje, gancho, física              |
 
 ## Plantilla de sistema
 
@@ -80,15 +79,18 @@ Los sistemas son conjuntos de reglas y componentes que trabajan juntos: combate,
 
 **Objetivo:** Guardar el progreso del jugador.
 
-**Entradas:** el jugador toma el ascensor al terminar un nivel.
+**Entradas:** el jugador toma el elevador al terminar un nivel.
+
+> [!info] Estado en el juego
+> El guardado **no existe** en la demo: *Continuar* está bloqueado y la pausa avisa «La demo no guarda el progreso». La propuesta vigente (3 registros con autoguardado) espera decisión del equipo; ver [[04 - Guardado y Configuración]].
 
 **Procesamiento / reglas:**
-- El progreso se guarda al tomar el ascensor hacia el siguiente nivel. Si el jugador sale del juego, continúa desde el último punto guardado.
+- Diseño previsto: el progreso se guarda al tomar el elevador hacia el siguiente nivel y, si el jugador sale del juego, continúa desde el último punto guardado.
 - Al morir, el jugador reaparece al inicio de la sala; morir no carga la partida guardada.
 
 **Estados posibles:** sin guardar, guardando y guardado.
 
-**Dependencias:** ascensor y transición, coleccionables.
+**Dependencias:** elevador y transición, coleccionables.
 
 ### Relaciones entre sistemas
 
@@ -97,6 +99,5 @@ Describe qué sistemas dependen de otros y qué información intercambian.
 - El anclaje es un objetivo del gancho, y el cristal de recarga devuelve usos a ambos.
 - Salas, muerte y reaparición reinician plataformas, cristales y anclajes mediante un evento de reinicio.
 - El guardado registra los coleccionables recogidos; los diálogos de Efeméride dependen de las zonas.
-
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Mecánicas]] · [[04 - Controles]] →

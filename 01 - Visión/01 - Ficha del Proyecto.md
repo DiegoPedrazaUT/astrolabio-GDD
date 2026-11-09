@@ -1,78 +1,40 @@
-# Ficha del Proyecto
+# Ficha del proyecto
 
-## Descripción de la sección
-
-Esta ficha identifica el proyecto de forma rápida. Debe permitir que alguien que nunca haya visto el videojuego entienda qué proyecto es y cuál es su estado actual.
-
-## Información general
-
-| Campo                        | Información                                                                                                                                                        |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Nombre del proyecto**      | Astrolabio                                                                                                                                                         |
-| **Nombre clave**             | Astro                                                                                                                                                              |
-| **Versión del GDD**          | 0.4.0                                                                                                                                                              |
-| **Estado del proyecto**      | Diseño (elaboración del GDD)                                                                                                                                       |
-| **Equipo**                   | Aleksander Rocha Baeza<br>Diego Roman Pedraza Keb<br>Diego Angel Ramirez Fernandez<br>Dalia Jimena Chim Uc<br>Felipe Natanael Chan Uc<br>Victor Alexis Yah Alpuche |
-| **Responsable del proyecto** | Diego Roman Pedraza Keb                                                                                                                                            |
-| **Fecha de inicio**          | 21/09/2026                                                                                                                                                         |
-| **Última actualización**     | 03/11/2026                                                                                                                                                         |
-| **Repositorio**              | https://github.com/DiegoPedrazaUT/astrolabio-game.git                                                                                                              |
-
-## Identidad del videojuego
-
-**Género principal:**  
-Plataformas
-> Consulta [[01 - Géneros]] y elige el género que mejor describa la experiencia dominante.
-
-**Subgéneros:**  
-Plataformas 2D de precisión
-> Consulta [[02 - Subgéneros y Combinaciones]] y selecciona solamente los que aporten información útil.
-
-**Biblioteca de clasificación:** [[00 - Biblioteca de Clasificación]]
-
-**Plataforma objetivo:**  
-PC (Windows).
-> Consulta [[03 - Plataformas y Consolas]] antes de elegir.
-
-**Modo de juego:**  
-Un jugador
-> Consulta [[05 - Modos de Juego]].
-
-**Perspectiva:**  
-Lateral / Side-scroller
-> Consulta [[04 - Perspectivas y Cámaras]].
-
-**Clasificaciones y etiquetas adicionales:**  
-Lineal, Exploración y Coleccionables
-> Consulta [[06 - Clasificaciones y Etiquetas]].
-
-**Tecnología principal:**  
-Unity 6 (C#, URP, nuevo Input System) y Aseprite
-
-## Elevator Pitch
-
-> [!example] ¿Qué es?
-> Describe el videojuego en **una o dos frases**. Debe explicar quién juega, qué hace y qué lo hace interesante.
-
-**Respuesta:**
+| Campo                    | Información                                                                                                                      |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| Nombre                   | Astrolabio                                                                                                                       |
+| Versión del GDD          | 0.5.0                                                                                                                            |
+| Estado                   | Demo jugable en desarrollo: tutorial de 18 salas, elevador del Pozo Celeste y llegada al Eje Central. El guardado aún no existe. |
+| Actualización            | 8 de noviembre de 2026                                                                                                           |
+| Género                   | Plataformas.                                                                                                                     |
+| Subgénero                | Plataformas 2D de precisión.                                                                                                     |
+| Clasificación            | Lineal, con exploración y coleccionables.                                                                                        |
+| Público objetivo         | Jugadores de PC de 16 años en adelante que disfrutan los plataformas de precisión, el pixel art y la narrativa ambiental.        |
+| Plataforma               | PC, Windows, un jugador.                                                                                                         |
+| Motor                    | Unity 6000.6.4f1 y Universal Render Pipeline (2D).                                                                               |
+| Lenguaje                 | C#.                                                                                                                              |
+| Perspectiva              | Lateral 2D (*side-scroller*); cámara ortográfica confinada a cada sala, con vista base de 1280 × 720 y tiles de 32 px.           |
+| Repositorio del juego    | https://github.com/DiegoPedrazaUT/astrolabio-game.git                                                                            |
+| Revisión consultada      | Bitácora del repositorio del juego al 7 de noviembre de 2026 (rama `feature/AjusteInterfaz-Pausa`, con cambios aún sin commit).  |
+| Repositorio del GDD      | https://github.com/DiegoPedrazaUT/astrolabio-GDD.git                                                                             |
+| Fecha de inicio          | 21 de septiembre de 2026                                                                                                         |
+| Responsable del proyecto | Diego Roman Pedraza Keb                                                                                                          |
+## Equipo
+---
+- **Diego Roman Pedraza Keb:** líder, gestión del proyecto, DevOps y marketing.
+- **Diego Angel Ramirez Fernandez:** programación, DevOps, game design y diseño de niveles.
+- **Dalia Jimena Chim Uc:** diseño, concept art y pixel art.
+- **Felipe Natanael Chan Uc:** audio y programación.
+- **Victor Alexis Yah Alpuche:** arte, diseño e interfaz (UI/UX).
+- **Aleksander Rocha Baeza:** narrativa y ambientación.
+## El juego en una frase
+---
 Eres el Almanaque XII, un pequeño autómata que asciende por el Gran Reloj Cósmico, la máquina que fijó el destino de todos, para devolver las constelaciones rotas a su órbita. En este plataformas 2D de precisión escalas, escribes estrellas-anclaje en el vacío y te lanzas con un hilo de luz, convirtiendo el abismo en tu propio camino mientras descubres si reparar el Reloj es realmente lo correcto.
 
-## Estado actual
-
-- [x] Concepto definido
-- [x] Alcance inicial definido (tutorial, Casa de Géminis y final)
-- [x] Mecánica principal definida
-- [x] Arte del personaje y paleta de color (SLSO8) definidos
-- [ ] GDD completo y aprobado
-- [ ] Producción
-- [ ] Pruebas
-- [ ] Versión final
-
-## Criterio de éxito del proyecto
-
-¿Qué tendría que suceder para considerar que el videojuego cumplió su propósito?
-
-Que el jugador experimente la satisfacción de superar al menos la primera zona completa (las Entrañas del Reloj, hasta obtener el primer fragmento de estrella) dominando el anclaje y el gancho para superar los obstáculos.
+El contenido actual es la demo: las Entrañas del Reloj (18 salas, con las cuatro habilidades y su combinación), el elevador del Pozo Celeste y la sala de llegada del Eje Central, donde el Almanaque cruza las puertas de Géminis y la demo termina. Los dos niveles del juego completo quedaron fuera del alcance el 8 de noviembre de 2026. Lo que funciona hoy y sus límites están en [[00 - Avance jugable]].
+## Criterio de éxito de la demo
+---
+Que una persona nueva termine el tutorial dominando el anclaje y el hilo para superar los obstáculos, y quiera seguir jugando al llegar al Eje Central. Este criterio todavía no se ha comprobado con jugadores (ver [[02 - Pruebas]]).
 
 
-> **Navegación:** [[00 - Índice]] · ← [[00 - Índice]] · [[02 - Visión del Juego]] →
+> **Navegación:** [[00 - Índice]] · ← [[00 - Avance jugable]] · [[02 - Visión del Juego]] →

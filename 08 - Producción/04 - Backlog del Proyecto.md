@@ -1,99 +1,53 @@
-# Backlog del Proyecto
+# Entregas y trabajo pendiente
 
-## Descripción de la sección
+| Área | Estado al 8 de noviembre |
+| --- | --- |
+| Jugador | Movimiento, salto, pared, escalada con cuerda, hilo y estrella-anclaje integrados, con pruebas automáticas. |
+| Nivel | Salas con cámara, checkpoints, compuertas, plataformas (patrulla, zip, rejillas, losas) y cristales. |
+| Peligros | Engranajes, sierras y gas nebuloso (mata y corta el hilo). |
+| Arte | Almanaque con 13 animaciones, tiles del tutorial con Rule Tiles de 32 × 32, fondo y decorado de las Entrañas. |
+| Elevadores | De solo ida en la sala 10 y del Pozo Celeste, con cambio a la escena del Eje Central. |
+| Interfaz | Menús, pausa, ajustes, créditos, HUD y caja de diálogo en UI Toolkit. |
+| Calidad | 86 pruebas de EditMode y 212 de PlayMode en verde; análisis estático sin avisos (7 de noviembre). |
+| Documentación | GDD alineado con la demo; registro visual con la procedencia de las imágenes. |
 
-El backlog contiene el trabajo necesario para convertir el diseño en un videojuego funcional.
+## Integraciones cerradas
 
-El estado de cada tarea (pendiente, en progreso, bloqueada o terminada) se sigue en el tablero de tareas del equipo.
+| ID | Tarea | Estado | Comprobación |
+| --- | --- | --- | --- |
+| CORE-01 | Movimiento y salto de precisión. | Integrado | Pruebas de EditMode y PlayMode; límite de caída exacto. |
+| CORE-02 | Pared, salto de pared y escalada con cuerda (100 puntos). | Integrado | Pruebas de EditMode y PlayMode. |
+| CORE-03 | Hilo: balanceo, arrastre, cuerda en esquinas y vista previa. | Integrado | Pruebas de PlayMode, con 1350 recorridos a toda velocidad. |
+| CORE-04 | Estrella-anclaje que escribe el jugador. | Integrado | Pruebas de PlayMode. |
+| LEVEL-01 | Salas, cámara, muerte, reaparición, checkpoints y compuertas. | Integrado | Pruebas de PlayMode y *Revisar escena*. |
+| LEVEL-02 | Plataformas móviles, rejillas, losas y cristales de recarga. | Integrado | Pruebas de PlayMode. |
+| HAZ-01 | Peligros pintados con tiles: engranajes, sierras y gas. | Integrado | Pruebas de PlayMode. |
+| ART-01 | Almanaque XII con Animator (13 clips). | Integrado | Pruebas de EditMode y PlayMode. |
+| ART-02 | Tiles del tutorial con Rule Tiles y metal estelar con efecto al engancharlo. | Integrado | Pruebas de PlayMode. |
+| ELEV-01 | Elevador de la sala 10 y elevador del Pozo Celeste con cambio de escena. | Integrado | Pruebas de PlayMode; recorrido visto en Play. |
+| UI-01 | Menús, pausa, ajustes y créditos. | Integrado | Pruebas de EditMode y PlayMode. |
+| UI-02 | HUD (usos del hilo y de la estrella, nombre de zona) y caja de diálogo. | Integrado | Pruebas de PlayMode; visto en Play en el Eje Central. |
+| DEVOPS-01 | CI: formato, pruebas, análisis estático y compilación hacia `main`. | Integrado | Ejecuciones en verde desde el 30 de octubre. |
 
-## Formato de tarea
+## Pendientes identificados
 
-### Tarea
+| ID | Tarea | Prioridad propuesta | Responsable según el reparto | Dependencia | Criterio de aceptación |
+| --- | --- | --- | --- | --- | --- |
+| QA-01 | Probar a mano el recorrido completo con teclado, ratón y mando. | Alta | Todo el equipo, coordinado por Diego Angel Ramirez Fernandez | Build jugable. | Los casos CP-01 a CP-05 de [[02 - Pruebas]] quedan ejecutados y los fallos registrados en [[03 - Bugs y Seguimiento]]. |
+| QA-02 | Probar con jugadores nuevos y ajustar la dificultad. | Alta | Todo el equipo | QA-01. | Una persona nueva termina el tutorial sin ayuda externa y sabe por qué murió. |
+| TECH-01 | Validar la build de Windows en un equipo limpio y fijar la escena inicial. | Alta | Diego Roman Pedraza Keb y Diego Angel Ramirez Fernandez | Build candidata y equipo de prueba. | La build descarga, abre y corre desde el menú; resolución, FPS y memoria registrados con el commit usado. |
+| END-01 | Implementar el cierre: el Almanaque cruza las puertas de Géminis y aparece la tarjeta final. | Alta | Diego Angel Ramirez Fernandez, con Aleksander Rocha Baeza para el texto | Escena del Eje Central. | Al cruzar las puertas termina la demo con la tarjeta final y el jugador puede volver al menú. |
+| AUDIO-01 | Integrar música y efectos de sonido. | Alta | Felipe Natanael Chan Uc | Escenas finales; audio configurable en el juego. | Todos los eventos de [[05 - Audio y Música]] suenan y los volúmenes sobreviven a recargar. |
+| SAVE-01 | Decidir e implementar el guardado (propuesta de 3 registros con autoguardado). | Media, según decisión | Equipo; programación de Felipe Natanael Chan Uc | Decisión del equipo. | *Continuar* se desbloquea, las habilidades se conservan entre escenas y *Volver al menú* guarda. |
+| BUG-01 | Conservar las habilidades al cambiar de escena. | Media | Diego Angel Ramirez Fernandez | SAVE-01 o ajuste propio. | En el Eje Central el jugador tiene las habilidades que ganó, no las del prefab (ver [[03 - Bugs y Seguimiento]]). |
+| ART-03 | Integrar a Efeméride (sprites de reposo y habla ya dibujados). | Media | Dalia Jimena Chim Uc y Victor Alexis Yah Alpuche | Diálogos finales. | Efeméride aparece en pantalla con sus burbujas de texto. |
+| DOC-01 | Alinear la narrativa con el alcance: quitar menciones a Acuario, al descanso y guardado en observatorios y a la Cámara Central del Eje Central. | Media | Aleksander Rocha Baeza | Alcance de la demo. | El documento narrativo no contradice [[01 - Alcance]] ni [[02 - Niveles]]. |
+| UX-01 | Confirmar los nombres de zona del HUD (provisionales). | Baja | Aleksander Rocha Baeza y Diego Angel Ramirez Fernandez | Revisión del equipo. | Los nombres de cada zona quedan fijados en el HUD de cada escena. |
+| UI-03 | Revisar la interfaz a 1280 × 720, 1600 × 900 y 1920 × 1080, y medir con el Profiler. | Media | Victor Alexis Yah Alpuche | Build jugable. | Interfaz legible en las tres resoluciones y sin saltos de rendimiento. |
+| INPUT-01 | Evaluar una opción para elegir cómo se controla el hilo. | Baja | Diego Angel Ramirez Fernandez | Resultados de QA-02. | Decisión registrada en [[03 - Registro de Decisiones]]. |
+| TECH-02 | Verificar la build de WebGL, si se decide publicarla. | Baja | Diego Roman Pedraza Keb | TECH-01. | Menús, ajustes, controles y escalas comprobados en navegador. |
 
-**Descripción:**
-
-**Responsable:**
-
-**Prioridad:** Alta / Media / Baja
-
-**Dependencias:**
-
-**Criterio de aceptación:**
-
-**Estado:** Pendiente / En progreso / Bloqueada / Terminada
-
-## Backlog
-
-### Núcleo del jugador
-
-| Tarea                                                  | Responsable                      | Prioridad | Dependencias                    | Criterio de aceptación                                                              |
-| ------------------------------------------------------ | -------------------------------- | --------- | ------------------------------- | ----------------------------------------------------------------------------------- |
-| Movimiento y salto de precisión                        | Diego Angel Ramirez Fernandez    | Alta      | Entrada                         | Salto variable con *coyote time* y memoria de pulsación; se siente justo y predecible |
-| Agarre y escalada con cuerda limitada                  | Diego Angel Ramirez Fernandez    | Alta      | Movimiento                      | Se agarra solo a superficies rugosas; la cuerda se agota y se recarga al tocar suelo |
-| Gancho (balanceo y arrastre)                           | Diego Angel Ramirez Fernandez    | Alta      | Movimiento, superficies         | Dos usos compartidos; conserva la velocidad al soltar; la cuerda choca con las esquinas |
-| Anclaje de apoyo (estrella)                            | Diego Angel Ramirez Fernandez    | Alta      | Gancho                          | Se coloca en cualquier estado y el gancho puede engancharse a él                     |
-| Salas, cámara, muerte y reaparición                    | Diego Angel Ramirez Fernandez    | Alta      | Movimiento                      | Reaparece en 0.4 s al inicio de la sala con todo recargado                          |
-| Plataformas móviles, peligros y cristales de recarga   | Diego Angel Ramirez Fernandez    | Media     | Salas                           | Patrulla, zip, rejilla, losa y elevador; el jugador hereda su velocidad              |
-
-### Contenido
-
-| Tarea                                                  | Responsable                      | Prioridad | Dependencias                    | Criterio de aceptación                                                              |
-| ------------------------------------------------------ | -------------------------------- | --------- | ------------------------------- | ----------------------------------------------------------------------------------- |
-| Las Entrañas del Reloj (5 zonas)                 | Diego Angel Ramirez Fernandez    | Alta      | Núcleo del jugador              | Cada sala presenta una idea antes de examinarla; se completa en 10 a 15 minutos     |
-| Casa de Géminis                                        | Diego Angel Ramirez Fernandez    | Alta      | Entrañas, regla de Géminis      | Se completa; cada sala usa la regla propia                                           |
-| Observatorio de Ofiuco y Cámara Central                | Diego Angel Ramirez Fernandez    | Media     | Casa de Géminis                 | Se leen la última nota y la carta de XI; la Cámara Central muestra el desenlace      |
-| Regla de la Casa de Géminis (espejos)                   | Diego Angel Ramirez Fernandez    | Alta      | Gancho y anclaje                | Cada regla se prueba en una sala aislada antes de integrarse                         |
-| Poemas y notas del Almanaque XI                        | Aleksander Rocha Baeza           | Baja      | Observatorios                   | Entre 4 y 5 poemas, las notas de las Dos Lentes y la carta de Ofiuco                     |
-
-### Narrativa
-
-| Tarea                                                  | Responsable                      | Prioridad | Dependencias                    | Criterio de aceptación                                                              |
-| ------------------------------------------------------ | -------------------------------- | --------- | ------------------------------- | ----------------------------------------------------------------------------------- |
-| Diálogos de Efeméride por zona                         | Aleksander Rocha Baeza           | Alta      | Estructura de niveles           | Textos cortos al inicio y al final de cada zona                                      |
-| Textos de hologramas, carteles y rótulos de zona       | Aleksander Rocha Baeza           | Media     | Diálogos                        | Coherentes con el tono de cada Casa                                                  |
-
-### Arte
-
-| Tarea                                                  | Responsable                      | Prioridad | Dependencias                    | Criterio de aceptación                                                              |
-| ------------------------------------------------------ | -------------------------------- | --------- | ------------------------------- | ----------------------------------------------------------------------------------- |
-| Animaciones del Almanaque XII                          | Dalia Jimena Chim Uc             | Alta      | Arte del personaje              | Todas las animaciones de [[02 - Personajes y Animación]]                             |
-| Tilesets de las Entrañas, Géminis y el final           | Dalia Jimena Chim Uc             | Alta      | Paleta SLSO8                    | Las seis superficies por zona, de 32×32 px, como *Rule Tiles*                     |
-| Fondos de parallax y piezas de nivel                   | Victor Alexis Yah Alpuche        | Media     | Paleta SLSO8                    | Fondos más oscuros que el primer plano; piezas legibles                              |
-| Efectos visuales (partículas y destellos)              | Victor Alexis Yah Alpuche        | Media     | Mecánicas                       | Cada acción importante tiene su señal visual                                         |
-
-### Interfaz y sistemas
-
-| Tarea                                                  | Responsable                      | Prioridad | Dependencias                    | Criterio de aceptación                                                              |
-| ------------------------------------------------------ | -------------------------------- | --------- | ------------------------------- | ----------------------------------------------------------------------------------- |
-| HUD (anillos y llave del Astrolabio)                   | Victor Alexis Yah Alpuche        | Alta      | Mecánicas                       | Muestra usos y cuerda sin tapar la acción                                            |
-| Menús: principal, pausa, configuración y créditos      | Victor Alexis Yah Alpuche        | Alta      | Guardado                        | Navegables con teclado, ratón y mando                                                |
-| Selector de Casa y ascensor                            | Diego Angel Ramirez Fernandez    | Media     | Estructura de niveles           | Carga la Casa elegida mientras habla Efeméride                                       |
-| Guardado y configuración                               | Felipe Natanael Chan Uc          | Alta      | Menús                           | Guarda en observatorios mayores y al cambiar de Casa; recupera un archivo dañado     |
-| Ayudas de entrada y de puntería                        | Diego Angel Ramirez Fernandez    | Alta      | Entrada, gancho                 | El jugador consigue lo que quiso hacer aunque se desvíe un poco                      |
-
-### Audio
-
-| Tarea                                                  | Responsable                      | Prioridad | Dependencias                    | Criterio de aceptación                                                              |
-| ------------------------------------------------------ | -------------------------------- | --------- | ------------------------------- | ----------------------------------------------------------------------------------- |
-| Música por capas (Entrañas, Géminis y final)           | Felipe Natanael Chan Uc          | Media     | Estructura de niveles           | Las capas se suman sin romper el pulso                                               |
-| Efectos de sonido de [[05 - Audio y Música]]           | Felipe Natanael Chan Uc          | Alta      | Mecánicas                       | Todos los eventos de la tabla tienen su sonido                                       |
-
-### Calidad, publicación y marketing
-
-| Tarea                                                  | Responsable                      | Prioridad | Dependencias                    | Criterio de aceptación                                                              |
-| ------------------------------------------------------ | -------------------------------- | --------- | ------------------------------- | ----------------------------------------------------------------------------------- |
-| Pruebas con jugadores nuevos y ajuste de dificultad    | Todo el equipo                   | Alta      | Niveles                         | Un jugador nuevo termina el tutorial sin ayuda externa                               |
-| Build de Windows y publicación en itch.io              | Diego Roman Pedraza Keb          | Alta      | Contenido cerrado               | Se descarga y se ejecuta en un equipo limpio                                         |
-| Página de itch.io, donaciones y material del evento    | Diego Roman Pedraza Keb          | Media     | Build                           | Página publicada y material de presentación listo                                    |
-
-## Priorización
-
-Prioriza aquello que desbloquea otras tareas o valida primero las partes más riesgosas del proyecto.
-
-1. El núcleo del jugador (gancho, anclaje y escalada), porque todo el diseño de niveles depende de él.
-2. Las Entrañas del Reloj, porque enseñan las cuatro habilidades y son el vertical slice.
-3. La Casa de Géminis completa antes de empezar el final.
-4. Pulido, audio y contenido opcional al final, siguiendo los criterios de recorte de [[01 - Alcance]].
+Estos puntos son necesidades identificadas en la bitácora del juego; el estado de cada uno se actualiza aquí al cerrarse.
 
 
-> **Navegación:** [[00 - Índice]] · ← [[03 - Roadmap]] · [[05 - Gestión de Cambios]] →
+> **Navegación:** [[00 - Índice]] · [[00 - Avance jugable]] · ← [[03 - Roadmap]] · [[05 - Gestión de Cambios]] →

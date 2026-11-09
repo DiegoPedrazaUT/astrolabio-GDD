@@ -43,7 +43,6 @@ Por definir: depende del desenlace que decida el equipo de narrativa (ver [[01 -
 | Casa de Géminis, la Casa de los Reflejos | Construida con simetría perfecta, está perdiendo su forma: ya no sabe cuál de sus dos caras es la verdadera       | No jugable en la demo; se ve desde el Pozo Celeste. Primera Casa del juego completo | La constelación que escapó                             |
 | Las otras once Casas                     | Se ven al fondo, funcionando en silencio                                                                          | Ninguna (no son jugables)                                                           | Refuerzan la escala; «el cielo como progreso»          |
 
-
 ## Facciones
 
 | Facción              | Objetivo                                              | Relación con el jugador                                                                |
@@ -69,4 +68,4 @@ Reglas que no deben romperse sin una razón narrativa o de diseño.
 •    Las superficies que se pueden escalar siempre se distinguen a simple vista.
 
 
-> **Navegación:** [[00 - Índice]] · ← [[01 - Premisa y Trama]] · [[03 - Personajes]] →
+ **Navegación:** [[00 - Índice]] · ← [[01 - Premisa y Trama]] · [[03 - Personajes]] →

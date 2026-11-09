@@ -14,8 +14,8 @@ El juego no tiene dinero, vidas, salud ni experiencia. Los recursos son los usos
 | Uso del anclaje        | Tocar suelo (no antes de unos segundos tras colocarlo); cristal de recarga | Colocar un anclaje                                     | 1                                                                 | Se gasta al colocarlo                                                                                                                                           |
 | Cuerda de escalada     | Tocar suelo                                                      | Agarrarse y subir; saltar de la pared                  | Una reserva limitada                                                               | Se gasta poco al estar colgado, más rápido al subir o bajar y mucho más rápido al saltar desde la pared |
 | Tiempo del balanceo    | Se reinicia en cada enganche                                     | Mantener el balanceo                                   | Unos segundos                     | La cuerda se corta sola                                                                                                                                         |
-| Fragmentos de estrella | Recolectarlos en cada Casa                                      | Restaurar la constelación de la Casa                   | Por definir                                                       | No se pierden                                                                                                                                                   |
-| Poemas                 | Hallarlos en lugares ocultos                                    | Coleccionable opcional | Entrañas: 1 oculto. Géminis: 3 o 4.                               | No se pierden                                                                                                                                                   |
+| Fragmentos de estrella | Recolectarlos (en la demo, el del Pozo Celeste)                                      | Abrir el elevador y, en el juego completo, restaurar la Casa                   | Por definir                                                       | No se pierden                                                                                                                                                   |
+| Poemas                 | Hallarlos en lugares ocultos                                    | Coleccionable opcional | Entrañas: 1 oculto.                               | No se pierden                                                                                                                                                   |
 
 ## Fuentes y sumideros
 
@@ -40,11 +40,7 @@ Define límites, regeneración, acumulación, intercambio y condiciones especial
 
 ## Balance
 
-¿Qué comportamiento queremos incentivar?
-
 Encadenar movimientos sin tocar el suelo, planear la ruta y arriesgar con precisión.
-
-¿Qué comportamiento queremos evitar?
 
 Colocar anclajes sin pensar desde el suelo y vaciar la cuerda antes de decidir.
 

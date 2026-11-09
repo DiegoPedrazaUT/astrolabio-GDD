@@ -32,7 +32,7 @@ El juego es para PC, por lo que no se contempla entrada táctil.
 
 ## Reasignación
 
-¿El jugador puede cambiar los controles?
+**¿El jugador puede cambiar los controles?**
 
 Sí: teclado y mando se pueden reasignar desde Configuración › Controles (ver [[04 - Guardado y Configuración]]).
 
@@ -45,8 +45,7 @@ Describe qué ocurre inmediatamente después de cada entrada importante. Las se�
 | Saltar   | Chispa breve y sonido de salto al despegarse del piso.                                   |
 | Anclaje  | Mira azul si la posición es válida y roja si no, destello al colocarse.                  |
 | Gancho   | Los anillos del Astrolabio se encienden para mostrar los usos y se apagan al gastar uno. |
-| Escalar  | La llave gira; tiembla y suena un clic acelerado al estar por agotarse la cuerda.        |
+| Escalar  | Propuesta: la llave gira; tiembla y suena un clic acelerado al estar por agotarse la cuerda (aún sin indicador en el HUD). |
 | Balanceo | La cuerda se pone roja en los últimos segundos.                                          |
-
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Sistemas]] · [[05 - Progresión]] →

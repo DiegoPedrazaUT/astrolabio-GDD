@@ -4,42 +4,11 @@
 
 Una mecánica es una regla o interacción mediante la cual el jugador puede actuar dentro del sistema del juego.
 
-Documenta cada mecánica con suficiente detalle para que otro integrante pueda implementarla.
+> [!info] Estado en el juego
+> Integradas y con pruebas automáticas: movimiento y salto, pared y escalada con cuerda, el hilo (en este documento, «gancho»: balanceo, arrastre, 2 usos y vista previa) y la estrella-anclaje que se escribe con la tecla E. Los valores del jugador viven en el asset `PlayerTuning`. 
 
-## Plantilla de mecánica
+## Mecánicas principales|
 
-### Nombre de la mecánica
-
-**Propósito:**  
-¿Qué aporta a la experiencia?
-
-**Activación:**  
-¿Qué debe hacer el jugador?
-
-**Reglas:**  
-¿Qué puede y qué no puede ocurrir?
-
-**Entrada:**  
-¿Qué botón, gesto o acción la activa?
-
-**Estado inicial:**
-
-**Estado final:**
-
-**Recursos utilizados:**
-
-**Recompensa:**
-
-**Penalización:**
-
-**Interacciones con otras mecánicas:**
-
-**Casos límite:**  
-¿Qué ocurre en situaciones poco comunes?
-
-## Mecánicas principales
-
-### Mecánica 01
 ### Gancho (Grappling hook)
 
 **Propósito:**  
@@ -97,7 +66,6 @@ Un uso de los 2 disponibles por cada enganche logrado.
 - El anclaje que se estaba usando desaparece: el gancho se libera automáticamente.
 - La cuerda del balanceo se corta sola tras unos segundos.
 
-### Mecánica 02
 ### Punto de anclaje (Grapple point)
 
 **Propósito:**  
@@ -139,13 +107,11 @@ El uso del anclaje (1).
 - Gancho: el anclaje es un objetivo del gancho.
 - Escalada: E no depende del estado, así que se puede colocar desde la pared.
 - Cristal de recarga: devuelve el uso sin esperar a tocar el piso.
-- Casa de Géminis: dentro de un espejo, cada estrella escrita tiene una gemela al otro lado de la línea, que también se puede enganchar.
 
 **Casos límite:**  
 - Reaparecer borra el anclaje.
 - Si el anclaje desaparece estando enganchado, el gancho se libera.
 
-### Mecánica 03
 ### Agarre y escalada
 
 **Propósito:**  
@@ -181,7 +147,6 @@ Al agotarse la cuerda, el jugador cae.
 
 **Interacciones con otras mecánicas:**
 - Anclaje y gancho: se coloca un anclaje y se lanza el gancho desde la pared.
-- Casa de Géminis: el muro espejo es pulido (sin agarre ni salto de pared) y devuelve el impulso de quien llega con velocidad.
 
 **Casos límite:**  
 - Pararse encima de una superficie rugosa cuenta como suelo y recarga.
@@ -189,7 +154,6 @@ Al agotarse la cuerda, el jugador cae.
 
 ## Mecánicas secundarias
 
-### Mecánica 04
 ### Movimiento y salto
 
 **Propósito:** Movimiento de precisión con control justo y predecible.  
@@ -202,14 +166,12 @@ Al agotarse la cuerda, el jugador cae.
 **Entrada:** A/D o W/A/S/D para mover; Espacio para saltar. Con mando: stick izquierdo o cruceta, y A.  
 **Casos límite:** las paredes no cuentan como suelo; el jugador hereda la velocidad de la plataforma que pisa o agarra (hasta 0.15 s después de que frene).
 
-### Mecánica 05
 ### Cristal de recarga
 
 **Propósito:** Devolver recursos en el aire para encadenar movimientos.  
 **Reglas:** devuelve 1 uso de gancho y 1 de anclaje; solo se consume si falta alguno; reaparece a los 2 segundos.  
 **Interacciones:** gancho, anclaje.
 
-### Mecánica 06
 ### Plataformas móviles
 
 **Propósito:** Añadir movimiento al nivel y a la ruta del jugador.  
@@ -220,7 +182,6 @@ Al agotarse la cuerda, el jugador cae.
 - No atraviesan sólidos ni otras plataformas: se detienen y dan la vuelta. Vuelven a su inicio cuando el jugador reaparece.
 - Además hay rejillas (se atraviesan desde abajo), losas que tiemblan y se rompen al pisarlas y elevadores (montacargas) que llevan al jugador mientras habla Efeméride.
 
-### Mecánica 07
 ### Peligros, salas, muerte y reaparición
 
 **Propósito:** Castigo justo y reintento inmediato.  
@@ -229,9 +190,8 @@ Al agotarse la cuerda, el jugador cae.
 - Al instante el jugador reaparece en su punto de aparición con todo recargado, y el nivel se reinicia (plataformas a su inicio, cristales disponibles, anclaje borrado).
 - Cada sala tiene su cámara; al entrar en otra, la cámara cambia con una transición de medio segundo y el punto de reaparición pasa a ser el más cercano a la entrada. El juego no se pausa durante la transición.
 - Los checkpoints son opcionales y van dentro de salas largas: al tocarlos pasan a ser el punto de reaparición hasta que se entra en otra sala.
-- El progreso se guarda al tomar el ascensor entre niveles.
+- El progreso se guardaría al tomar el elevador entre niveles (diseño previsto); la demo actual no guarda (ver [[04 - Guardado y Configuración]]).
 
-### Mecánica 08
 ### Habilidades narrativas
 
 **Propósito:** Acciones con las que el Almanaque descubre la historia. No tienen reto, pero cada una tiene una señal visual propia.

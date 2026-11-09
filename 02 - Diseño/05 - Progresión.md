@@ -10,14 +10,11 @@ Describe las etapas principales del juego.
 
 1. **Inicio:** el Almanaque XII despierta en la Sala de los Nichos y Efeméride le presenta la misión.
 2. **Introducción de sistemas:** las Entrañas del Reloj (el tutorial) enseñan las cuatro habilidades por zonas: el gancho se entrega en el Puente Roto y el anclaje en el Pozo Celeste. Hay pinchos y vacío letal desde el principio (dificultad tipo Celeste), aunque cada idea nueva se presenta antes sin riesgo.
-3. **Desarrollo:** Casa de Géminis (estrella gemela, muro espejo, el camino del espejo).
-4. **Dominio:** las últimas salas de Géminis (la Torre Invertida) exigen combinar todas las mecánicas.
-5. **Clímax:** el Observatorio de Ofiuco y la carta de despedida del Almanaque XI.
-6. **Final:** la Cámara Central, una sala final breve cuyo desenlace aún decide el equipo de narrativa.
+3. **Dominio:** el Pozo de Cadenas pone a prueba escalada, gancho desde la pared y recarga; el Pozo Celeste entrega el anclaje y exige combinar todo lo aprendido.
+4. **Cierre de la demo:** el elevador del Pozo Celeste sube al Eje Central; el Almanaque ve el Gran Reloj con las doce Casas y cruza las puertas de Géminis.
+5. **Juego completo (fuera de la demo):** Casa de Géminis (estrella gemela, muro espejo) y el desenlace; ver [[01 - Alcance]].
 
 ## Progresión del jugador
-
-¿Qué aprende el jugador y en qué orden?
 
 1. **Sala de los Nichos:** moverse y saltar.
 2. **Galería de Engranajes:** agarrarse y escalar; la cuerda se agota.
@@ -30,7 +27,7 @@ Describe las etapas principales del juego.
 
 ¿Qué mejora el personaje?
 
-El Almanaque no sube de nivel ni mejora estadísticas. Lo que cambia es:
+El Almanaque nstadísticas. Lo que cambia es:
 
 - **Fragmentos de estrella:** cada uno se guarda en el Astrolabio.
 - **Conocimiento:** el jugador descubre la historia con los poemas, las palabras de Efeméride.
@@ -52,8 +49,6 @@ Describe cómo aumenta el desafío y qué nuevos elementos aparecen.
 
 ## Curva de aprendizaje
 
-¿Qué debe dominar el jugador antes de introducir el siguiente concepto?
-
-Moverse y saltar; luego escalar; luego el anclaje y el gancho (balanceo y arrastre); y, al final, su combinación: escalar, escribir una estrella en la pared y lanzarse sin soltarse.
+¿Qué debe dominar el jugador antes de introducir el siguiente concepceo y arrastre); y, al final, su combinación: escalar, escribir una estrella en la pared y lanzarse sin soltarse.
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Controles]] · [[06 - Economía y Recursos]] →

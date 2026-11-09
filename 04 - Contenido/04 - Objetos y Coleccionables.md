@@ -44,13 +44,13 @@ El juego no tiene inventario, equipo ni dinero: los objetos son el objetivo prin
 
 **Cómo se obtiene:** Se recolecta al llegar a él; el primero está en el Pozo Celeste.
 
-**Cómo se utiliza:** Se guarda en el Astrolabio, que brilla un poco más con cada fragmento, y se entrega en la cámara de la Casa (en la demo, la Cámara de los Gemelos).
+**Cómo se utiliza:** Se guarda en el Astrolabio, que brilla un poco más con cada fragmento, y se entrega en la cámara de la Casa (en la demo, el primero se obtiene en el Pozo Celeste).
 
 **Cantidad máxima:** Por definir (cuántos hay por Casa).
 
 **Valor / Rareza:** No aplica.
 
-**Interacciones:** Cierra cada Casa y abre el ascensor a la siguiente.
+**Interacciones:** Cierra cada Casa y abre el ascensor a la siguiente; en la demo, el primero abre el elevador del Pozo Celeste.
 
 **Representación visual:** Una luz estelar; el Astrolabio brilla más al guardarlo.
 
@@ -62,11 +62,11 @@ El juego no tiene inventario, equipo ni dinero: los objetos son el objetivo prin
 
 **Función:** Mostrar cómo es la vida en el mundo de abajo.
 
-**Cómo se obtiene:** Están escondidos en lugares que exigen dominar las mecánicas de la zona: uno en las Entrañas (en un hueco alcanzable solo escalando), 3 o 4 en Géminis (que exigen dominar el anclaje reflejado).
+**Cómo se obtiene:** Están escondidos en lugares que exigen dominar las mecánicas de la zona: uno en las Entrañas (en un hueco alcanzable solo escalando); el resto queda para el juego completo.
 
 **Cómo se utiliza:** El Almanaque se detiene frente a él y lo lee.
 
-**Cantidad máxima:** Entre 4 y 5 en total.
+**Cantidad máxima:** 1 oculto en la demo; entre 4 y 5 en el juego completo.
 
 **Representación visual:** Un papel escrito atorado entre los engranajes.
 
@@ -109,6 +109,5 @@ El juego no tiene inventario, equipo ni dinero: los objetos son el objetivo prin
 - **Lente:** el siguiente hilo llega al doble de distancia.
 
 No se incluyen en el alcance de la demo salvo que el equipo lo decida.
-
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Enemigos y NPC]] · [[05 - Misiones y Desafíos]] →

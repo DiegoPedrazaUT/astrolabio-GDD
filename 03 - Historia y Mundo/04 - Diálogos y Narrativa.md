@@ -55,7 +55,7 @@ Las conversaciones que detienen al jugador son breves: mientras habla Efeméride
 
 **Momento:** El jugador obtiene el primer fragmento de estrella y mira hacia arriba.
 
-**Objetivo de la conversación:** Cerrar la zona, mostrar la meta y llevar al jugador a Géminis.
+**Objetivo de la conversación:** Cerrar la zona, mostrar la meta y llevar al jugador hacia Géminis (la demo termina ante sus puertas).
 
 | #   | Burbuja                                                     | Indicación                           |
 | --- | ----------------------------------------------------------- | ------------------------------------ |
@@ -66,7 +66,7 @@ Las conversaciones que detienen al jugador son breves: mientras habla Efeméride
 | 5   | Devuélvele su forma, y el mundo recordará la suya.          |                                      |
 | 6   | El ascensor te llevará. No te detengas a mirar hacia abajo. | Se abre el ascensor de engranajes    |
 
-**Transición:** El Almanaque entra al ascensor; la música de las Entrañas se desvanece y entra el tema de Géminis.
+**Transición:** El Almanaque entra al ascensor; la música de las Entrañas se desvanece mientras sube hacia el Eje Central.
 
 ### Cierre de la demo en el Eje Central
 
@@ -80,11 +80,10 @@ Las conversaciones que detienen al jugador son breves: mientras habla Efeméride
 
 ## Localización
 
-¿El juego tendrá diferentes idiomas?
+**¿El juego tendrá diferentes idiomas?**
 
 Por ahora, todos los textos están solo en español.
 
 Idiomas previstos: español (base); inglés por definir.
-
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Personajes]] · [[01 - Estructura del Contenido]] →

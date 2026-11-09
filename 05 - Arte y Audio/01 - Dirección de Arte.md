@@ -28,7 +28,7 @@ Círculos y arcos (engranajes, aros del Astrolabio, cúpulas) contrastados con l
 Luz global baja y luces cálidas puntuales (faroles, cristales, estrellas y el Astrolabio) que guían el recorrido. El fondo siempre es más oscuro y menos saturado que el primer plano. Se complementa con un poco de bloom, viñeta y ajuste de color.
 
 **Materiales:**
-Latón envejecido, hierro oxidado, piedra pulida y piedra rugosa, cristal y luz estelar. Cada Casa añade su carácter: Géminis (dorado pulido frente a hierro oxidado).
+Latón envejecido, hierro oxidado, piedra pulida y piedra rugosa, cristal y luz estelar. Cada Casa del juego completo añadirá su carácter (Géminis: dorado pulido frente a hierro oxidado).
 
 ## Paleta de color
 
@@ -72,6 +72,5 @@ La paleta base es **SLSO8**, de Luis Miguel Maldonado ([Lospec](https://lospec.c
 - [Paleta SLSO8 en Lospec](https://lospec.com/palette-list/slso8)
 - *Celeste* (Maddy Makes Games), *Hollow Knight* (Team Cherry) y *Cuphead* (Studio MDHR).
 - Imágenes de referencia: agregar dentro de la carpeta del proyecto.
-
 
 > **Navegación:** [[00 - Índice]] · ← [[05 - Misiones y Desafíos]] · [[02 - Personajes y Animación]] →

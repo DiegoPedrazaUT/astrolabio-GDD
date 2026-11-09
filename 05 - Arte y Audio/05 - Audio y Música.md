@@ -13,7 +13,7 @@ Ambiental, melancólico y cálido. Debe acompañar sin competir con la concentra
 Bajos, cuerdas, pads, guitarras, piano, sintetizadores y el tic-tac del Reloj.
 
 **Temas principales:**
-- Un tema por nivel, acorde a su ambiente: Entrañas, Géminis y final. 
+- Un tema por zona, acorde a su ambiente: Entrañas y Eje Central (a cargo del área de audio).
 - Un tema independiente para el menú, que será el tema principal del juego. 
 - El tema de las Entrañas (el tutorial) es una versión de solo piano del tema principal.
 
@@ -45,7 +45,7 @@ Responsable: audio (ver [[02 - Roles y Responsabilidades]]).
 
 ## Audio espacial
 
-¿Se utilizará audio posicional?
+**¿Se utilizará audio posicional?**
 
 No. El audio es 2D: cada sala tiene su propio ambiente y se funde al cambiar de sala. Los sonidos continuos importantes (como el tic-tac y los engranajes) pueden bajar de volumen con la distancia al jugador.
 
@@ -70,5 +70,4 @@ Define prioridades, volumen relativo y comportamiento de la música ante eventos
 - El volumen de música, efectos y ambiente es independiente (ver [[04 - Guardado y Configuración]]).
 - Los recursos de terceros deben tener una licencia que permita su uso en el proyecto y se atribuyen en los créditos.
 
-
-> **Navegación:** [[00 - Índice]] · ← [[04 - Interfaz Visual]] · [[01 - UX y Flujo del Jugador]] →
+> **Navegación:** [[00 - Índice]] · ← [[04 - Interfaz Visual]] · [[06 - Registro visual]] →

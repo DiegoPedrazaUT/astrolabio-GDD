@@ -8,11 +8,10 @@ UX (experiencia de usuario) describe qué tan comprensible, cómoda y coherente 
 
 ```text
 Inicio → Menú → Nueva partida → Introducción con Efeméride → Entrañas del Reloj (tutorial)
-       → Ascensor → Casa de Géminis
-       → Observatorio de Ofiuco → Cámara Central → Final → Créditos
+       → Elevador del Pozo Celeste → Eje Central → Puertas de Géminis → Fin de la demo
 ```
 
-En la demo, el recorrido termina con la tarjeta final tras la Cámara Central.
+En la demo, el recorrido termina al cruzar las puertas de Géminis en el Eje Central.
 
 ## Primeros minutos
 
@@ -27,7 +26,7 @@ El objetivo es que el jugador entienda cada herramienta jugándola, no leyendo. 
 | Minutos 3 a 6      | Aprende a agarrarse y escalar en la Galería de Engranajes; descubre que su cuerda se agota y se recarga al tocar suelo. |
 | Minutos 6 a 9      | Recibe el gancho en el Puente Roto: balanceo, arrastre y faroles.                                                                   |
 | Minutos 9 a 14     | Pone a prueba todo lo aprendido en el Pozo de Cadenas y recibe el anclaje en el Pozo Celeste.                                    |
-| Minutos 14 a 15     | Obtiene el primer fragmento de estrella y toma el ascensor hacia Géminis.                                                               |
+| Minutos 14 a 15     | Obtiene el primer fragmento de estrella y sube en el elevador hacia el Eje Central.                                                               |
 
 Para enseñar los controles se usan los carteles pintados en el escenario.
 
@@ -48,11 +47,9 @@ Para cada acción importante define:
 | Escribir una estrella       | Vista previa de la mira (azul válida, roja inválida); destello | Campanilla suave       | Aparece un anclaje temporal             |
 | Morir                       | Efecto de destrucción                                          | Chasquido de engranaje | Reaparece en 0.4 s al inicio de la sala |
 | Cambiar de sala             | Transición de cámara de 0.5 s sin pausar el juego              | El ambiente se funde   | Nuevo punto de reaparición              |
-| Obtener un fragmento        | El Astrolabio brilla más                                       | Acorde cálido          | Avanza la restauración de la Casa       |
+| Obtener un fragmento        | El Astrolabio brilla más                                       | Acorde cálido          | Avanza hacia la siguiente Casa       |
 
 ## Fricción intencional
-
-¿Qué dificultad forma parte del diseño y qué dificultad es simplemente mala experiencia de usuario?
 
 **Dificultad intencional (parte del diseño):**
 - Saltos de precisión, calcular el balanceo y gestionar los usos y la cuerda.
@@ -70,9 +67,9 @@ Para cada acción importante define:
 
 ¿Cómo sabe el jugador:
 
-- **Qué hacer?** Efeméride presenta el objetivo (reunir los fragmentos y restaurar la Casa) y cada sala presenta una idea nueva.
+- **Qué hacer?** Efeméride presenta el objetivo (llegar al Pozo Celeste y subir al Eje Central) y cada sala presenta una idea nueva.
 - **Dónde ir?** La cámara muestra la sala completa; la luz cálida y los faroles marcan el camino; en algunos puntos la cámara viaja para enseñar lo que viene.
-- **Qué puede interactuar?** Poemas y la carta de XI.
+- **Qué puede interactuar?** Los poemas ocultos, las puertas y el elevador.
 - **Qué ocurrió?** Cada acción tiene una señal visual y una sonora propias (ver la tabla de retroalimentación).
 - **Por qué ganó o perdió?** Al morir se ve el peligro que mató al personaje y se reaparece de inmediato para reintentar; no existe una pantalla de derrota.
 

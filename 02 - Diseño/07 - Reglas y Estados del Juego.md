@@ -30,11 +30,11 @@ No existen los estados «Victoria», «Derrota» ni «Game Over»: no hay vidas 
 | Jugando              | El centro del jugador cruza el borde de otra sala  | Cambio de sala       | Aparece en otra zona                                      |
 | Cambio de sala       | Termina la transición de cámara                    | Jugando              | El jugador toma el control                                |
 | Jugando              | Obtiene un fragmento o llega al final de una zona  | Diálogo de Efeméride | Si la zona tiene conversación                             |
-| Jugando              | Entra al ascensor                                  | Carga                | Cambio de Casa                                            |
-| Carga                | Termina el ascenso                                 | Jugando              | Llega a la nueva Casa                                     |
+| Jugando              | Entra al elevador                                  | Carga                | Cambio de escena                                           |
+| Carga                | Termina el ascenso                                 | Jugando              | Llega al Eje Central                                    |
 | Jugando              | Pulsa Tab / Start                                  | Pausa                | Cuando el jugador tiene el control (no en cinemáticas)                                               |
 | Pausa                | Elige Continuar o pulsa de nuevo Tab / Start       | Jugando              | Regresa al punto exacto donde se pausó                    |
-| Jugando              | Resuelve el desenlace en la Cámara Central         | Final                | Según la decisión que tome el jugador                    |
+| Jugando              | Cruza las puertas de Géminis en el Eje Central     | Final                | Termina la demo                                          |
 | Final                | Termina la escena                                  | Créditos             | Al terminar, se vuelve al menú principal                                          |
 
 ## Reglas globales
@@ -44,7 +44,6 @@ No existen los estados «Victoria», «Derrota» ni «Game Over»: no hay vidas 
 3. Tocar suelo firme recarga el gancho, el anclaje (al instante si se usó; si no, espera de cooldown) y la cuerda.
 4. Solo se agarran las superficies rugosas.
 5. El gancho solo engancha en objetivos enganchables.
-6. Efeméride nunca habla dentro del Observatorio de Ofiuco, solo al salir.
 
 ## Casos especiales
 
@@ -52,9 +51,8 @@ Documenta excepciones importantes para evitar interpretaciones diferentes durant
 
 - Morir enganchado libera el gancho de inmediato.
 - Un checkpoint dentro de una sala larga cambia el punto de reaparición hasta que se entra en otra sala.
-- El progreso se guarda al tomar el ascensor entre niveles.
+- El progreso se guardaría al tomar el elevador entre niveles (diseño previsto); la demo actual no guarda (ver [[04 - Guardado y Configuración]]).
 - La muerte lleva al jugador al inicio de la sala o a su checkpoint.
 - Aplastar al jugador entre una plataforma y un sólido, el suelo o el techo cuenta como muerte.
-
 
 > **Navegación:** [[00 - Índice]] · ← [[06 - Economía y Recursos]] · [[01 - Premisa y Trama]] →

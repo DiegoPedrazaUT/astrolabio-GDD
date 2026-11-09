@@ -163,5 +163,4 @@ Documenta qué NPC existen, qué hacen y cómo interactúan con el jugador.
 
 No hay NPC con los que el jugador converse. Efeméride es la única voz del juego y aparece como holograma; XI se descubre por su carta, y las voces de la Tierra, por los poemas. 
 
-
 > **Navegación:** [[00 - Índice]] · ← [[02 - Mundo]] · [[04 - Diálogos y Narrativa]] →

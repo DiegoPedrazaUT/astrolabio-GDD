@@ -6,7 +6,10 @@ Documenta la información que el juego muestra al jugador y las reglas visuales 
 
 ## HUD
 
-El HUD es mínimo y forma parte del mundo: se apoya en el propio Astrolabio del personaje.
+El HUD es mínimo.
+
+> [!info] Estado en el juego
+> El HUD implementado (UI Toolkit, panel de 1280 × 720) muestra el hilo y la estrella con sus usos y su botón, **solo cuando el jugador ya tiene la habilidad**; el nombre de la zona durante 3 s al entrar en una zona nueva; y las pistas de Pausa y Saltar. Se oculta en la pausa y bajo el velo del elevador. El diseño de anillos y llave del Astrolabio de abajo es la propuesta original: la cuerda de escalada aún no tiene indicador en el HUD.
 
 Elementos:
 
@@ -20,8 +23,6 @@ Elementos:
 El HUD se oculta cuando el jugador no tiene el control (conversaciones y cinemáticas).
 
 ## Jerarquía visual
-
-¿Qué información debe verse primero, segundo y tercero?
 
 1. El personaje y los peligros inmediatos.
 2. Los objetivos enganchables, las superficies y el camino.
@@ -66,6 +67,5 @@ El texto aparece letra a letra, con etiquetas para pausas, ondas y temblor. Las 
 No existen Inventario, Mapa, Victoria ni Derrota.
 
 El flujo y la estructura de las pantallas se detallan en [[02 - UI y Menús]].
-
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Entornos]] · [[05 - Audio y Música]] →

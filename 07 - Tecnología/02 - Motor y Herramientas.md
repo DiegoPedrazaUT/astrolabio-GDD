@@ -8,7 +8,7 @@ Documenta las herramientas utilizadas para crear el videojuego y por qué fueron
 
 **Motor:** Unity. Se eligió por su soporte para 2D, su editor visual de niveles y porque el equipo lo conoce.
 
-**Versión:** Unity 6.
+**Versión:** Unity 6000.6.4f1 (Unity 6).
 
 **Renderizado:** Universal Render Pipeline (URP) con el renderizador 2D: luces 2D, bloom, viñeta y ajuste de color.
 
@@ -32,6 +32,7 @@ Documenta las herramientas utilizadas para crear el videojuego y por qué fueron
 | Obsidian               | Documento de diseño (GDD)                                  | Última estable             |
 | Reaper y Ableton Live  | Composición y edición de música y efectos (la elige audio) | Última estable             |
 | Unity Test Framework   | Pruebas automáticas de las mecánicas                       | Incluida en Unity          |
+| GitHub Actions         | CI: formato, pruebas EditMode y PlayMode, análisis estático (Roslyn) y compilación de Windows y WebGL hacia `main` | Flujo `ci.yml` |
 
 ## Dependencias
 
@@ -42,6 +43,8 @@ Paquetes de Unity:
 - Cinemachine (una cámara por sala, transiciones y confinamiento)
 - 2D Tilemap Editor (*Tilemap* y *Tile Palette*)
 - 2D Tilemap Extras (*Rule Tiles*)
+- UI Toolkit (menús, HUD y caja de diálogo; panel de 1280×720 y fuentes SDF)
+- Cinemachine 6.6.0 y Recorder 5.1.7 (versiones fijadas en el proyecto)
 
 **Decisión del equipo:** los tiles de 32×32 px se pintan con *Rule Tiles* (paquete 2D Tilemap Extras), que eligen solos la esquina, el borde o el interior según los tiles vecinos. Reduce el trabajo de pintar niveles y mantiene continuas las costuras. Sustituye a la decisión del 16/10/2026, que los descartaba (ver [[05 - Gestión de Cambios]]).
 
@@ -58,6 +61,5 @@ No hay servicios externos ni conexión a internet.
   - Física en el paso fijo y entrada mediante los eventos del Input System.
   - Cada mecánica nueva llega con sus pruebas automáticas.
   - Los prefabs se reutilizan; cambiar un prefab cambia todas sus copias.
-
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Arquitectura Técnica]] · [[03 - Requisitos Técnicos]] →
