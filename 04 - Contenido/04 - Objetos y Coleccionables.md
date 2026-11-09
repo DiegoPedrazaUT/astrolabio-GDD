@@ -1,113 +1,47 @@
-# Objetos y Coleccionables
+# Objetos y coleccionables
 
-## Descripción de la sección
+## Fragmento de estrella
 
-Define objetos que el jugador puede recoger, utilizar, equipar, vender, intercambiar o descubrir.
+**Tipo:** objetivo principal.
 
-El juego no tiene inventario, equipo ni dinero: los objetos son el objetivo principal (fragmentos), coleccionables de lectura (poemas) y piezas de nivel.
+**Descripción:** un trozo de la luz de una constelación rota.
 
-## Plantilla
+**Cómo se obtiene:** se recolecta al llegar a él; el primero está en el Pozo Celeste y abre el elevador hacia el Eje Central.
 
-### Nombre
+**Cómo se utiliza:** se guarda en el Astrolabio, que brilla un poco más con cada fragmento.
 
-**Tipo:**
+**Representación visual:** una luz estelar.
 
-**Descripción:**
+## Poema
 
-**Función:**
+**Tipo:** coleccionable opcional.
 
-**Cómo se obtiene:**
+**Descripción:** textos que suben desde la Tierra hasta el Reloj y muestran cómo es la vida en el mundo de abajo.
 
-**Cómo se utiliza:**
+**Cómo se obtiene:** hay uno escondido en las Entrañas, en un hueco alcanzable solo escalando. El Almanaque se detiene frente a él y lo lee.
 
-**Cantidad máxima:**
+**Representación visual:** un papel escrito atorado entre los engranajes.
 
-**Valor:**
+## Cristal de recarga
 
-**Rareza:**
+**Tipo:** pieza de nivel (consumible que reaparece).
 
-**Restricciones:**
+**Función:** devuelve 1 uso de gancho de luz y 1 de estrella ancla sin necesidad de tocar suelo.
 
-**Interacciones:**
+**Cómo se utiliza:** se recoge al pasar; solo se consume si falta algún uso. Reaparece 2,5 s después de consumirse y cada vez que el jugador reaparece.
 
-**Representación visual:**
+**Representación visual:** un cristal luminoso.
 
-## Objetos del juego
+## Checkpoint
 
-### Fragmento de estrella
+**Tipo:** pieza de nivel.
 
-**Tipo:** Objetivo principal.
+**Función:** cambia el punto de reaparición dentro de una sala larga y se reinicia al entrar en otra sala.
 
-**Descripción:** Un trozo de la luz de una constelación rota; hay varios dispersos en cada Casa.
+## Faroles
 
-**Función:** Se entrega, junto con los demás fragmentos, en la cámara de cada Casa para devolver su constelación a su órbita.
+**Tipo:** pieza de nivel.
 
-**Cómo se obtiene:** Se recolecta al llegar a él; el primero está en el Pozo Celeste.
-
-**Cómo se utiliza:** Se guarda en el Astrolabio, que brilla un poco más con cada fragmento, y se entrega en la cámara de la Casa (en la demo, el primero se obtiene en el Pozo Celeste).
-
-**Cantidad máxima:** Por definir (cuántos hay por Casa).
-
-**Valor / Rareza:** No aplica.
-
-**Interacciones:** Cierra cada Casa y abre el ascensor a la siguiente; en la demo, el primero abre el elevador del Pozo Celeste.
-
-**Representación visual:** Una luz estelar; el Astrolabio brilla más al guardarlo.
-
-### Poema
-
-**Tipo:** Coleccionable opcional.
-
-**Descripción:** Textos que suben desde la Tierra hasta el Reloj; cada Casa atrae los que se parecen a ella. 
-
-**Función:** Mostrar cómo es la vida en el mundo de abajo.
-
-**Cómo se obtiene:** Están escondidos en lugares que exigen dominar las mecánicas de la zona: uno en las Entrañas (en un hueco alcanzable solo escalando); el resto queda para el juego completo.
-
-**Cómo se utiliza:** El Almanaque se detiene frente a él y lo lee.
-
-**Cantidad máxima:** 1 oculto en la demo; entre 4 y 5 en el juego completo.
-
-**Representación visual:** Un papel escrito atorado entre los engranajes.
-
-### Cristal de recarga
-
-**Tipo:** Pieza de nivel (consumible que reaparece).
-
-**Descripción:** Un cristal flotante que devuelve usos sin necesidad de tocar suelo.
-
-**Función:** Devuelve 1 uso de gancho y 1 de anclaje.
-
-**Cómo se obtiene:** Se toca.
-
-**Cómo se utiliza:** Se recoge al pasar; solo se consume si falta algún uso.
-
-**Cantidad máxima:** No aplica.
-
-**Interacciones:** Reaparece 2.5 s después de consumirse y cada vez que el jugador reaparece.
-
-**Representación visual:** Un cristal luminoso.
-
-### Checkpoint
-
-**Tipo:** Pieza de nivel.
-
-**Función:** Cambia el punto de reaparición dentro de una sala larga.
-
-**Interacciones:** Se reinicia al entrar en otra sala.
-
-### Faroles y anclajes del nivel
-
-**Tipo:** Pieza de nivel.
-
-**Función:** Puntos de enganche fijos o móviles para el gancho. Hay faroles que se balancean, giran, laten, se apagan tras un enganche o lanzan al jugador (farol-cañón).
-
-**Cómo se utiliza:** Los faroles fijos son la base de los niveles; el lugar de los demás tipos se decide según la regla de cada Casa.
-
-### Ideas en evaluación (por decidir con el equipo)
-
-- **Lente:** el siguiente hilo llega al doble de distancia.
-
-No se incluyen en el alcance de la demo salvo que el equipo lo decida.
+**Función:** puntos de enganche para el gancho de luz. Los faroles fijos son la base de los niveles; también hay faroles que se balancean, giran, laten o se apagan tras un enganche.
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Enemigos y NPC]] · [[05 - Misiones y Desafíos]] →

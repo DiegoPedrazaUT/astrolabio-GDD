@@ -1,9 +1,5 @@
 # Guardado y Configuración
 
-## Descripción de la sección
-
-Define cómo se conserva el progreso y qué opciones puede modificar el jugador.
-
 ## Guardado
 
 **Tipo:** Automático (previsto)
@@ -11,13 +7,13 @@ Define cómo se conserva el progreso y qué opciones puede modificar el jugador.
 **Estado en la demo:** el guardado aún no existe. «Continuar» aparece bloqueado y «Volver al menú» avisa de que la demo no guarda el progreso. La propuesta de guardado queda pendiente de aprobación (ver [[04 - Backlog del Proyecto]]).
 
 **Cuándo se guarda:**
-- Al tomar el ascensor hacia otra Casa, incluido el que sale de las Entrañas.
+- Al tomar el elevador del Pozo Celeste (diseño previsto).
 
 Entre dos puntos de guardado, morir solo devuelve al jugador al inicio de la sala o al último checkpoint, con todo recargado. Al salir del juego, "Continuar" regresa al último punto guardado.
 
 **Qué datos se guardan:**
 - Fragmentos de estrella obtenidos.
-- Habilidades entregadas (hilo y estrella).
+- Habilidades entregadas (gancho y estrella ancla).
 - Poemas encontrados.
 - Último punto guardado (nivel).
 - Muertes y tiempo de juego (para la tarjeta final).
@@ -35,7 +31,7 @@ El juego avisa con un mensaje breve, sigue funcionando y reintenta en el siguien
 | Video         | Pantalla completa o ventana, resolución, sincronización vertical y calidad de efectos                |
 | Controles     | Reasignar teclado y mando; ver los iconos del dispositivo en uso                                     |
 | Accesibilidad | Reducir temblor y movimiento, reducir destellos y ayuda de puntería (ver [[03 - Accesibilidad]])      |
-| Jugabilidad   | Ayuda de puntería por dispositivo; mantener o alternar el agarre y el balanceo *(versión completa)*  |
+| Jugabilidad   | Ayuda de puntería por dispositivo; mantener o alternar el agarre y el balanceo  |
 
 ## Restablecimiento
 

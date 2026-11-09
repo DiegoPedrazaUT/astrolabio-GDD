@@ -2,9 +2,9 @@
 
 | Área | Estado al 8 de noviembre |
 | --- | --- |
-| Jugador | Movimiento, salto, pared, escalada con cuerda, hilo y estrella-anclaje integrados, con pruebas automáticas. |
+| Jugador | Movimiento, salto, pared, escalada con cuerda, gancho y estrella ancla integrados, con pruebas automáticas. |
 | Nivel | Salas con cámara, checkpoints, compuertas, plataformas (patrulla, zip, rejillas, losas) y cristales. |
-| Peligros | Engranajes, sierras y gas nebuloso (mata y corta el hilo). |
+| Peligros | Engranajes, sierras y gas nebuloso (mata y corta el gancho). |
 | Arte | Almanaque con 13 animaciones, tiles del tutorial con Rule Tiles de 32 × 32, fondo y decorado de las Entrañas. |
 | Elevadores | De solo ida en la sala 10 y del Pozo Celeste, con cambio a la escena del Eje Central. |
 | Interfaz | Menús, pausa, ajustes, créditos, HUD y caja de diálogo en UI Toolkit. |
@@ -17,8 +17,8 @@
 | --- | --- | --- | --- |
 | CORE-01 | Movimiento y salto de precisión. | Integrado | Pruebas de EditMode y PlayMode; límite de caída exacto. |
 | CORE-02 | Pared, salto de pared y escalada con cuerda (100 puntos). | Integrado | Pruebas de EditMode y PlayMode. |
-| CORE-03 | Hilo: balanceo, arrastre, cuerda en esquinas y vista previa. | Integrado | Pruebas de PlayMode, con 1350 recorridos a toda velocidad. |
-| CORE-04 | Estrella-anclaje que escribe el jugador. | Integrado | Pruebas de PlayMode. |
+| CORE-03 | Gancho: balanceo, arrastre, cuerda en esquinas y vista previa. | Integrado | Pruebas de PlayMode, con 1350 recorridos a toda velocidad. |
+| CORE-04 | Estrella ancla que escribe el jugador. | Integrado | Pruebas de PlayMode. |
 | LEVEL-01 | Salas, cámara, muerte, reaparición, checkpoints y compuertas. | Integrado | Pruebas de PlayMode y *Revisar escena*. |
 | LEVEL-02 | Plataformas móviles, rejillas, losas y cristales de recarga. | Integrado | Pruebas de PlayMode. |
 | HAZ-01 | Peligros pintados con tiles: engranajes, sierras y gas. | Integrado | Pruebas de PlayMode. |
@@ -26,7 +26,7 @@
 | ART-02 | Tiles del tutorial con Rule Tiles y metal estelar con efecto al engancharlo. | Integrado | Pruebas de PlayMode. |
 | ELEV-01 | Elevador de la sala 10 y elevador del Pozo Celeste con cambio de escena. | Integrado | Pruebas de PlayMode; recorrido visto en Play. |
 | UI-01 | Menús, pausa, ajustes y créditos. | Integrado | Pruebas de EditMode y PlayMode. |
-| UI-02 | HUD (usos del hilo y de la estrella, nombre de zona) y caja de diálogo. | Integrado | Pruebas de PlayMode; visto en Play en el Eje Central. |
+| UI-02 | HUD (usos del gancho y de la estrella, nombre de zona) y caja de diálogo. | Integrado | Pruebas de PlayMode; visto en Play en el Eje Central. |
 | DEVOPS-01 | CI: formato, pruebas, análisis estático y compilación hacia `main`. | Integrado | Ejecuciones en verde desde el 30 de octubre. |
 
 ## Pendientes identificados
@@ -41,13 +41,11 @@
 | SAVE-01 | Decidir e implementar el guardado (propuesta de 3 registros con autoguardado). | Media, según decisión | Equipo; programación de Felipe Natanael Chan Uc | Decisión del equipo. | *Continuar* se desbloquea, las habilidades se conservan entre escenas y *Volver al menú* guarda. |
 | BUG-01 | Conservar las habilidades al cambiar de escena. | Media | Diego Angel Ramirez Fernandez | SAVE-01 o ajuste propio. | En el Eje Central el jugador tiene las habilidades que ganó, no las del prefab (ver [[03 - Bugs y Seguimiento]]). |
 | ART-03 | Integrar a Efeméride (sprites de reposo y habla ya dibujados). | Media | Dalia Jimena Chim Uc y Victor Alexis Yah Alpuche | Diálogos finales. | Efeméride aparece en pantalla con sus burbujas de texto. |
-| DOC-01 | Alinear la narrativa con el alcance: quitar menciones a Acuario, al descanso y guardado en observatorios y a la Cámara Central del Eje Central. | Media | Aleksander Rocha Baeza | Alcance de la demo. | El documento narrativo no contradice [[01 - Alcance]] ni [[02 - Niveles]]. |
 | UX-01 | Confirmar los nombres de zona del HUD (provisionales). | Baja | Aleksander Rocha Baeza y Diego Angel Ramirez Fernandez | Revisión del equipo. | Los nombres de cada zona quedan fijados en el HUD de cada escena. |
 | UI-03 | Revisar la interfaz a 1280 × 720, 1600 × 900 y 1920 × 1080, y medir con el Profiler. | Media | Victor Alexis Yah Alpuche | Build jugable. | Interfaz legible en las tres resoluciones y sin saltos de rendimiento. |
-| INPUT-01 | Evaluar una opción para elegir cómo se controla el hilo. | Baja | Diego Angel Ramirez Fernandez | Resultados de QA-02. | Decisión registrada en [[03 - Registro de Decisiones]]. |
+| INPUT-01 | Evaluar una opción para elegir cómo se controla el gancho. | Baja | Diego Angel Ramirez Fernandez | Resultados de QA-02. | Decisión registrada en [[03 - Registro de Decisiones]]. |
 | TECH-02 | Verificar la build de WebGL, si se decide publicarla. | Baja | Diego Roman Pedraza Keb | TECH-01. | Menús, ajustes, controles y escalas comprobados en navegador. |
 
 Estos puntos son necesidades identificadas en la bitácora del juego; el estado de cada uno se actualiza aquí al cerrarse.
-
 
 > **Navegación:** [[00 - Índice]] · [[00 - Avance jugable]] · ← [[03 - Roadmap]] · [[05 - Gestión de Cambios]] →

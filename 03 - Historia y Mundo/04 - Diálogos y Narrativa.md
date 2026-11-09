@@ -1,16 +1,12 @@
 # Diálogos y Narrativa
 
-## Descripción de la sección
-
-Define cómo se presenta la historia al jugador y cómo funcionan los diálogos.
-
 ## Métodos narrativos
 
 •    **Diálogo:** Efeméride habla con burbujas de texto junto a su holograma. No tiene voz grabada; cada burbuja se acompaña de un sonido propio. Las letras aparecen animadas.
-•    **Cinemáticas:** pausas cortas y saltables (manteniendo Espacio) donde el jugador no controla al Almanaque: el despertar, el viaje en elevador (montacargas), el cielo del Pozo Celeste, el ascensor hacia el Eje Central y el ascenso final de la demo.
+•    **Cinemáticas:** pausas cortas y saltables (manteniendo Espacio) donde el jugador no controla al Almanaque: el despertar, el viaje en elevador (montacargas), el cielo del Pozo Celeste, y la llegada al Eje Central.
 •    **Texto ambiental:** carteles de controles en el escenario y rótulos con el nombre de cada zona.
 •    **Hologramas:** los primeros hologramas muestran el «desorden» del mundo: ciudades en penumbra, multitudes dispersas y campos abandonados.
-•    **Objetos:** poemas coleccionables y, en el juego completo, las notas del Almanaque XI.
+•    **Objetos:** poemas coleccionables y la carta de despedida del Almanaque XI.
 •    **Exploración:** los poemas ocultos premian explorar.
 •    **Audio:** el tic-tac del Reloj como metrónomo.
 •    **Narración:** no hay narrador. El protagonista no habla.
@@ -64,19 +60,19 @@ Las conversaciones que detienen al jugador son breves: mientras habla Efeméride
 | 3   | Ese hueco es la constelación perdida.                       | Pausa larga                          |
 | 4   | Géminis espera sobre ti. Sus dos caras ya no coinciden.     | Se ven las torres gemelas a lo lejos |
 | 5   | Devuélvele su forma, y el mundo recordará la suya.          |                                      |
-| 6   | El ascensor te llevará. No te detengas a mirar hacia abajo. | Se abre el ascensor de engranajes    |
+| 6   | El elevador te llevará. No te detengas a mirar hacia abajo. | Se abre el elevador de engranajes    |
 
-**Transición:** El Almanaque entra al ascensor; la música de las Entrañas se desvanece mientras sube hacia el Eje Central.
+**Transición:** El Almanaque entra al elevador; la música de las Entrañas se desvanece mientras sube hacia el Eje Central.
 
 ### Cierre de la demo en el Eje Central
 
-**Momento:** el Almanaque llega al Eje Central. **Objetivo:** mostrar que este es solo el inicio de la aventura y cerrar la demo.
+**Momento:** el Almanaque llega al Eje Central. **Objetivo:** cerrar la demo con una imagen clara de lo que viene.
 
 | #   | Indicación                                                                                                                         |
 | --- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | Cámara inmensa y circular donde convergen todos los engranajes; silencio casi total, roto solo por el latido del mecanismo central |
-| 2   | El Almanaque sube al elevador; durante el ascenso mira una última vez el lugar de donde vino                                       |
-| 3   | Alza la mirada; fin de la demo                                                                                                     |
+| 1   | Sala inmensa y circular donde convergen los engranajes; silencio casi total, roto solo por el latido del mecanismo central         |
+| 2   | El Almanaque avanza hasta las puertas de Géminis y las cruza                                                                       |
+| 3   | Fin de la demo con la tarjeta final                                                                                                |
 
 ## Localización
 
@@ -84,6 +80,6 @@ Las conversaciones que detienen al jugador son breves: mientras habla Efeméride
 
 Por ahora, todos los textos están solo en español.
 
-Idiomas previstos: español (base); inglés por definir.
+Idioma de la demo: español.
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Personajes]] · [[01 - Estructura del Contenido]] →

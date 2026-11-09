@@ -1,9 +1,5 @@
 # Requisitos Técnicos
 
-## Descripción de la sección
-
-Define las condiciones técnicas necesarias para ejecutar y desarrollar el videojuego.
-
 ## Requisitos mínimos
 
 Los valores son objetivos de diseño y se confirman al medir el rendimiento de la demo.
@@ -38,13 +34,11 @@ Los valores son objetivos de diseño y se confirman al medir el rendimiento de l
 
 **FPS objetivo:** 60 estables (la física corre a 50 pasos por segundo con interpolación para que la cámara se vea suave).
 
-**Tiempo de carga objetivo:** Menos de 5 s entre Casas; el ascensor funciona como pantalla de carga mientras habla Efeméride. El cambio de sala dentro de una Casa no carga nada: dura 0.5 s y no pausa el juego.
+**Tiempo de carga objetivo:** Menos de 5 s al pasar de las Entrañas al Eje Central; el elevador funciona como pantalla de carga. El cambio de sala no carga nada: dura 0.5 s y no pausa el juego.
 
 **Memoria máxima:** Menos de 1 GB de RAM.
 
 ## Restricciones
-
-Documenta límites conocidos del proyecto.
 
 - Solo Windows en la demo; no hay versión para consola ni móvil.
 - Relación de aspecto 16:9; otras relaciones se resuelven con bandas negras.

@@ -1,9 +1,5 @@
 # Motor y Herramientas
 
-## Descripción de la sección
-
-Documenta las herramientas utilizadas para crear el videojuego y por qué fueron seleccionadas.
-
 ## Motor
 
 **Motor:** Unity. Se eligió por su soporte para 2D, su editor visual de niveles y porque el equipo lo conoce.

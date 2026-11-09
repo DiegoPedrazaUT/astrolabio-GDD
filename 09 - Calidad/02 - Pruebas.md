@@ -1,9 +1,5 @@
 # Pruebas
 
-## Descripción de la sección
-
-Define cómo se comprueba que Astrolabio funciona como fue diseñado y registra qué se probó, cuándo y con qué resultado.
-
 ## Resumen de resultados
 
 | Capa | Resultado | Fecha | Qué demuestra |
@@ -28,7 +24,7 @@ Configuración del proyecto, valores del jugador (`PlayerTuning`), la cuerda de 
 
 ### PlayMode
 
-Sensores de suelo y pared, movimiento, salto, pared y escalada, reaparición y muerte, compuertas, peligros pintados con tiles, zonas de cámara, hilo, apuntado y mando, plataformas (patrulla, zip, elevador, rejillas y losas), recogidos, gas, jugador sobre plataformas, metal estelar, interfaz, diálogos, fondo y llegada del elevador, y el recorrido de la cuerda a toda velocidad (1350 recorridos).
+Sensores de suelo y pared, movimiento, salto, pared y escalada, reaparición y muerte, compuertas, peligros pintados con tiles, zonas de cámara, gancho, apuntado y mando, plataformas (patrulla, zip, elevador, rejillas y losas), recogidos, gas, jugador sobre plataformas, metal estelar, interfaz, diálogos, fondo y llegada del elevador, y el recorrido de la cuerda a toda velocidad (1350 recorridos).
 
 ### Reglas del repositorio
 
@@ -54,7 +50,7 @@ Estos casos están preparados y **todavía no se ejecutaron**. Cada uno se relle
 
 Etapa **Pruebas** del [[03 - Roadmap]]. Preguntas que debe contestar:
 
-- ¿Entienden el hilo y la estrella-anclaje sin que se les explique?
+- ¿Entienden el gancho y la estrella ancla sin que se les explique?
 - ¿Saben por qué murieron?
 - ¿Dónde se atascan y cuánto tardan en cada sala?
 - ¿Quieren seguir jugando al terminar el tutorial?
@@ -78,6 +74,5 @@ Etapa **Pruebas** del [[03 - Roadmap]]. Preguntas que debe contestar:
 **Resultado obtenido:**
 
 **Estado:** Correcto / Incorrecto
-
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Criterios de Calidad]] · [[03 - Bugs y Seguimiento]] →

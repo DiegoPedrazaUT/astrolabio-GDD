@@ -1,9 +1,5 @@
 # Dirección de Arte
 
-## Descripción de la sección
-
-Define la identidad visual del videojuego y las reglas que deben seguir los recursos gráficos.
-
 ## Identidad visual
 
 **Estilo:**
@@ -28,11 +24,11 @@ Círculos y arcos (engranajes, aros del Astrolabio, cúpulas) contrastados con l
 Luz global baja y luces cálidas puntuales (faroles, cristales, estrellas y el Astrolabio) que guían el recorrido. El fondo siempre es más oscuro y menos saturado que el primer plano. Se complementa con un poco de bloom, viñeta y ajuste de color.
 
 **Materiales:**
-Latón envejecido, hierro oxidado, piedra pulida y piedra rugosa, cristal y luz estelar. Cada Casa del juego completo añadirá su carácter (Géminis: dorado pulido frente a hierro oxidado).
+Latón envejecido, hierro oxidado, piedra pulida y piedra rugosa, cristal y luz estelar.
 
 ## Paleta de color
 
-La paleta base es **SLSO8**, de Luis Miguel Maldonado ([Lospec](https://lospec.com/palette-list/slso8)). Es una decisión del equipo; si hiciera falta un color adicional por Casa, se documenta como excepción en el registro de [[05 - Gestión de Cambios]].
+La paleta base es **SLSO8**, de Luis Miguel Maldonado ([Lospec](https://lospec.com/palette-list/slso8)). Es una decisión del equipo; si hiciera falta un color adicional, se documenta como excepción en el registro de [[05 - Gestión de Cambios]].
 
 | Muestra | Código    | Uso previsto (propuesta que valida el equipo de arte)                       |
 | ------- | --------- | --------------------------------------------------------------------------- |
@@ -53,9 +49,9 @@ La paleta base es **SLSO8**, de Luis Miguel Maldonado ([Lospec](https://lospec.c
 
 **Colores para información jugable:**
 - Superficies que se agarran: textura rugosa y borde claro (`#ffd4a3`).
-- Superficies que se enganchan (metal estelar) y anclajes: brillo propio con `#ffecd6` y `#ffaa5e`.
+- Superficies que se enganchan (metal estelar) y estrellas ancla: brillo propio con `#ffecd6` y `#ffaa5e`.
 - Peligros: silueta dentada o de engranaje con contraste fuerte contra el fondo; nunca se distinguen solo por color.
-- Recursos (usos del gancho y del anclaje, cuerda): anillos y llave del Astrolabio en la interfaz.
+- Recursos (usos del gancho y de la estrella ancla, cuerda): anillos y llave del Astrolabio en la interfaz.
 
 ## Reglas visuales
 

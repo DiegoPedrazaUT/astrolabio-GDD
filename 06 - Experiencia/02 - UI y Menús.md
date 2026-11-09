@@ -1,9 +1,5 @@
 # UI y Menús
 
-## Descripción de la sección
-
-Define la estructura funcional de las interfaces y menús.
-
 ## Mapa de navegación
 
 ```text
@@ -82,7 +78,7 @@ Los menús se manejan con teclado, ratón o mando. Confirmar: Espacio o A.
 
 Documenta acciones destructivas o irreversibles y cómo se confirman.
 
-| Acción                                       | Confirmación                                                                                 |
+| Acción                                                                |
 | -------------------------------------------- | -------------------------------------------------------------------------------------------- |
 | Nueva partida con una partida guardada        | Pregunta si se desea reemplazar la partida actual                                            |
 | Volver al menú principal desde la pausa       | Avisa que se pierde el progreso desde el último punto guardado                               |

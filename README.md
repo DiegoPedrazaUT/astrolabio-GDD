@@ -4,7 +4,7 @@
 
 # Astrolabio — Documento de Diseño de Videojuego (GDD)
 
-**Astrolabio** es un plataformas 2D de precisión hecho en Unity. Eres el **Almanaque XII**, un pequeño autómata que asciende por el Gran Reloj Cósmico. Escalas, escribes estrellas-anclaje en el vacío y te lanzas con un hilo de luz para devolver las constelaciones rotas a su órbita.
+**Astrolabio** es un plataformas 2D de precisión hecho en Unity. Eres el **Almanaque XII**, un pequeño autómata que asciende por el Gran Reloj Cósmico. Escalas, escribes estrellas ancla en el vacío y te lanzas con un gancho de luz para devolver las constelaciones rotas a su órbita.
 
 Es el proyecto integrador del equipo de la Universidad Tecnológica de Cancún. Este repositorio contiene **solo el documento de diseño**; el juego vive en su propio repositorio (ver [[01 - Ficha del Proyecto]]).
 
@@ -13,11 +13,10 @@ Es el proyecto integrador del equipo de la Universidad Tecnológica de Cancún. 
 | Aspecto | Estado |
 | --- | --- |
 | **Versión del GDD** | 0.6.0 (ver [[04 - Historial de Versiones]]) |
-| **Desarrollo** | En producción: el profesor dio luz verde para desarrollar |
+| **Desarrollo** | En producción |
 | **Motor** | Unity 6000.6.4f1, URP 2D, nuevo Input System, C# |
 | **Plataforma** | PC (Windows), un jugador |
 | **Alcance de la demo** | Entrañas del Reloj (tutorial, 18 salas) → elevador del Pozo Celeste → llegada al Eje Central → el Almanaque cruza las puertas de Géminis → fin de la demo |
-| **Fuera de la demo** | Los dos niveles del juego completo (Casa de Géminis y Observatorio de Ofiuco) se quitaron del alcance; la historia que los rodea se conserva como *lore* |
 | **Pruebas automáticas** | 86 de EditMode y 212 de PlayMode en verde, análisis estático sin avisos (07/11/2026) |
 | **Pruebas a mano** | Aún no hechas con teclado, ratón o mando físicos, ni en WebGL (ver [[02 - Pruebas]]) |
 

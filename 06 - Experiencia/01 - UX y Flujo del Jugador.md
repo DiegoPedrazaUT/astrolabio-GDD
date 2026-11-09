@@ -1,9 +1,5 @@
 # UX y Flujo del Jugador
 
-## Descripción de la sección
-
-UX (experiencia de usuario) describe qué tan comprensible, cómoda y coherente resulta la interacción con el videojuego.
-
 ## Flujo principal
 
 ```text
@@ -15,8 +11,6 @@ En la demo, el recorrido termina al cruzar las puertas de Géminis en el Eje Cen
 
 ## Primeros minutos
 
-Documenta exactamente qué descubre y aprende el jugador.
-
 El objetivo es que el jugador entienda cada herramienta jugándola, no leyendo. Cada idea nueva se presenta primero en un espacio seguro y después se examina con riesgo.
 
 | Momento (objetivo) | Qué descubre                                                                                                                        |
@@ -25,7 +19,7 @@ El objetivo es que el jugador entienda cada herramienta jugándola, no leyendo. 
 | Minutos 1 a 3      | Aprende a moverse y a saltar en la Sala de los Nichos, por demostraciones en el escenario.                                         |
 | Minutos 3 a 6      | Aprende a agarrarse y escalar en la Galería de Engranajes; descubre que su cuerda se agota y se recarga al tocar suelo. |
 | Minutos 6 a 9      | Recibe el gancho en el Puente Roto: balanceo, arrastre y faroles.                                                                   |
-| Minutos 9 a 14     | Pone a prueba todo lo aprendido en el Pozo de Cadenas y recibe el anclaje en el Pozo Celeste.                                    |
+| Minutos 9 a 14     | Pone a prueba todo lo aprendido en el Pozo de Cadenas y recibe la estrella ancla en el Pozo Celeste.                                    |
 | Minutos 14 a 15     | Obtiene el primer fragmento de estrella y sube en el elevador hacia el Eje Central.                                                               |
 
 Para enseñar los controles se usan los carteles pintados en el escenario.
@@ -42,19 +36,19 @@ Para cada acción importante define:
 | Aterrizar                   | Polvo; aplastar del personaje                                  | Golpe seco de metal    | Se recargan los usos                    |
 | Agarrarse a la pared        | El personaje se aferra; la cuerda se consume                 | Clic metálico          | Puede escalar mientras haya cuerda      |
 | Cuerda por agotarse         | La llave tiembla y parpadea en rojo                            | Clic acelerado         | El jugador decide dónde soltarse        |
-| Lanzar el hilo              | Anillo sobre el objetivo; el hilo sale disparado y vibra       | Chasquido con chispa   | Balanceo o arrastre                     |
-| Lanzar el hilo sin objetivo | Círculo que muestra el alcance; el anillo no se gasta          | Aviso apagado          | No se gasta ningún uso                  |
-| Escribir una estrella       | Vista previa de la mira (azul válida, roja inválida); destello | Campanilla suave       | Aparece un anclaje temporal             |
+| Lanzar el gancho              | Anillo sobre el objetivo; el gancho sale disparado y vibra       | Chasquido con chispa   | Balanceo o arrastre                     |
+| Lanzar el gancho sin objetivo | Círculo que muestra el alcance; el anillo no se gasta          | Aviso apagado          | No se gasta ningún uso                  |
+| Escribir una estrella       | Vista previa de la mira (azul válida, roja inválida); destello | Campanilla suave       | Aparece una estrella ancla temporal             |
 | Morir                       | Efecto de destrucción                                          | Chasquido de engranaje | Reaparece en 0.4 s al inicio de la sala |
 | Cambiar de sala             | Transición de cámara de 0.5 s sin pausar el juego              | El ambiente se funde   | Nuevo punto de reaparición              |
-| Obtener un fragmento        | El Astrolabio brilla más                                       | Acorde cálido          | Avanza hacia la siguiente Casa       |
+| Obtener un fragmento        | El Astrolabio brilla más                                       | Acorde cálido          | Avanza el objetivo                |
 
 ## Fricción intencional
 
 **Dificultad intencional (parte del diseño):**
 - Saltos de precisión, calcular el balanceo y gestionar los usos y la cuerda.
 - Morir muchas veces: un toque mata.
-- Combinar escalar, poner un anclaje y lanzarse sin tocar el suelo.
+- Combinar escalar, poner una estrella ancla y lanzarse sin tocar el suelo.
 
 **Fricción que se debe evitar (mala experiencia):**
 - Controles que no responden como el jugador pretendía: por eso hay *coyote time*, memoria de pulsación y ayuda de puntería.
@@ -72,6 +66,5 @@ Para cada acción importante define:
 - **Qué puede interactuar?** Los poemas ocultos, las puertas y el elevador.
 - **Qué ocurrió?** Cada acción tiene una señal visual y una sonora propias (ver la tabla de retroalimentación).
 - **Por qué ganó o perdió?** Al morir se ve el peligro que mató al personaje y se reaparece de inmediato para reintentar; no existe una pantalla de derrota.
-
 
 > **Navegación:** [[00 - Índice]] · ← [[05 - Audio y Música]] · [[02 - UI y Menús]] →

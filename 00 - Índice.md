@@ -8,11 +8,11 @@
 
 ## Resumen
 
-**Astrolabio** es un plataformas 2D de precisión (Unity, PC Windows, un jugador). El Almanaque XII, un autómata, asciende por el Gran Reloj Cósmico usando escalada, un hilo de luz y estrellas-anclaje que él mismo escribe en el vacío.
+**Astrolabio** es un plataformas 2D de precisión (Unity, PC Windows, un jugador). El Almanaque XII, un autómata, asciende por el Gran Reloj Cósmico usando escalada, un gancho de luz y estrellas ancla que él mismo escribe en el vacío.
 
-**La demo** dura el tutorial completo y su cierre: las Entrañas del Reloj (18 salas) → el elevador del Pozo Celeste → la llegada al Eje Central → el Almanaque cruza las puertas de Géminis y la demo termina. Los dos niveles del juego completo quedaron fuera del alcance el 08/11/2026 (ver [[03 - Registro de Decisiones]]).
+**La demo** dura el tutorial completo y su cierre: las Entrañas del Reloj (18 salas) → el elevador del Pozo Celeste → la llegada al Eje Central → el Almanaque cruza las puertas de Géminis y la demo termina.
 
-**Estado:** en producción, con luz verde del profesor. Lo jugable hoy y sus límites están en [[00 - Avance jugable]]; los resultados de pruebas, en [[02 - Pruebas]].
+**Estado:** en producción, con luz verde para desarrollar. Lo jugable hoy y sus límites están en [[00 - Avance jugable]]; los resultados de pruebas, en [[02 - Pruebas]].
 
 ## Entrada recomendada
 
@@ -110,6 +110,5 @@
 
 > [!tip] Principio de diseño
 > El GDD evoluciona con el proyecto y registra las decisiones que importan. Cuando el juego y el documento discrepan, el desfase se anota en [[00 - Avance jugable]] o en [[03 - Bugs y Seguimiento]], no se oculta.
-
 
 > **Navegación:** [[README]] · [[00 - Acerca de esta guía]] · [[00 - Avance jugable]] →

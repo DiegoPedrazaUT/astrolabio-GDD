@@ -1,9 +1,5 @@
 # Audio y Música
 
-## Descripción de la sección
-
-Define la identidad sonora y cómo el audio comunica información al jugador.
-
 ## Música
 
 **Estilo:**
@@ -30,17 +26,17 @@ Responsable: audio (ver [[02 - Roles y Responsabilidades]]).
 | Aterrizar                       | Golpe seco de metal                             | Confirmar el contacto con el suelo |
 | Agarrarse a la pared            | Clic metálico                                   | Confirmar el agarre                |
 | Cuerda a punto de agotarse      | Clic acelerado                                  | Avisar sin mirar el HUD            |
-| Hilo: enganchar                 | Chasquido metálico con chispa                   | Confirmar el enganche              |
-| Hilo: soltar o cortar           | Silbido corto                                   | Indicar que se perdió el enganche  |
-| Pulsar el hilo sin usos         | Tono apagado                                    | Avisar que no quedan usos          |
-| Escribir una estrella           | Campanilla suave                                | Confirmar que el anclaje existe    |
-| Anclaje que caduca              | Desvanecimiento suave                           | Avisar que desaparece              |
+| Gancho: enganchar                 | Chasquido metálico con chispa                   | Confirmar el enganche              |
+| Gancho: soltar o cortar           | Silbido corto                                   | Indicar que se perdió el enganche  |
+| Pulsar el gancho sin usos         | Tono apagado                                    | Avisar que no quedan usos          |
+| Escribir una estrella           | Campanilla suave                                | Confirmar que la estrella ancla existe    |
+| Estrella ancla que caduca              | Desvanecimiento suave                           | Avisar que desaparece              |
 | Cristal de recarga              | Campanilla cristalina                           | Indicar que los usos volvieron     |
 | Muerte                          | Chasquido de engranaje                          | Cerrar el intento sin castigar     |
 | Reaparición                     | Tic-tac seco                                    | Indicar que se puede reintentar    |
 | Fragmento de estrella           | Acorde cálido                                   | Marcar un logro                    |
 | Diálogo de Efeméride            | Un sonido por letra, distinto según el hablante | Dar voz al texto sin grabar voz    |
-| Plataformas y ascensor          | Engranajes y cadenas                            | Dar peso al Reloj                  |
+| Plataformas y elevador          | Engranajes y cadenas                            | Dar peso al Reloj                  |
 | Dar cuerda a la llave           | Giro de llave                                   | Marcar el guardado                 |
 
 ## Audio espacial
@@ -55,11 +51,9 @@ No. El audio es 2D: cada sala tiene su propio ambiente y se funde al cambiar de 
 
 **Diálogos hablados:** No hay voz grabada: Efeméride habla con burbujas de texto y un sonido por letra. El Almanaque no habla.
 
-**Idiomas:** Textos en español (base); el inglés está por confirmar.
+**Idiomas:** textos en español.
 
 ## Mezcla
-
-Define prioridades, volumen relativo y comportamiento de la música ante eventos importantes.
 
 1. Efectos del jugador (deben oírse siempre).
 2. Diálogo de Efeméride.

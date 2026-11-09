@@ -3,15 +3,15 @@
 | Fecha | Resultado incorporado al proyecto |
 | --- | --- |
 | 21 de septiembre | Inicio del proyecto y del GDD. |
-| 16 de octubre | Primer GDD subido al repositorio; paleta SLSO8 y recorte de los observatorios menores. |
+| 16 de octubre | Primer GDD subido al repositorio; paleta SLSO8. |
 | 27 de octubre | Repositorio de producción nuevo y primer graybox: movimiento y salto de precisión, cámara con Cinemachine y escena de pruebas. |
-| 29 de octubre | Pared, salto de pared y escalada con cuerda; salas, muerte y reaparición, checkpoints, compuertas y peligros pintados con tiles; análisis estático y primera ejecución del CI en verde. Acuario queda descartado. |
-| 30 de octubre | Hilo de luz (balanceo, arrastre y cuerda que dobla esquinas); plataformas, estrella-anclaje, cristal, entrega de habilidades y gas. |
+| 29 de octubre | Pared, salto de pared y escalada con cuerda; salas, muerte y reaparición, checkpoints, compuertas y peligros pintados con tiles; análisis estático y primera ejecución del CI en verde. |
+| 30 de octubre | Gancho de luz (balanceo, arrastre y cuerda que dobla esquinas); plataformas, estrella ancla, cristal, entrega de habilidades y gas. |
 | 31 de octubre – 1 de noviembre | Arte del nivel (tiles y paleta del tutorial) y el Almanaque XII con Animator a partir de siete hojas de 32 × 32. |
-| 2 de noviembre | Elevador de la sala 10, gas V3, sierras y metal estelar que responde al hilo. |
+| 2 de noviembre | Elevador de la sala 10, gas V3, sierras y metal estelar que responde al gancho. |
 | 3 de noviembre | Elevador del Pozo Celeste, escena del Eje Central, fondo y decorado de las Entrañas; Rule Tiles de 32 × 32. |
 | 7 de noviembre | Interfaz en UI Toolkit (menús, pausa, ajustes, créditos), HUD y caja de diálogo; 86 pruebas de EditMode y 212 de PlayMode en verde. |
-| 8 de noviembre | Luz verde del profesor y reducción de la demo al tutorial y al Eje Central. |
+| 8 de noviembre | Luz verde para desarrollar y reducción de la demo al tutorial y al Eje Central. |
 
 Las entradas salen de la bitácora del repositorio del juego y del historial del GDD ([[04 - Historial de Versiones]]).
 
@@ -33,6 +33,5 @@ Las entradas salen de la bitácora del repositorio del juego y del historial del
 | Prueba con jugadores nuevos | Todo el equipo | Prueba a mano | Una persona nueva termina el tutorial sin ayuda externa. |
 
 Los hitos se ordenan por dependencia. Las reglas y los recursos se desarrollan en las secciones de diseño, contenido y [[06 - Registro visual]].
-
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Roles y Responsabilidades]] · [[04 - Backlog del Proyecto]] →

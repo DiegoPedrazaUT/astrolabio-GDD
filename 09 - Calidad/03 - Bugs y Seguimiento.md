@@ -1,9 +1,5 @@
 # Bugs y Seguimiento
 
-## Descripción de la sección
-
-Registra los problemas encontrados y su estado. Un problema que se oculta no se arregla: si el juego y el GDD no coinciden, se anota aquí.
-
 ## Reporte de bug
 
 **Título:**
@@ -54,6 +50,5 @@ Registra los problemas encontrados y su estado. Un problema que se oculta no se 
 ## Estado de la prueba a mano
 
 No se han probado a mano el teclado, el ratón, el mando ni la versión WebGL. Los fallos que aparezcan en esas pruebas se añaden a este registro.
-
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Pruebas]] · [[04 - Criterios de Aceptación]] →

@@ -3,7 +3,7 @@
 | Campo                    | Información                                                                                                                     |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
 | Nombre                   | Astrolabio                                                                                                                      |
-| Versión del GDD          | 0.6.0                                                                                                                           |
+| Versión del GDD          | 0.7.0                                                                                                                           |
 | Estado                   | Demo jugable en desarrollo: tutorial de 18 salas, elevador del Pozo Celeste y llegada al Eje Central.                           |
 | Actualización            | 8 de noviembre de 2026                                                                                                          |
 | Género                   | Plataformas.                                                                                                                    |

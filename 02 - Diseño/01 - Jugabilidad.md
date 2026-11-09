@@ -1,9 +1,8 @@
 # Jugabilidad
+
 ## Bucle principal de juego
 
-Describe el ciclo que se repite durante la experiencia.
-
-`Entrar en una Casa/Sala → Planear la ruta → Ejecutar (saltar, escalar, anclar, lanzar el gancho) → Superar o morir → Reintentar al inicio de la sala`
+`Entrar en una sala → Planear la ruta → Ejecutar (saltar, escalar, anclar, lanzar el gancho) → Superar o morir → Reintentar al inicio de la sala`
 
 ## Acciones principales del jugador
 
@@ -12,8 +11,8 @@ Describe el ciclo que se repite durante la experiencia.
 | Correr               | Moverse por el escenario                            | Avanzar                                    |
 | Saltar               | Superar obstáculos y vacíos                         | Alcanzar nuevas zonas                      |
 | Agarrarse y escalar  | Subir por superficies rugosas                       | Ganar altura mientras dure la cuerda       |
-| Poner un anclaje     | Crear un punto de enganche donde no lo hay          | Estrella temporal que el gancho puede usar |
-| Lanzar el gancho     | Balancearse o lanzarse hacia un objetivo            | Cruzar abismos y ganar velocidad           |
+| Escribir una estrella ancla | Crear un punto de enganche donde no lo hay | Estrella temporal que el gancho puede usar |
+| Lanzar el gancho de luz | Balancearse o lanzarse hacia un objetivo            | Cruzar abismos y ganar velocidad           |
 | Cortar el gancho     | Soltarse en el momento justo                        | Salir con la velocidad acumulada           |
 | Recolectar fragmento | Cumplir el objetivo principal                       | El Astrolabio brilla más                   |
 | Leer poemas          | Descubrir la vida en la Tierra                      | Narrativa opcional                         |
@@ -25,7 +24,7 @@ Despierta en la Sala de los Nichos, escucha a Efeméride y recupera el control p
 ## Experiencia minuto a minuto
 
 - Planear la ruta.
-- Saltar, escalar, escribir anclajes y lanzar el gancho.
+- Saltar, escalar, escribir estrellas ancla y lanzar el gancho.
 - Morir.
 - Reintentar de inmediato desde el inicio de la sala.
 - Pasar a la siguiente sala.
@@ -33,18 +32,15 @@ Despierta en la Sala de los Nichos, escucha a Efeméride y recupera el control p
 ## Experiencia a largo plazo
 
 - Continuar con la historia: descubrir la verdad sobre el Reloj y el Almanaque XI.
-- Dominar cada nueva regla: el gancho, el anclaje y su combinación.
+- Dominar cada nueva regla: el gancho, la estrella ancla y su combinación.
 - Completar desafíos opcionales y reunir los poemas.
 - Dominar la combinación de escalar, anclar y lanzarse.
 
 ## Condición de victoria
 
-- En la demo: obtener el primer fragmento de estrella, subir al Eje Central y cruzar las puertas de Géminis.
-- En el juego completo: reunir los fragmentos de estrella de las Casas y devolver las constelaciones a su órbita (fuera de la demo; ver [[01 - Alcance]]).
+- Obtener el primer fragmento de estrella, subir al Eje Central y cruzar las puertas de Géminis.
 
 ## Condición de derrota
-
-**¿Qué situaciones provocan fracaso?**
 
 No existe un «Game Over»: el juego no tiene vidas ni salud.
 
@@ -54,15 +50,13 @@ No existe un «Game Over»: el juego no tiene vidas ni salud.
 
 ## Ritmo
 
-Describe cómo alternan:
-
 - **Desafío:** domina el juego; cada sala es un reto de precisión.
 - **Exploración:** las salas y los poemas escondidos premian mirar más allá de la ruta principal.
-- **Recompensa:** el primer fragmento de estrella, los poemas y el avance hacia la siguiente Casa.
-- **Descanso:** los ascensores entre niveles son los únicos momentos tranquilos.
+- **Recompensa:** el primer fragmento de estrella y los poemas.
+- **Descanso:** el elevador del Pozo Celeste es el momento más tranquilo.
 - **Historia:** burbujas de Efeméride al inicio y al final de las zonas.
 
-Las Entrañas incluyen pinchos y vacío letal desde el principio, aunque cada idea nueva se presenta antes en un espacio sin riesgo. El reto final del tutorial es combinar escalada, anclaje y gancho en un solo recorrido.
+Las Entrañas incluyen pinchos y vacío letal desde el principio, aunque cada idea nueva se presenta antes en un espacio sin riesgo. El reto final del tutorial es combinar escalada, estrella ancla y gancho en un solo recorrido.
 
 ## Principios de interacción
 

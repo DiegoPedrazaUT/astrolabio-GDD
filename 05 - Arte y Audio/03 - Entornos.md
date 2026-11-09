@@ -1,15 +1,11 @@
 # Entornos
 
-## Descripción de la sección
-
-Define la estética y necesidades visuales de escenarios, fondos, objetos y elementos ambientales.
-
 ## Zonas
 
 | Zona                                                         | Estilo                                                                                                                           | Elementos                                                                                        | Función                                             |
 | ------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | --------------------------------------------------- |
 | Las Entrañas del Reloj                                       | Base del Eje: engranajes del tamaño de edificios, cadenas y polvo; formas casi humanas; latón apagado, óxido y azul profundo | Nichos, galería de engranajes, puente roto, pozo de cadenas, pozo celeste                        | Tutorial y presentación del mundo                   |
-| El Eje Central                                               | Sala flotante alrededor del eje del Reloj, con el Gran Reloj enorme al fondo y las doce Casas; cielo estrellado                  | Llegada del elevador, puertas de Géminis, faroles                                                | Cierre de la demo y futuro selector de Casas        |
+| El Eje Central                                               | Sala flotante alrededor del eje del Reloj, con el Gran Reloj enorme al fondo y las doce Casas; cielo estrellado                  | Llegada del elevador, puertas de Géminis, faroles                                                | Cierre de la demo        |
 
 ## Modularidad
 
@@ -20,8 +16,6 @@ Define la estética y necesidades visuales de escenarios, fondos, objetos y elem
 
 ## Iluminación
 
-Describe iluminación global, fuentes de luz y cambios durante el juego.
-
 - **Global:** baja, para que el fondo sea siempre más oscuro que el primer plano.
 - **Puntuales:** faroles, cristales, checkpoints, nichos, el Astrolabio y el propio personaje.
 - **Zonas de luz:** al entrar a un túnel oscuro baja la luz global y se recupera al salir.
@@ -30,15 +24,13 @@ Describe iluminación global, fuentes de luz y cambios durante el juego.
 
 ## Efectos visuales
 
-- **Partículas:** polvo al saltar y aterrizar, chispas al enganchar o soltar el hilo.
+- **Partículas:** polvo al saltar y aterrizar, chispas al enganchar o soltar el gancho.
 - **Clima:** no hay.
 - **Fuego:** no hay.
-- **Magia / energía:** destello de la estrella al escribirse, estela con gran velocidad, el hilo de luz.
+- **Magia / energía:** destello de la estrella al escribirse, estela con gran velocidad, el gancho de luz.
 - **Impactos:** temblor de cámara y destello en eventos narrativos; efecto de muerte y de reaparición.
 
 ## Recursos requeridos
-
-Lista los modelos, sprites, texturas, materiales y efectos necesarios.
 
 - Tileset de 32×32 px de cada zona (Entrañas), armado como *Rule Tiles*, con las seis superficies.
 - Fondos de parallax (3 a 4 capas por zona).

@@ -1,9 +1,5 @@
 # Reglas y Estados del Juego
 
-## Descripción de la sección
-
-Define las reglas globales y los estados que puede atravesar el videojuego.
-
 ## Estados principales
 
 - Menú principal
@@ -40,14 +36,12 @@ No existen los estados «Victoria», «Derrota» ni «Game Over»: no hay vidas 
 ## Reglas globales
 
 1. No hay vidas ni salud: cualquier peligro o aplastamiento mata y el jugador reaparece de inmediato.
-2. Reaparecer recarga todo y reinicia plataformas, cristales y anclaje.
-3. Tocar suelo firme recarga el gancho, el anclaje (al instante si se usó; si no, espera de cooldown) y la cuerda.
+2. Reaparecer recarga todo y reinicia plataformas, cristales y estrella ancla.
+3. Tocar suelo firme recarga el gancho, la estrella ancla (al instante si se usó; si no, espera de cooldown) y la cuerda.
 4. Solo se agarran las superficies rugosas.
 5. El gancho solo engancha en objetivos enganchables.
 
 ## Casos especiales
-
-Documenta excepciones importantes para evitar interpretaciones diferentes durante la implementación.
 
 - Morir enganchado libera el gancho de inmediato.
 - Un checkpoint dentro de una sala larga cambia el punto de reaparición hasta que se entra en otra sala.

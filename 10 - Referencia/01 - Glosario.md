@@ -1,9 +1,5 @@
 # Glosario
 
-## Descripción de la sección
-
-Define los términos del juego, del equipo y del código que aparecen en el GDD, para que todos hablen de lo mismo.
-
 ## Mundo y personajes
 
 | Término | Definición |
@@ -14,24 +10,24 @@ Define los términos del juego, del equipo y del código que aparecen en el GDD,
 | **Entrañas del Reloj** | Zona del tutorial (18 salas), en la base del Reloj |
 | **Pozo Celeste** | Última sala del tutorial: el elevador al aire libre hacia el cielo |
 | **Eje Central** | Zona a la que llega el elevador; cierra la demo |
-| **Casa** | Cada una de las regiones zodiacales del juego completo (Géminis, entre ellas) |
+| **Casas** | Las doce regiones zodiacales del Reloj; se ven al fondo desde el Eje Central |
 | **Constelaciones rotas** | Lo que el Almanaque debe devolver a su órbita |
 
 ## Mecánicas y piezas
 
 | Término | Definición |
 | --- | --- |
-| **Hilo** | Hilo de luz que el jugador dispara para engancharse, balancearse o arrastrarse. Tiene 2 usos |
-| **Estrella-anclaje** | Punto de apoyo que el jugador escribe en el vacío (tecla E) y al que puede enganchar el hilo |
+| **Gancho** | Gancho de luz que el jugador dispara para engancharse, balancearse o arrastrarse. Tiene 2 usos |
+| **Estrella ancla** | Punto que el jugador escribe en el vacío (tecla E) y al que puede enganchar el gancho |
 | **Cuerda (de escalada)** | Resistencia para agarrarse a superficies rugosas: 100 puntos, se rellena al pisar suelo |
-| **Farol** | Punto de enganche fijo para el hilo |
-| **Cristal / estrella recargable** | Pieza que devuelve los usos del hilo |
+| **Farol** | Punto de enganche fijo para el gancho |
+| **Cristal / estrella recargable** | Pieza que devuelve los usos del gancho |
 | **Checkpoint** | Punto donde reaparece el jugador tras morir |
 | **Compuerta** | Puerta que se abre al acercarse y se cierra detrás |
 | **Sala** | Unidad del nivel: tiene su cámara y sus puntos de reaparición. Su nombre es su identificador |
-| **Gas nebuloso** | Peligro estático que mata al tocarlo y corta el hilo |
+| **Gas nebuloso** | Peligro estático que mata al tocarlo y corta el gancho |
 | **Engranaje / sierra** | Peligros letales; los engranajes giran y las sierras están hundidas en el muro |
-| **Metal estelar** | Superficie enganchable que responde al hilo con una onda de luz |
+| **Metal estelar** | Superficie enganchable que responde al gancho con una onda de luz |
 | **Plataforma de patrulla, zip, losa, rejilla** | Plataformas que recorren un camino, se lanzan al llegar, se caen al pisarlas o se atraviesan desde abajo |
 | **Elevador de solo ida** | Elevador que no se puede volver a usar; añade un punto de reaparición arriba |
 
@@ -60,6 +56,5 @@ Define los términos del juego, del equipo y del código que aparecen en el GDD,
 | **HUD** | Información en pantalla durante el juego (usos, zona) |
 | **Demo** | Versión recortada que se presenta; ver [[01 - Alcance]] |
 | **Vertical slice** | Un tramo del juego terminado con calidad final |
-
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Criterios de Aceptación]] · [[02 - Referencias e Inspiración]] →

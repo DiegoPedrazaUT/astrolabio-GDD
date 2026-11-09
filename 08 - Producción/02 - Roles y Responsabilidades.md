@@ -31,7 +31,7 @@ La cantidad de archivos no mide la carga por sí sola: una ficha de animaciones 
 - **El líder coordina las decisiones de alcance y la entrega.** Los cambios que afecten a varias áreas se acuerdan con el equipo y se registran en [[05 - Gestión de Cambios]].
 - **El profesor aprueba el GDD.** La revisión interna del equipo no equivale a la aprobación docente.
 
-Un apartado está listo cuando contiene decisiones propias de Astrolabio, sus límites y casos relevantes, y coincide con los documentos relacionados. Cuando algo no aplica, se explica; no se añaden funciones solo por aparecer como ejemplo en la plantilla.
+Un apartado está listo cuando contiene decisiones propias de Astrolabio, sus límites y casos relevantes, y coincide con los documentos relacionados. Cuando algo no aplica, se explica.
 
 ## Asignación por apartado
 
@@ -103,4 +103,4 @@ El trabajo puede avanzar en paralelo en las partes que no dependan de una decisi
 El líder mantiene `00 - Índice.md`, la navegación y la autoría de la guía. La sección 11 se conserva como referencia.
 
 
-> **Navegación:** [[00 - Índice]] · ← [[01 - Alcance]] · [[03 - Roadmap]] →
+> **Navegación:** [[00 - Índice]] · ← [[01 - Alcance]] · [[03 - Roadma]] →

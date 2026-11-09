@@ -1,17 +1,13 @@
 # Criterios de Calidad
 
-## Descripción de la sección
-
-Define qué significa que una pieza de Astrolabio esté **bien terminada**. En un plataformas de precisión, la calidad se juega en tres cosas: que los controles respondan, que cada muerte se sienta justa y que el jugador entienda qué puede agarrar y qué lo mata.
-
-La columna **Estado** dice si el criterio ya se comprobó y cómo. Una prueba automática verifica la regla; solo una persona jugando verifica la sensación.
+En un plataformas de precisión, la calidad se juega en tres cosas: que los controles respondan, que cada muerte se sienta justa y que el jugador entienda qué puede agarrar y qué lo mata. La columna **Estado** dice si cada criterio ya se comprobó y cómo: una prueba automática verifica la regla, y solo una persona jugando verifica la sensación.
 
 ## Calidad funcional
 
 | Criterio | Cómo se comprueba | Estado |
 | --- | --- | --- |
 | Cada mecánica cumple las reglas de [[02 - Mecánicas]] | Pruebas automáticas de cada mecánica (ver [[02 - Pruebas]]) | Cumplido (07/11/2026) |
-| La cuerda del hilo no atraviesa ningún sólido, tampoco a toda velocidad | 1350 recorridos automáticos a toda velocidad | Cumplido (07/11/2026) |
+| La cuerda del gancho no atraviesa ningún sólido, tampoco a toda velocidad | 1350 recorridos automáticos a toda velocidad | Cumplido (07/11/2026) |
 | Muerte y reaparición llevan siempre a un punto válido | Revisor de escena y pruebas de reaparición | Cumplido (07/11/2026) |
 | Las habilidades se conservan entre escenas | Prueba manual del cambio de escena | No cumplido: ver [[03 - Bugs y Seguimiento]] |
 | El progreso se guarda | Prueba de guardado | No aplica a la demo: el guardado no existe |
@@ -49,6 +45,5 @@ Una característica se considera terminada cuando:
 5. Alguien la jugó a mano con teclado o mando y lo anotó en [[02 - Pruebas]].
 
 Mientras falte el punto 5, la característica figura como **implementada**, no como terminada.
-
 
 > **Navegación:** [[00 - Índice]] · ← [[05 - Gestión de Cambios]] · [[02 - Pruebas]] →

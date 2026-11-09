@@ -1,14 +1,10 @@
 # Personajes y Animación
 
-## Descripción de la sección
-
-Documenta cómo deben verse y comportarse visualmente los personajes.
-
 ## Requisitos por personaje
 
 | Personaje                     | Modelo/Sprite                                                                   | Animaciones                                               | VFX                                           | Estado        |
 | ----------------------------- | ------------------------------------------------------------------------------- | --------------------------------------------------------- | --------------------------------------------- | ------------- |
-| Almanaque XII (jugador)       | Sprite de 32×32 px, paleta SLSO8: autómata de latón con capa de mapas estelares | Movimiento, interacción, muerte y reaparición (ver abajo) | Polvo, chispas del hilo, destello del anclaje | Arte integrado en el juego |
+| Almanaque XII (jugador)       | Sprite de 32×32 px, paleta SLSO8: autómata de latón con capa de mapas estelares | Movimiento, interacción, muerte y reaparición (ver abajo) | Polvo, chispas del gancho, destello de la estrella ancla | Arte integrado en el juego |
 | Efeméride                     | Holograma dorado y blanco cálido con parpadeo                                   | Aparecer, hablar, parpadear al perder la calma, apagarse  | Brillo y líneas de proyección                 | Sprites de reposo y habla dibujados; sin integrar en el juego |
 
 El diseño completo del Almanaque XII (cuerpo, cabeza, capa, llave de cuerda y Astrolabio) está en [[03 - Personajes]].
@@ -25,8 +21,8 @@ El diseño completo del Almanaque XII (cuerpo, cabeza, capa, llave de cuerda y A
 - Deslizar por la pared
 - Colgar de la pared
 - Escalar
-- Balancearse con el hilo
-- Ser arrastrado por el hilo
+- Balancearse con el gancho
+- Ser arrastrado por el gancho
 
 ### Interacción
 

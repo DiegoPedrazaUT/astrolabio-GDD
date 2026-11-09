@@ -1,18 +1,6 @@
 # Criterios de Aceptación
 
-## Descripción de la sección
-
-Permiten decidir de forma objetiva si una característica está lista. Cada criterio sigue el formato **Dado que / Cuando / Entonces**. Los valores numéricos salen de la configuración actual del juego y pueden cambiar mientras se ajusta la dificultad.
-
-## Plantilla
-
-### Característica
-
-**Dado que:** contexto inicial
-
-**Cuando:** acción
-
-**Entonces:** resultado esperado
+Permiten decidir de forma objetiva si una característica está lista. Cada criterio sigue el formato **Dado que / Cuando / Entonces**. Los valores salen de la configuración actual del juego y pueden cambiar mientras se ajusta la dificultad.
 
 ## Criterios de la demo
 
@@ -22,22 +10,22 @@ Permiten decidir de forma objetiva si una característica está lista. Cada crit
 **cuando** se queda colgado, **entonces** la cuerda dura unos 5 s (20 puntos por segundo); **si** sube, dura unos 3 s (33 por segundo); cada salto de escalada gasta 25 puntos.
 **Y cuando** pisa suelo, **entonces** la cuerda se rellena.
 
-### Hilo de luz
+### Gancho de luz
 
-**Dado que** el jugador tiene usos del hilo (2),
+**Dado que** el jugador tiene usos del gancho (2),
 **cuando** dispara hacia algo enganchable a alcance, **entonces** se engancha, gasta un uso y permite balanceo o arrastre.
-**Cuando** dispara sin objetivo, **entonces** el hilo sale, se ve hasta dónde llega y vuelve sin gastar usos.
-**Cuando** no quedan usos, **entonces** el hilo sale corto y gris.
+**Cuando** dispara sin objetivo, **entonces** el gancho sale, se ve hasta dónde llega y vuelve sin gastar usos.
+**Cuando** no quedan usos, **entonces** el gancho sale corto y gris.
 
-### Estrella-anclaje
+### Estrella ancla
 
 **Dado que** el jugador tiene la habilidad de la estrella,
-**cuando** pulsa E en el aire, **entonces** escribe una estrella que sirve de punto de apoyo para el hilo.
+**cuando** pulsa E en el aire, **entonces** escribe una estrella que sirve de estrella ancla para el gancho.
 
 ### Gas nebuloso
 
 **Dado que** hay gas en la sala,
-**cuando** el Almanaque entra en su hitbox, **entonces** muere; **y cuando** el hilo lo cruza, **entonces** se corta.
+**cuando** el Almanaque entra en su hitbox, **entonces** muere; **y cuando** el gancho lo cruza, **entonces** se corta.
 La línea de apuntado sale en rojo si cruza el gas.
 
 ### Muerte y reaparición
@@ -67,6 +55,5 @@ La línea de apuntado sale en rojo si cruza el gas.
 | El rendimiento cumple el objetivo definido | Sin medir |
 | No existen errores bloqueantes conocidos | Ninguno registrado en [[03 - Bugs y Seguimiento]] |
 | La build de Windows se ejecuta en un equipo limpio | Sin verificar |
-
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Bugs y Seguimiento]] · [[01 - Glosario]] →

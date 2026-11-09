@@ -1,17 +1,13 @@
 # Referencias e Inspiración
 
-## Descripción de la sección
-
-Reúne lo que influyó en el diseño y las herramientas usadas, para saber de dónde viene cada idea y qué se puede reutilizar.
-
 ## Juegos que influyeron
 
 | Juego | Qué se tomó | Dónde se aplica |
 | --- | --- | --- |
 | **Celeste** | Los *dust bunnies* inspiraron el gas nebuloso: un peligro estático que mata al tocarlo | [[03 - Enemigos y NPC]] |
-| **Grapple Dog** | La vista previa del hilo: línea punteada y marca de cuatro esquinas sobre el punto de enganche | [[02 - Mecánicas]] |
+| **Grapple Dog** | La vista previa del gancho: línea punteada y marca de cuatro esquinas sobre el punto de enganche | [[02 - Mecánicas]] |
 
-La vista previa del hilo es nueva respecto a otros plataformas; el equipo quiere ver qué opinan los jugadores al probarla (ver [[02 - Pruebas]]).
+La vista previa del gancho es nueva respecto a otros plataformas; el equipo quiere ver qué opinan los jugadores al probarla (ver [[02 - Pruebas]]).
 
 ## Prototipo propio
 
@@ -22,7 +18,6 @@ El repositorio `astrolabia-game` fue el prototipo anterior. Se conserva como ref
 | Fuente | Uso |
 | --- | --- |
 | Guía de GDD del **Ing. Luis Fernando Villafaña Rejón** | Estructura base de este documento ([[00 - Acerca de esta guía]]) |
-| GDD de ejemplo del curso (*EchoScrap*) | Modelo de organización: portada, avance jugable, calidad y registro de decisiones |
 
 ## Herramientas
 
@@ -46,6 +41,5 @@ El repositorio `astrolabia-game` fue el prototipo anterior. Se conserva como ref
 
 > [!note] Licencias
 > Todo recurso de terceros debe tener una licencia que permita su uso y se atribuye en los créditos (ver [[05 - Audio y Música]]).
-
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Glosario]] · [[03 - Registro de Decisiones]] →
