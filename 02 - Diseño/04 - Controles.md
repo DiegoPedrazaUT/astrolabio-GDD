@@ -1,9 +1,4 @@
 # Controles
-
-## Descripción de la sección
-
-Define la relación entre las acciones del jugador y las entradas físicas del dispositivo.
-
 ## Mapa de controles
 
 El juego es para PC, por lo que no se contempla entrada táctil.

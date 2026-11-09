@@ -47,5 +47,4 @@ Lista los modelos, sprites, texturas, materiales y efectos necesarios.
 - Holograma de Efeméride.
 - Efectos de partículas del personaje y del mundo.
 
-
 > **Navegación:** [[00 - Índice]] ·  [[02 - Personajes y Animación]] · [[04 - Interfaz Visual]] →

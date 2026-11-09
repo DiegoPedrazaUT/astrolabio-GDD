@@ -1,9 +1,4 @@
 # Jugabilidad
-
-## Descripción de la sección
-
-La jugabilidad explica qué hace el jugador, qué recibe a cambio y cómo evoluciona la experiencia.
-
 ## Bucle principal de juego
 
 Describe el ciclo que se repite durante la experiencia.

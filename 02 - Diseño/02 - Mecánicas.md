@@ -1,12 +1,5 @@
 # Mecánicas
 
-## Descripción de la sección
-
-Una mecánica es una regla o interacción mediante la cual el jugador puede actuar dentro del sistema del juego.
-
-> [!info] Estado en el juego
-> Integradas y con pruebas automáticas: movimiento y salto, pared y escalada con cuerda, el hilo (en este documento, «gancho»: balanceo, arrastre, 2 usos y vista previa) y la estrella-anclaje que se escribe con la tecla E. Los valores del jugador viven en el asset `PlayerTuning`. 
-
 ## Mecánicas principales|
 
 ### Gancho (Grappling hook)
@@ -26,12 +19,12 @@ Objetivos válidos:
 - Dos modos con los mismos 2 usos compartidos. Un uso solo se gasta si el gancho engancha; los usos se recargan al tocar suelo firme (o con un cristal de recarga).
 - **Balanceo:** funciona como un péndulo. Dura hasta que el jugador lo corta. Con los pies en el suelo la cuerda es solo una correa: se camina y se salta con normalidad.
 - **Arrastre:** línea recta hacia el punto. Al llegar al objetivo, o si algo lo bloquea, el gancho se suelta solo y conserva parte de la velocidad. Nunca queda anclado.
-- La cuerda del balanceo choca con los sólidos: se dobla en las esquinas y el jugador se balancea desde la esquina con la cuerda que le queda. Al volver, se desdobla.
+- **La cuerda del balanceo choca con los sólidos**: se dobla en las esquinas y el jugador se balancea desde la esquina con la cuerda que le queda. Al volver, se desdobla.
 - Pulsar de nuevo el botón del modo en uso corta el gancho.
-- Mientras está enganchado no se puede agarrar una pared; con Shift mantenido el jugador se agarra al llegar o al cortar.
+- **Mientras está enganchado no se puede agarrar una pared;** con Shift mantenido el jugador se agarra al llegar o al cortar.
 
 **Entrada:**  
-Clic izquierdo: balanceo. Clic derecho: arrastre. Con mando: RT (mantener) para el balanceo y RB para el arrastre; se apunta con el stick derecho.
+Clic izquierdo: balanceo. Clic derecho: arrastre. Con mando: RT (mantener) para el balanceo y RB para el arrastre; se apunta con el joystick derecho.
 
 **Estado inicial:**  
 El personaje está en el suelo, en el aire o en una pared, con al menos un uso disponible y un objetivo dentro del alcance.
