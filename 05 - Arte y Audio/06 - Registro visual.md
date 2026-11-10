@@ -2,12 +2,6 @@
 
 Muestra el arte que **ya existe** y de dónde viene cada pieza. Las decisiones de estilo están en [[01 - Dirección de Arte]]; aquí solo se registra lo hecho.
 
-> [!info] Procedencia y límites
-> - Las imágenes se copiaron el 08/11/2026 desde el repositorio del juego (`Assets/Astrolabio/Art/`) y desde la carpeta de assets del equipo.
-> - Son **archivos de arte**, no capturas de pantalla del juego. Todavía no hay capturas ni GIF de partida en el GDD.
-> - Las hojas de 32 px se muestran ampliadas; Obsidian puede suavizarlas. El archivo original conserva los píxeles exactos.
-> - Paleta base: SLSO8.
-
 ## Logotipo
 
 ![Logotipo de Astrolabio|520](../Media/Logo-Astrolabio.png)

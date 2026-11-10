@@ -6,9 +6,6 @@ El reparto organiza el mantenimiento del GDD y el trabajo del equipo sobre la de
 
 El equipo consta de seis integrantes. Diego Roman Pedraza Keb lidera el proyecto, la gestión y el GDD; Diego Angel Ramirez Fernandez programa las mecánicas y define el diseño y los niveles; Dalia Jimena Chim Uc lleva el arte, el concept art y el pixel art; Victor Alexis Yah Alpuche lleva arte, diseño e interfaz; Felipe Natanael Chan Uc lleva audio y programación; y Aleksander Rocha Baeza lleva la narrativa y la ambientación.
 
-> [!note] Estado del reparto
-> La asignación por apartado es una **propuesta** basada en las áreas de cada integrante. El equipo la confirma o la corrige; mientras tanto el líder mantiene el GDD.
-
 ## Equipo y responsabilidad principal
 
 | Integrante / Rol | Responsabilidad en el GDD y en el juego | Apartados como redactor |
@@ -103,4 +100,4 @@ El trabajo puede avanzar en paralelo en las partes que no dependan de una decisi
 El líder mantiene `00 - Índice.md`, la navegación y la autoría de la guía. La sección 11 se conserva como referencia.
 
 
-> **Navegación:** [[00 - Índice]] · ← [[01 - Alcance]] · [[03 - Roadma]] →
+> **Navegación:** [[00 - Índice]] · ← [[01 - Alcance]] · [[03 - Roadmap]] →

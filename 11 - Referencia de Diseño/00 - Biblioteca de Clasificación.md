@@ -13,8 +13,6 @@ Esta sección funciona como una **biblioteca de consulta integrada al GDD**. El 
 - [[05 - Modos de Juego]]
 - [[06 - Clasificaciones y Etiquetas]]
 
-> [!tip] Antes de elegir
-> Lee la descripción de las opciones que parezcan cercanas y compara sus características con las mecánicas reales de tu videojuego.
 
 ## Ruta recomendada
 

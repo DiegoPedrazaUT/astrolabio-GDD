@@ -12,7 +12,7 @@ Es el proyecto integrador del equipo de la Universidad Tecnológica de Cancún. 
 
 | Aspecto | Estado |
 | --- | --- |
-| **Versión del GDD** | 0.6.0 (ver [[04 - Historial de Versiones]]) |
+| **Versión del GDD** | 0.7.0 (ver [[04 - Historial de Versiones]]) |
 | **Desarrollo** | En producción |
 | **Motor** | Unity 6000.6.4f1, URP 2D, nuevo Input System, C# |
 | **Plataforma** | PC (Windows), un jugador |

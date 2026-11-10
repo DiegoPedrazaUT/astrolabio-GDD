@@ -1,8 +1,5 @@
 # Acerca de esta guía
 
-> [!info] Autoría
-> **Ing. Luis Fernando Villafaña Rejón**
-
 ## Propósito
 
 Esta guía fue creada para proporcionar una estructura completa, práctica y coherente de **Game Design Document (GDD)** en español.

@@ -82,5 +82,3 @@ Videojuegos ejecutados mediante tecnologías web.
 **Plataformas secundarias:**  
 **¿Qué cambios requerirían?**
 
-> [!important] Para proyectos académicos
-> Si el equipo tiene tiempo limitado, comenzar con **una plataforma principal** suele reducir problemas de compatibilidad y alcance.

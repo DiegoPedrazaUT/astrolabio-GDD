@@ -1,72 +1,32 @@
-# Dirección de Arte
+# Dirección de arte
 
-## Identidad visual
+Astrolabio es pixel art 2D de baja resolución, con una paleta oscura de colores cálidos y escenarios por capas de parallax. La unidad base es de 32 px: los tiles miden 32×32 px y el personaje se dibuja en 32×32 px y se muestra al doble, unos 2 tiles de alto. La vista de referencia es de 1280×720 px (40 × 22,5 tiles) y se dibuja en Aseprite. El estilo es estilizado: importa una silueta clara y legible, no el realismo.
 
-**Estilo:**
-Pixel art 2D de baja resolución, con una paleta oscura de colores cálidos y escenarios por capas de parallax. La unidad base es de 32 px: los tiles miden 32×32 px y el personaje se dibuja en 32×32 px y se muestra al doble de tamaño, de modo que mide unos 2 tiles de alto. La vista de referencia es de 1280×720 px (40 × 22,5 tiles). Se dibuja en Aseprite.
+La sensación buscada es la **inmensidad silenciosa** (ver [[04 - Pilares de Diseño]]): un mundo antiguo, solitario y oscuro, con luz cálida escasa, donde el jugador se siente pequeño pero protegido. Predominan los círculos y arcos (engranajes del tamaño de edificios, aros del Astrolabio, cúpulas) contrastados con líneas largas y rectas (cadenas, puentes, torres). Los materiales son latón envejecido, hierro oxidado, piedra pulida y rugosa, cristal y luz estelar. Las referencias son *Celeste* (legibilidad y cámara por sala), *Hollow Knight* (atmósfera y escala), *Cuphead* (carteles pintados en el escenario) y los astrolabios y relojes astronómicos antiguos.
 
-**Referencias:**
-- *Celeste*: legibilidad de las superficies, cámara por sala y pixel art de baja resolución.
-- *Hollow Knight*: atmósfera solitaria y escala monumental frente a un protagonista pequeño.
-- *Cuphead*: carteles de controles pintados dentro del escenario.
-- Astrolabios, relojes astronómicos y mapas estelares antiguos como referencia de formas.
+La luz global es baja y las luces cálidas puntuales (faroles, cristales, estrellas y el Astrolabio) guían el recorrido; se complementa con un poco de bloom, viñeta y ajuste de color.
 
-**Sensación buscada:**
-Inmensidad silenciosa: un mundo antiguo, solitario y oscuro, con luz cálida escasa (ver [[04 - Pilares de Diseño]], Pilar 1). El jugador debe sentirse pequeño, pero protegido.
+## Paleta
 
-**Nivel de realismo:**
-Estilizado. No se busca realismo: se busca una silueta clara y una forma legible incluso a 1280×720 px.
+La paleta base es **SLSO8**, de Luis Miguel Maldonado ([Lospec](https://lospec.com/palette-list/slso8)). Cualquier color adicional se documenta como excepción en [[05 - Gestión de Cambios]].
 
-**Formas predominantes:**
-Círculos y arcos (engranajes, aros del Astrolabio, cúpulas) contrastados con líneas largas y rectas (cadenas, puentes, torres). Los engranajes tienen el tamaño de edificios; el personaje es diminuto.
-
-**Iluminación:**
-Luz global baja y luces cálidas puntuales (faroles, cristales, estrellas y el Astrolabio) que guían el recorrido. El fondo siempre es más oscuro y menos saturado que el primer plano. Se complementa con un poco de bloom, viñeta y ajuste de color.
-
-**Materiales:**
-Latón envejecido, hierro oxidado, piedra pulida y piedra rugosa, cristal y luz estelar.
-
-## Paleta de color
-
-La paleta base es **SLSO8**, de Luis Miguel Maldonado ([Lospec](https://lospec.com/palette-list/slso8)). Es una decisión del equipo; si hiciera falta un color adicional, se documenta como excepción en el registro de [[05 - Gestión de Cambios]].
-
-| Muestra | Código    | Uso previsto (propuesta que valida el equipo de arte)                       |
-| ------- | --------- | --------------------------------------------------------------------------- |
-| 1       | `#0d2b45` | Vacío y fondos más profundos                                                |
-| 2       | `#203c56` | Fondos medios, sombras y superficies lisas                                  |
-| 3       | `#544e68` | Piedra y estructuras de segundo plano                                       |
-| 4       | `#8d697a` | Óxido apagado y detalles                                                    |
-| 5       | `#d08159` | Latón y cobre de las estructuras                                            |
-| 6       | `#ffaa5e` | Luz cálida: faroles, cristales y brillos                                    |
-| 7       | `#ffd4a3` | Bordes claros de las superficies que se agarran; luz suave                  |
-| 8       | `#ffecd6` | Luz máxima: estrellas, Astrolabio y texto                                   |
-
-**Colores principales:**
-`#0d2b45`, `#203c56`, `#d08159` y `#ffaa5e`.
-
-**Colores secundarios:**
-`#544e68`, `#8d697a`, `#ffd4a3` y `#ffecd6`.
-
-**Colores para información jugable:**
-- Superficies que se agarran: textura rugosa y borde claro (`#ffd4a3`).
-- Superficies que se enganchan (metal estelar) y estrellas ancla: brillo propio con `#ffecd6` y `#ffaa5e`.
-- Peligros: silueta dentada o de engranaje con contraste fuerte contra el fondo; nunca se distinguen solo por color.
-- Recursos (usos del gancho y de la estrella ancla, cuerda): anillos y llave del Astrolabio en la interfaz.
+| Código    | Uso previsto (propuesta que valida el equipo de arte)             |
+| --------- | ----------------------------------------------------------------- |
+| `#0d2b45` | Vacío y fondos más profundos                                      |
+| `#203c56` | Fondos medios, sombras y superficies lisas                        |
+| `#544e68` | Piedra y estructuras de segundo plano                             |
+| `#8d697a` | Óxido apagado y detalles                                          |
+| `#d08159` | Latón y cobre de las estructuras                                  |
+| `#ffaa5e` | Luz cálida: faroles, cristales y brillos                          |
+| `#ffd4a3` | Bordes claros de las superficies que se agarran; luz suave        |
+| `#ffecd6` | Luz máxima: estrellas, Astrolabio y texto                         |
 
 ## Reglas visuales
 
-1. El fondo siempre es más oscuro y menos saturado que el primer plano.
-2. Lo que se puede agarrar tiene textura rugosa y borde claro; lo liso no tiene borde ni textura.
-3. Lo que se puede enganchar brilla; lo que mata se reconoce por su silueta.
-4. Se usa únicamente la paleta SLSO8 (más las excepciones documentadas).
-5. Se respeta la rejilla de 32 px y los tiles se pintan con *Rule Tiles*, de modo que esquinas, bordes e interiores encajan sin costuras. Los píxeles nunca se deforman: filtro de punto y sin líneas entre tiles al escalar la imagen.
-6. El personaje siempre se lee sobre el fondo: nunca se coloca un detalle del fondo con el mismo contraste que el personaje.
-7. La luz cálida marca el camino o lo importante.
-
-## Referencias
-
-- [Paleta SLSO8 en Lospec](https://lospec.com/palette-list/slso8)
-- *Celeste* (Maddy Makes Games), *Hollow Knight* (Team Cherry) y *Cuphead* (Studio MDHR).
-- Imágenes de referencia: agregar dentro de la carpeta del proyecto.
+1. El fondo es siempre más oscuro y menos saturado que el primer plano, y el personaje siempre se lee sobre él.
+2. Lo que se agarra tiene textura rugosa y borde claro (`#ffd4a3`); lo liso no tiene borde ni textura.
+3. Lo que se engancha brilla (`#ffecd6` y `#ffaa5e`); lo que mata se reconoce por su silueta dentada o de engranaje, nunca solo por color.
+4. Se usa únicamente la paleta SLSO8, la rejilla de 32 px y *Rule Tiles*, con filtro de punto y sin deformar píxeles.
+5. La luz cálida marca el camino o lo importante.
 
 > **Navegación:** [[00 - Índice]] · ← [[05 - Misiones y Desafíos]] · [[02 - Personajes y Animación]] →

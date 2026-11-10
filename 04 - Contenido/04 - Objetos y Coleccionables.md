@@ -28,7 +28,7 @@
 
 **Función:** devuelve 1 uso de gancho de luz y 1 de estrella ancla sin necesidad de tocar suelo.
 
-**Cómo se utiliza:** se recoge al pasar; solo se consume si falta algún uso. Reaparece 2,5 s después de consumirse y cada vez que el jugador reaparece.
+**Cómo se utiliza:** se recoge al pasar; solo se consume si falta algún uso. Reaparece a los pocos segundos de consumirse y cada vez que el jugador reaparece.
 
 **Representación visual:** un cristal luminoso.
 

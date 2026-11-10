@@ -19,11 +19,8 @@ El diseño evoluciona con la revisión del equipo y la retroalimentación del pr
 | 03/11/2026 | Usar *Rule Tiles* y tiles de 32 × 32 en lugar de 16 × 16. | Tiles que se conectan solos y sin costuras. | [[01 - Dirección de Arte]], [[03 - Entornos]], [[02 - Motor y Herramientas]]. | Diego Angel Ramirez Fernandez / Dalia Jimena Chim Uc | Vigente |
 | 03/11/2026 | Fijar la resolución de referencia en 1280 × 720. | Una sola referencia para cámara e interfaz. | [[03 - Requisitos Técnicos]], [[04 - Interfaz Visual]]. | Diego Angel Ramirez Fernandez / Victor Alexis Yah Alpuche | Vigente |
 | 08/11/2026 | Reducir la demo al tutorial y al Eje Central, donde el Almanaque cruza las puertas de Géminis. | Al profesor le gustó el tutorial. | [[01 - Alcance]], [[02 - Niveles]], [[05 - Progresión]], [[05 - Misiones y Desafíos]] y la narrativa. | Diego Roman Pedraza Keb | Vigente |
+| 08/11/2026 | Renombrar el hilo de luz como gancho de luz y el punto de apoyo como estrella ancla; simplificar las páginas y quitar secciones innecesarias o repetidas. | Nombres más claros y un documento más corto. | Todos los apartados. | Diego Roman Pedraza Keb | Vigente |
 
 Los valores de filas históricas se conservan como antecedentes y no describen la demo vigente. La columna Responsable es una propuesta basada en las áreas de cada integrante, igual que el reparto de [[02 - Roles y Responsabilidades]].
-
-## Revisión 0.6.0 del 8 de noviembre
-
-La edición 0.6.0 recoge el nuevo alcance y el estado real del desarrollo: tutorial de 18 salas, elevador del Pozo Celeste, llegada al Eje Central, interfaz, HUD y pruebas. El guardado se registra como pendiente de decisión, no como función de la demo.
 
 > **Navegación:** [[00 - Índice]] · [[00 - Avance jugable]] · ← [[04 - Backlog del Proyecto]] · [[01 - Criterios de Calidad]] →

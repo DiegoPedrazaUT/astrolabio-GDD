@@ -4,9 +4,6 @@
 
 El **género** describe el tipo general de experiencia que ofrece el videojuego. No elijas un género solamente porque "suena parecido": revisa la descripción y comprueba si las acciones principales del jugador realmente corresponden.
 
-> [!tip] Regla
-> Elige **un género principal** y, si es necesario, uno o varios géneros secundarios. Un juego puede mezclar géneros, pero debe quedar claro cuál es su experiencia dominante.
-
 ## Acción
 
 El jugador participa principalmente en desafíos que requieren reacción, precisión, movimiento o toma de decisiones en tiempo real.
@@ -71,9 +68,6 @@ Resolver problemas lógicos, espaciales, matemáticos, de patrones o de manipula
 
 Busca generar tensión, miedo, vulnerabilidad o incertidumbre mediante diseño audiovisual, narrativa y mecánicas.
 
-> [!note] Importante
-> "Terror" describe una intención de experiencia. Puede combinarse con acción, aventura, supervivencia u otros géneros.
-
 ## Supervivencia
 
 El jugador debe administrar recursos y enfrentar amenazas para mantenerse con vida durante el mayor tiempo posible o alcanzar un objetivo.
@@ -105,9 +99,6 @@ Varios participantes compiten hasta que queda un jugador o equipo superviviente,
 ## MMO
 
 Videojuego diseñado para soportar una gran cantidad de jugadores conectados a un mundo persistente.
-
-> [!warning] No confundas
-> "Multijugador" no significa automáticamente MMO. Un juego cooperativo para cuatro jugadores es multijugador, pero no necesariamente MMO.
 
 ## Otros géneros
 

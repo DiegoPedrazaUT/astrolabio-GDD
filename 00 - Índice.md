@@ -1,10 +1,5 @@
 # Astrolabio — Documento de Diseño de Videojuego (GDD)
 
-> [!info] Estructura
-> Estructura base: guía de **Ing. Luis Fernando Villafaña Rejón** (ver [[00 - Acerca de esta guía]]). Adaptada al proyecto Astrolabio.
-
-> [!abstract] Propósito
-> Este documento es la **fuente central de verdad del diseño de Astrolabio**: qué es el juego, qué experiencia busca, cómo funciona, qué contiene, cómo se construye y cómo se comprueba. Documenta también el **estado real** del desarrollo, con sus límites.
 
 ## Resumen
 
@@ -108,7 +103,5 @@
 - [[05 - Modos de Juego]]
 - [[06 - Clasificaciones y Etiquetas]]
 
-> [!tip] Principio de diseño
-> El GDD evoluciona con el proyecto y registra las decisiones que importan. Cuando el juego y el documento discrepan, el desfase se anota en [[00 - Avance jugable]] o en [[03 - Bugs y Seguimiento]], no se oculta.
 
 > **Navegación:** [[README]] · [[00 - Acerca de esta guía]] · [[00 - Avance jugable]] →

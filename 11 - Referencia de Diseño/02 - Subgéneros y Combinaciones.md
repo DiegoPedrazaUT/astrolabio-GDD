@@ -98,5 +98,3 @@ Un juego puede combinar varios géneros.
 **Combinaciones adicionales:**  
 **¿Qué aporta cada una?**
 
-> [!warning] Evita acumular etiquetas
-> Si necesitas seis subgéneros para explicar el juego, probablemente todavía no has definido con claridad cuál es su experiencia principal.
