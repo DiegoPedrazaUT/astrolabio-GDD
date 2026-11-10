@@ -28,10 +28,10 @@ Tiles de 32 × 32 px (1 tile = 1 unidad) construidos como *Rule Tiles*. Detalle 
 
 | Pieza | Descripción | Imagen |
 | --- | --- | --- |
-| Tileset del tutorial | Piedra dorada y piedra azul oscura, con bordes y esquinas (256 × 256 px) | ![tileset\|384](../Media/Registro/Entorno/Tutorial-Astrolabia.png) |
+| Tileset de las Entrañas | Piedra dorada y piedra azul oscura, con bordes y esquinas (256 × 256 px) | ![tileset\|384](../Media/Registro/Entorno/Tutorial-Astrolabia.png) |
 | Pared escalable | Piedra rugosa que el Almanaque puede agarrar | ![pared escalable\|240](../Media/Registro/Entorno/pared-escalada.png) |
-| Engranaje y pinchos | Peligros letales pintados con tiles | ![engranaje y pinchos\|320](../Media/Registro/Entorno/engranaje-pinchos.png) |
-| Gas nebuloso (v3) | Peligro que mata y corta el gancho | ![nebulosa\|200](../Media/Registro/Entorno/nebulosa-v3.png) |
+| Engranaje | Peligro letal pintado con tiles | ![engranaje\|320](../Media/Registro/Entorno/engranaje-pinchos.png) |
+| Nebulosa (v3) | Peligro que mata y corta el gancho | ![nebulosa\|200](../Media/Registro/Entorno/nebulosa-v3.png) |
 | Plataforma estelar (v2) | Metal estelar que responde al gancho | ![plataforma estelar\|240](../Media/Registro/Entorno/plataforma-estelar-v2.png) |
 | Plataforma estelar (animación) | La misma pieza en movimiento | ![plataforma estelar animada\|256](../Media/Registro/Entorno/Plataforma-estelar.gif) |
 
@@ -52,10 +52,10 @@ Tiles de 32 × 32 px (1 tile = 1 unidad) construidos como *Rule Tiles*. Detalle 
 
 ## Qué falta en este registro
 
-- Capturas de partida de cada zona (Entrañas, Pozo Celeste y Eje Central).
+- Capturas de partida de cada zona (Entrañas y Pozo Celeste).
 - GIF de las mecánicas (gancho, escalada, elevador).
 - Interfaz: el HUD, los menús y la caja de diálogo siguen la dirección visual de [[04 - Interfaz Visual]], pero no hay captura todavía.
-- Arte de Efeméride (sprites dibujados, sin integrar) y del Eje Central.
+- Arte de Efeméride (sprites dibujados, sin integrar).
 
 Cuando existan, se agregan aquí con fecha, escena y versión del juego.
 

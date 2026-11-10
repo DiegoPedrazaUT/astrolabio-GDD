@@ -4,7 +4,7 @@
 
 **Rol:** el personaje que controla el jugador. Corre, salta, escala, escribe estrellas ancla y se lanza con el gancho de luz.
 
-**Función narrativa:** es el duodécimo de su linaje, un autómata creado para reparar el Reloj y obedecer a Efeméride. Despierta en la Sala de los Nichos, sin conocer nada de los once Almanaques anteriores, ni del mundo fuera del Relok. Todo lo que conoce del mundo es lo que Efeméride le cuenta. Su arco es el paso de **obedecer a elegir**; en la demo todavía obedece, y su último gesto (mirar hacia abajo antes de alzar la mirada) anticipa el cambio.
+**Función narrativa:** es el duodécimo de su linaje, un autómata creado para reparar el Reloj y obedecer a Efeméride. Despierta en la Sala de los Nichos, sin conocer nada de los once Almanaques anteriores, ni del mundo fuera del Relok. Todo lo que conoce del mundo es lo que Efeméride le cuenta. Su arco es el paso de **obedecer a elegir**; en la demo todavía obedece.
 
 **Descripción física:**
 
@@ -49,13 +49,13 @@
 
 | Personaje                   | Papel                                                                                                                                                                                                                                                |
 | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Almanaque XI**            | El predecesor del jugador, un autómata idéntico a XII, ahora inerte. Descubrió una luz que daba un momento de libertad, la protegió y liberó a Ofiuco sabiendo que Efeméride lo desactivaría. Solo se conoce por su cuerpo y su carta de despedida   |
+| **Almanaque XI**            | El predecesor del jugador, un autómata idéntico a XII, ahora inerte. Descubrió una luz que daba un momento de libertad, la protegió y liberó a Ofiuco sabiendo que Efeméride lo desactivaría. Solo se conoce por su cuerpo inerte                          |
 | **Ofiuco**                  | La decimotercera constelación, la del azar. Su luz fue el combustible del destino. Es una luz blanca y cambiante, el único elemento del juego sin paleta fija; su emblema es una serpiente de hierro enroscada. Efeméride nunca la nombra en la demo |
 | **Los creadores del Reloj** | Una civilización extinta, atada a su propia obra. Solo quedan su miedo, convertido en Efeméride, y formas casi humanas en los engranajes más antiguos                                                                                                |
 | **Las voces de la Tierra**  | Los autores de los poemas, que muestran la vida con libre albedrío. Ver [[04 - Objetos y Coleccionables]]                                                                                                                                            |
 
 ## NPC
 
-No hay NPC con los que el jugador converse. Efeméride es la única voz del juego y aparece como holograma; XI se descubre por su carta y las voces de la Tierra, por los poemas.
+No hay NPC con los que el jugador converse. Efeméride es la única voz del juego y aparece como holograma; las voces de la Tierra se conocen por los poemas.
 
 > **Navegación:** [[00 - Índice]] · ← [[02 - Mundo]] · [[04 - Diálogos y Narrativa]] →

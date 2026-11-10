@@ -5,7 +5,7 @@
 
 **Astrolabio** es un plataformas 2D de precisión (Unity, PC Windows, un jugador). El Almanaque XII, un autómata, asciende por el Gran Reloj Cósmico usando escalada, un gancho de luz y estrellas ancla que él mismo escribe en el vacío.
 
-**La demo** dura el tutorial completo y su cierre: las Entrañas del Reloj (18 salas) → el elevador del Pozo Celeste → la llegada al Eje Central → el Almanaque cruza las puertas de Géminis y la demo termina.
+**La demo** recorre las Entrañas del Reloj (18 salas) y termina al subir en el elevador del Pozo Celeste, con una tarjeta de estadísticas.
 
 **Estado:** en producción, con luz verde para desarrollar. Lo jugable hoy y sus límites están en [[00 - Avance jugable]]; los resultados de pruebas, en [[02 - Pruebas]].
 

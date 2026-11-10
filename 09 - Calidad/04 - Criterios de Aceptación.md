@@ -22,35 +22,43 @@ Permiten decidir de forma objetiva si una característica está lista. Cada crit
 **Dado que** el jugador tiene la habilidad de la estrella,
 **cuando** pulsa E en el aire, **entonces** escribe una estrella que sirve de estrella ancla para el gancho.
 
-### Gas nebuloso
+### Nebulosa
 
-**Dado que** hay gas en la sala,
-**cuando** el Almanaque entra en su hitbox, **entonces** muere; **y cuando** el gancho lo cruza, **entonces** se corta.
-La línea de apuntado sale en rojo si cruza el gas.
+**Dado que** hay una nebulosa en la sala,
+**cuando** el Almanaque entra en su hitbox, **entonces** muere; **y cuando** el gancho la cruza, **entonces** se corta.
+La línea de apuntado sale en rojo si cruza la nebulosa.
 
 ### Muerte y reaparición
 
 **Dado que** el jugador murió por un peligro o aplastamiento,
 **cuando** termina la muerte, **entonces** reaparece en el último checkpoint de la sala.
 
+### Guardado
+
+**Dado que** el jugador entra en una sala nueva, toma un checkpoint o recibe una habilidad,
+**cuando** ocurre cualquiera de los tres, **entonces** la partida se guarda en el registro elegido.
+**Y cuando** el jugador cierra el juego y pulsa Continuar, **entonces** reaparece en la sala o checkpoint guardado con sus habilidades.
+
 ### Elevador del Pozo Celeste
 
-**Dado que** el jugador entra en el elevador de la sala 18,
-**cuando** este sube, **entonces** recorre 72 unidades en 12 s y, al llegar arriba, se carga la escena del Eje Central con el jugador sobre la plataforma.
+**Dado que** el jugador tomó el fragmento de estrella y entra en el elevador de la sala 18,
+**cuando** este sube, **entonces** recorre 72 unidades en 12 s y hace la animación de salida sin cambiar de escena.
+**Y si** el jugador no tiene el fragmento, **entonces** el elevador no se puede usar.
 
-### Cierre de la demo
+### Final de la demo
 
-**Dado que** el Almanaque está en la sala de llegada del Eje Central,
-**cuando** cruza las puertas de Géminis, **entonces** la demo termina con la tarjeta final.
+**Dado que** el elevador terminó de subir,
+**cuando** acaba la conversación final, **entonces** aparece la tarjeta con las estadísticas (tiempo, muertes y poemas) y el mensaje «Gracias por jugar la demo».
+**Y cuando** el jugador pulsa «Volver al título», o pasan 30 s, **entonces** vuelve al menú principal.
 
 ## Criterios del proyecto
 
 | Criterio | Estado |
 | --- | --- |
 | El bucle principal (moverse, escalar, enganchar, morir y reintentar) funciona | Cumplido en pruebas automáticas; falta prueba a mano |
-| Las condiciones de victoria y derrota funcionan | Derrota: cumplido. Victoria (cierre de la demo): decidida, por verificar |
-| El progreso puede guardarse | No aplica a la demo |
-| Los sistemas principales están integrados | Cumplido: mecánicas, interfaz y escenas conectadas por el elevador |
+| Las condiciones de victoria y derrota funcionan | Derrota: cumplido. Victoria (final de la demo en el elevador): en implementación |
+| El progreso puede guardarse | Aprobado el 10/11/2026; en implementación |
+| Los sistemas principales están integrados | Mecánicas, interfaz y audio integrados; faltan el final de la demo y el guardado |
 | Las pruebas críticas están aprobadas | Cumplido: 86 EditMode y 212 PlayMode |
 | El rendimiento cumple el objetivo definido | Sin medir |
 | No existen errores bloqueantes conocidos | Ninguno registrado en [[03 - Bugs y Seguimiento]] |

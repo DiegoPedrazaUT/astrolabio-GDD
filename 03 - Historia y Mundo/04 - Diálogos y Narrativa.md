@@ -1,7 +1,7 @@
 # Diálogos y narrativa
 
-El juego se cuenta sin narrador y el protagonista no habla. Efeméride habla con burbujas de texto junto a su holograma, sin voz grabada; cada burbuja tiene un sonido propio y las letras aparecen animadas. Además hay cinemáticas cortas y saltables (manteniendo Espacio: el despertar, el viaje en elevador, el cielo del Pozo Celeste y la llegada al Eje Central), carteles de controles y rótulos con el nombre de cada zona, hologramas que muestran el desorden del mundo, poemas coleccionables, la carta de despedida del Almanaque XI y el tic-tac del Reloj como metrónomo. Mientras habla Efeméride el Almanaque no se mueve, y el trayecto en elevador dura lo mismo que la conversación.
-|
+El juego se cuenta sin narrador y el protagonista no habla. Efeméride habla con burbujas de texto junto a su holograma, sin voz grabada; cada burbuja tiene un sonido propio y las letras aparecen animadas. Además hay cinemáticas cortas y saltables (manteniendo Espacio: el despertar y el viaje en elevador), carteles de controles y rótulos con el nombre de cada zona, poemas coleccionables y el tic-tac del Reloj como metrónomo. Mientras habla Efeméride el Almanaque no se mueve, y el trayecto en elevador dura lo mismo que la conversación.
+
 ## Inicio en la Sala de los Nichos
 
 El Almanaque despierta en su nicho y el holograma de Efeméride se enciende frente a él. La conversación da contexto, presenta la misión y fija el tono; no hay opciones y el jugador recupera el control con la última burbuja.
@@ -39,8 +39,8 @@ El jugador obtiene el primer fragmento de estrella y mira hacia arriba. La conve
 | 5   | Devuélvele su forma, y el mundo recordará la suya.          |                                      |
 | 6   | El elevador te llevará. No te detengas a mirar hacia abajo. | Se abre el elevador de engranajes    |
 
-## Cierre de la demo en el Eje Central
+## Final de la demo
 
-El Almanaque llega a una sala inmensa y circular donde convergen los engranajes, con silencio casi total, roto solo por el latido del mecanismo central. Avanza hasta las puertas de Géminis, las cruza y aparece la tarjeta final de que ahí acabó la demo. Todos los textos están solo en español.
+Cuando el elevador termina de subir, una última conversación breve cierra el viaje (su texto es provisional y lo escribe narrativa). Después aparece la tarjeta con las estadísticas (tiempo de juego, muertes y poemas encontrados) y el mensaje «Gracias por jugar la demo». Todos los textos están solo en español.
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Personajes]] · [[01 - Estructura del Contenido]] →

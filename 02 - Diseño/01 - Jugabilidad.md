@@ -2,7 +2,9 @@
 
 ## Bucle principal
 
-`Entrar en una sala → Planear la ruta → Ejecutar (saltar, escalar, anclar, lanzar el gancho) → Superar o morir → Reintentar al inicio de la sala`
+`Entrar en una sala → Planear la ruta → Ejecutar (saltar, escalar, anclar, lanzar el gancho) → Pasar a la sala siguiente`
+
+Si el jugador muere mientras ejecuta, reaparece de inmediato al inicio de la sala (o en su checkpoint) y vuelve a planear la ruta.
 
 | Acción                      | Propósito                                      | Resultado                                  |
 | --------------------------- | ---------------------------------------------- | ------------------------------------------ |
@@ -13,15 +15,15 @@
 | Recolectar fragmento        | Cumplir el objetivo principal                  | El Astrolabio brilla más                   |
 | Leer poemas                 | Descubrir la vida en la Tierra                 | Narrativa opcional                         |
 
-El jugador despierta en la Sala de los Nichos, escucha a Efeméride y recupera el control; aprende a moverse y saltar, después a escalar en la Galería de Engranajes, y al final combina escalada, estrella ancla y gancho en un solo recorrido.
+El jugador despierta en la Sala de los Nichos, escucha a Efeméride y recupera el control. Aprende a moverse en los Nichos y a saltar, agarrarse y escalar en la Galería de Engranajes. En el Puente Roto recibe el gancho y aprende a balancearse; el Pozo de Cadenas combina todo lo anterior, y en el Pozo Celeste recibe la estrella ancla y toma el primer fragmento de estrella.
 
 ## Victoria y derrota
 
-- **Victoria:** obtener el primer fragmento de estrella, subir al Eje Central y cruzar las puertas de Géminis.
-- **Derrota:** no existe un «Game Over». Tocar un peligro (engranajes, sierras, gas, vacío) o ser aplastado mata; el jugador reaparece al inicio de la sala (o en el último checkpoint de una sala larga) con todo recargado.
+- **Victoria:** obtener el primer fragmento de estrella en el Pozo Celeste y subir en su elevador. Ahí termina la demo, con una tarjeta de estadísticas.
+- **Derrota:** no existe un «Game Over». Tocar un peligro (engranajes, sierras, nebulosa, vacío) o ser aplastado mata; el jugador reaparece al inicio de la sala (o en el último checkpoint de una sala larga) con todo recargado.
 
 ## Ritmo
 
-El desafío domina el juego: cada sala es un reto de precisión, y cada idea nueva se presenta antes en un espacio sin riesgo. Los poemas escondidos premian mirar más allá de la ruta principal, el elevador del Pozo Celeste es el momento más tranquilo y Efeméride aparece al inicio y al final de las zonas.
+El desafío domina el juego: cada sala es un reto de precisión, y cada idea nueva se presenta antes en un espacio sin riesgo. Los engranajes, las sierras y la nebulosa ponen el castigo; los poemas escondidos premian mirar más allá de la ruta principal. El elevador del Pozo Celeste es el momento más tranquilo, y Efeméride aparece al inicio y al final de las zonas.
 
 > **Navegación:** [[00 - Índice]] · ← [[04 - Pilares de Diseño]] · [[02 - Mecánicas]] →

@@ -6,7 +6,7 @@
 
 **Descripción:** un trozo de la luz de una constelación rota.
 
-**Cómo se obtiene:** se recolecta al llegar a él; el primero está en el Pozo Celeste y abre el elevador hacia el Eje Central.
+**Cómo se obtiene:** se recolecta al llegar a él; el primero está en el Pozo Celeste. Sin él no se puede usar el elevador de esa sala.
 
 **Cómo se utiliza:** se guarda en el Astrolabio, que brilla un poco más con cada fragmento.
 
@@ -18,7 +18,7 @@
 
 **Descripción:** textos que suben desde la Tierra hasta el Reloj y muestran cómo es la vida en el mundo de abajo.
 
-**Cómo se obtiene:** hay uno escondido en las Entrañas, en un hueco alcanzable solo escalando. El Almanaque se detiene frente a él y lo lee.
+**Cómo se obtiene:** hay uno escondido en las Entrañas, en un hueco alcanzable solo escalando. Al recogerlo se abre un panel con su texto, que se cierra con Aceptar; cuenta en el guardado y en las estadísticas finales.
 
 **Representación visual:** un papel escrito atorado entre los engranajes.
 

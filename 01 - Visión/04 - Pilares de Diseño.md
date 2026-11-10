@@ -10,10 +10,10 @@ El diseño de niveles exige saltos milimétricos y un uso inteligente de la estr
 
 ## Narrativa ambiental y poesía visual
 
-La historia del Gran Reloj Cósmico y de los Almanaques anteriores no interrumpe la acción: se cuenta con el arte de los escenarios, los poemas y la carta de despedida del Almanaque XI. Efeméride, la voz del Reloj, aparece con burbujas de texto cortas (ver [[04 - Diálogos y Narrativa]]).
+La historia del Gran Reloj Cósmico y de los Almanaques anteriores no interrumpe la acción: se cuenta con el arte de los escenarios y los poemas. Efeméride, la voz del Reloj, aparece con burbujas de texto cortas (ver [[04 - Diálogos y Narrativa]]).
 
 ## Crear el camino
 
-El jugador no sigue una ruta fija: la construye. La estrella ancla la escribe él y el gancho solo engancha en superficies y estrellas marcadas como enganchables. Las salas admiten más de una solución y el tutorial enseña esa libertad paso a paso. Ninguna mecánica nueva debe reemplazar esa creatividad.
+El jugador no sigue una ruta fija: la construye. La estrella ancla la escribe él y el gancho solo engancha en superficies y estrellas marcadas como enganchables. Las salas admiten más de una solución y las Entrañas del Reloj enseñan esa libertad paso a paso. Ninguna mecánica nueva debe reemplazar esa creatividad.
 
 > **Navegación:** [[00 - Índice]] · ← [[03 - Público y Plataforma]] · [[01 - Jugabilidad]] →

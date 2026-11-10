@@ -8,15 +8,16 @@
 
 **Cómo funciona:** el jugador apunta con el puntero y pulsa el botón del modo que quiere. Se lanza si hay un objetivo enganchable dentro del alcance y queda al menos un uso.
 
-- **Objetivos válidos:** bloques sólidos enganchables (también se pisan y se escalan), estrellas ancla aéreas (las fijas del nivel y las que escribe el jugador, que se atraviesan) y plataformas móviles enganchables.
+- **Objetivos válidos:** bloques sólidos enganchables (también se pisan y se escalan), estrellas ancla aéreas (las fijas del nivel y las que escribe el jugador, que se atraviesan). Las plataformas móviles no se enganchan.
 - **Usos:** dos modos comparten 2 usos. Un uso solo se gasta si el gancho engancha. Se recargan al tocar suelo firme o con un cristal de recarga.
-- **Balanceo:** funciona como péndulo y dura hasta que el jugador lo corta. Con los pies en el suelo la cuerda es solo una correa: se camina y se salta con normalidad.
+- **Balanceo:** funciona como péndulo y dura hasta que el jugador lo corta o hasta que se acaba su tiempo límite de uso (unos segundos), lo que ocurra primero. Con los pies en el suelo la cuerda es solo una correa: se camina y se salta con normalidad.
 - **Arrastre:** línea recta hacia el punto. Al llegar, o si algo lo bloquea, el gancho se suelta y conserva parte de la velocidad. Nunca queda anclado.
 - **Cuerda y sólidos:** la cuerda del balanceo se dobla en las esquinas y el jugador se balancea desde la esquina con la cuerda que le queda. Al volver, se desdobla.
-- **Cortar:** pulsar de nuevo el botón del modo en uso suelta el gancho. La cuerda del balanceo también se corta sola tras unos segundos.
+- **Cortar:** el jugador suelta el gancho según el modo de control elegido en Configuración › Jugabilidad: soltar el botón (predeterminado), pulsar de nuevo el botón o pulsar Saltar. Si no lo corta, la cuerda del balanceo se corta sola al llegar a su tiempo límite.
+- **Nebulosa:** si el gancho cruza una nebulosa se corta; al apuntar, la línea se pone roja y el disparo se detiene en ella.
 - **Agarre:** mientras está enganchado no se puede agarrar una pared; con Shift mantenido el jugador se agarra al llegar o al cortar.
 
-**Entrada:** clic izquierdo para el balanceo y clic derecho para el arrastre. Con mando, RT (mantener) para el balanceo y RB para el arrastre; se apunta con el joystick derecho.
+**Entrada:** clic izquierdo para el balanceo y clic derecho para el arrastre. Con mando, RT (mantener) para el balanceo y RB para el arrastre; se apunta con el joystick derecho. Con la opción de Configuración › Jugabilidad se puede elegir otro modo para soltar el gancho.
 
 **Riesgo y recompensa:** calcular mal el balanceo o soltar a destiempo lleva a una caída o a un peligro, y gastar los 2 usos en el aire deja al jugador sin opciones hasta tocar suelo. A cambio, el gancho da acceso a zonas que el salto no alcanza y rutas más rápidas.
 
@@ -24,10 +25,9 @@
 - *Salto:* se puede lanzar durante el salto; al soltarse, el impulso se suma al movimiento.
 - *Escalada:* se lanza desde la pared (suelta la pared). Es la combinación central del diseño avanzado: escalar, escribir una estrella ancla y lanzarse.
 - *Estrella ancla:* la que escribe el jugador es uno de sus objetivos.
-- *Plataformas móviles:* el punto de enganche sigue al objeto. Enganchar una plataforma cuenta como subirse a ella; la plataforma zip sale disparada y arrastra al jugador.
 - *Cristal de recarga:* devuelve un uso.
 
-**Casos límite:** si el jugador muere enganchado, o si la estrella ancla o el objetivo desaparecen, el gancho se libera de inmediato. Si algo bloquea el arrastre, se suelta. El gas también corta el gancho.
+**Casos límite:** si el jugador muere enganchado, o si la estrella ancla o el objetivo desaparecen, el gancho se libera de inmediato. Si algo bloquea el arrastre, se suelta. La nebulosa también lo corta.
 
 ### Estrella ancla
 
@@ -38,7 +38,7 @@
 - **Alcance:** si el puntero está más lejos del rango permitido, la estrella se coloca en el límite del alcance en esa dirección. Si hay una pared en medio, se coloca delante de ella.
 - **Una a la vez:** solo existe una estrella ancla; colocar otra borra la anterior. Se puede colocar en el aire o sobre superficies.
 - **Duración:** desaparece a los pocos segundos si no se usa, y también a los pocos segundos de estar enganchado o cuando el gancho la suelta.
-- **Recarga:** al tocar suelo, al instante si se usó (el gancho se enganchó a ella). Si no se usó, no antes de unos segundos desde que se colocó, para no abusar de la habilidad. El cristal de recarga la devuelve sin espera.
+- **Recarga:** la estrella ancla vuelve a estar disponible al tocar suelo. Si se usó (el gancho se enganchó a ella), la recarga es inmediata. Si no se usó, hay que esperar unos segundos desde que se colocó, para que no se abuse de la habilidad. El cristal de recarga la devuelve sin esperar.
 
 **Entrada:** tecla E. Con mando, LB. No depende del estado del personaje, así que se puede colocar también desde la pared.
 
@@ -76,15 +76,15 @@ Movimiento de precisión con control justo y predecible.
 
 ### Cristal de recarga
 
-Devuelve recursos en el aire para encadenar movimientos: 1 uso de gancho y 1 de estrella ancla. Solo se consume si falta alguno y reaparece a los 2 segundos.
+Devuelve recursos en el aire para encadenar movimientos: 1 uso de gancho, 1 de estrella ancla y la cuerda de escalada. Solo se consume si falta alguno y reaparece a los 2 segundos.
 
 ### Plataformas móviles
 
 Añaden movimiento al nivel y a la ruta del jugador.
 
 - **Patrulla:** ida y vuelta constante; un muro cuenta como final del recorrido.
-- **Zip:** se activa al pisarla, agarrarla o engancharla; va rápido y vuelve lento.
-- La capa de la plataforma decide si solo se pisa, además se agarra, o además se engancha.
+- **Zip:** se activa al pisarla o agarrarla; va rápido y vuelve lento.
+- La capa de la plataforma decide si solo se pisa o además se agarra. No se enganchan.
 - El jugador hereda su velocidad al saltar, hacia arriba y de lado.
 - No atraviesan sólidos ni otras plataformas: se detienen y dan la vuelta. Vuelven a su inicio cuando el jugador reaparece.
 - También hay rejillas (se atraviesan desde abajo), losas que tiemblan y se rompen al pisarlas, y elevadores que llevan al jugador mientras habla Efeméride.
@@ -93,11 +93,11 @@ Añaden movimiento al nivel y a la ruta del jugador.
 
 Castigo justo y reintento inmediato.
 
-- Cualquier peligro (engranajes, sierras, gas, vacío) o un aplastamiento mata. Un toque basta; no hay vidas ni salud.
+- Cualquier peligro (engranajes, sierras, nebulosa, vacío) o un aplastamiento mata. Un toque basta; no hay vidas ni salud.
 - El jugador reaparece al instante en su punto de aparición con todo recargado, y la sala se reinicia (plataformas a su inicio, cristales disponibles, estrella ancla borrada).
 - Cada sala tiene su cámara; al entrar en otra, la cámara cambia con una transición de medio segundo y el punto de reaparición pasa a ser el más cercano a la entrada. El juego no se pausa durante la transición.
 - Los checkpoints son opcionales y van dentro de salas largas: al tocarlos pasan a ser el punto de reaparición hasta que se entra en otra sala.
-- La demo no guarda el progreso (ver [[04 - Guardado y Configuración]]).
+- El progreso se guarda solo al entrar en una sala, al tomar un checkpoint y al recibir una habilidad (ver [[04 - Guardado y Configuración]]).
 
 ### Habilidades narrativas
 
@@ -106,8 +106,8 @@ Acciones con las que el Almanaque descubre la historia. No tienen reto, pero cad
 | Habilidad             | Qué hace                                                                                      |
 | --------------------- | --------------------------------------------------------------------------------------------- |
 | Recolectar fragmentos | Objetivo principal; cada fragmento se guarda en el Astrolabio, que brilla más con cada uno.   |
-| Leer                  | Se detiene frente a un poema o a la carta de despedida de XI y la lee.                                                      |
+| Leer                  | Al recoger un poema se abre un panel con su texto; se cierra con Aceptar. |
 
-**Entrada:** W (o flecha arriba) en teclado e Y en mando.
+**Entrada:** Aceptar (Espacio o A) cierra el panel del poema.
 
 > **Navegación:** [[00 - Índice]] · ← [[01 - Jugabilidad]] · [[03 - Sistemas]] →

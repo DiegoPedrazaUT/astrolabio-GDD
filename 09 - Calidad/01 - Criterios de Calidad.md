@@ -9,11 +9,11 @@ En un plataformas de precisión, la calidad se juega en tres cosas: que los cont
 | Muerte y reaparición llevan siempre a un punto válido                      | Revisor de escena y pruebas de reaparición               | Cumplido (07/11/2026)                           |
 | Pruebas EditMode y PlayMode en verde                                       | CI en cada PR                                            | Cumplido: 86 y 212 (07/11/2026)                 |
 | Análisis estático y formato sin avisos                                     | CI (`static-analysis` y `dotnet format`)                 | Cumplido: 0 avisos                              |
-| Las habilidades se conservan entre escenas                                 | Prueba manual del cambio de escena                       | No cumplido: ver [[03 - Bugs y Seguimiento]]    |
+| El guardado conserva sala, checkpoint, habilidades y poemas                | Prueba manual de Continuar tras cerrar el juego          | Sin verificar (en implementación)               |
 | El jugador entiende el objetivo de cada sala y por qué murió               | Prueba con jugadores nuevos                              | Sin verificar                                   |
 | La dificultad crece sin saltos (ver [[05 - Progresión]])                   | Prueba con jugadores nuevos                              | Sin verificar                                   |
 | Lo que se agarra se distingue de lo que no                                 | Revisión con [[06 - Registro visual]] y jugadores        | Sin verificar                                   |
-| Los controles responden igual con teclado y con mando                      | Prueba a mano con ambos                                  | Sin verificar                                   |
+| Los controles responden igual con teclado y con mando                      | Prueba a mano con ambos                                  | Revisado por el equipo (10/11/2026)             |
 | La interfaz se lee a 1280×720, 1600×900 y 1920×1080                        | Revisión en cada resolución                              | Sin verificar                                   |
 | La build de Windows funciona en un equipo limpio y rinde bien en el mínimo | Ejecución en otro equipo y Profiler ([[03 - Requisitos Técnicos]]) | Sin verificar                         |
 

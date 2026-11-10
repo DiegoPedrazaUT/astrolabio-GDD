@@ -18,6 +18,6 @@ El Almanaque XII despierta en la Sala de los Nichos y cree lo que Efeméride le 
 | 2     | Primer poema, escondido en la Galería de Engranajes                             | Opcional: escalar hasta el hueco                                |
 | 3     | Efeméride muestra cómo usar el Gancho de Luz en el Puente Roto                  | Obtiene el gancho de luz y se balancea                          |
 | 4     | El elevador del Pozo Celeste sube hacia un cielo con el hueco oscuro de Géminis | Sube y mira hacia arriba                                        |
-| 5     | En el Eje Central, el Almanaque alza la vista contemplando lo que le espera     | Esta estático mientras contempla el Eje Central; fin de la demo |
+| 5     | Al terminar de subir, una breve conversación final y la tarjeta con las estadísticas | Lee; la demo termina |
 
 > **Navegación:** [[00 - Índice]] · ← [[07 - Reglas y Estados del Juego]] · [[02 - Mundo]] →

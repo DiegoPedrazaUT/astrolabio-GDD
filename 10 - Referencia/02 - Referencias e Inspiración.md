@@ -2,7 +2,7 @@
 
 | Juego           | Qué se tomó                                                                                         | Dónde se aplica          |
 | --------------- | --------------------------------------------------------------------------------------------------- | ------------------------ |
-| **Celeste**     | Legibilidad de las superficies, cámara por sala y los *dust bunnies*, que inspiraron el gas nebuloso | [[03 - Enemigos y NPC]]  |
+| **Celeste**     | Legibilidad de las superficies, cámara por sala y los *dust bunnies*, que inspiraron la nebulosa | [[03 - Enemigos y NPC]]  |
 | **Hollow Knight** | Atmósfera solitaria y escala monumental frente a un protagonista pequeño                          | [[01 - Dirección de Arte]] |
 | **Cuphead**     | Carteles de controles pintados dentro del escenario                                                 | [[01 - Dirección de Arte]] |
 | **Grapple Dog** | La vista previa del gancho: línea punteada y marca de cuatro esquinas sobre el punto de enganche    | [[02 - Mecánicas]]       |

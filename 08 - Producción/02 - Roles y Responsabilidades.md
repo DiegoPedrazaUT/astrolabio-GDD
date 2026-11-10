@@ -4,18 +4,16 @@
 
 El reparto organiza el mantenimiento del GDD y el trabajo del equipo sobre la demo. Cada apartado tiene un redactor y un revisor para que todas las áreas trabajen sobre el mismo estado del juego y ningún apartado quede sin dueño.
 
-El equipo consta de seis integrantes. Diego Roman Pedraza Keb lidera el proyecto, la gestión y el GDD; Diego Angel Ramirez Fernandez programa las mecánicas y define el diseño y los niveles; Dalia Jimena Chim Uc lleva el arte, el concept art y el pixel art; Victor Alexis Yah Alpuche lleva arte, diseño e interfaz; Felipe Natanael Chan Uc lleva audio y programación; y Aleksander Rocha Baeza lleva la narrativa y la ambientación.
+## El equipo
 
-## Equipo y responsabilidad principal
-
-| Integrante / Rol | Responsabilidad en el GDD y en el juego | Apartados como redactor |
-|---|---|---:|
-| **Diego Roman Pedraza Keb** (Líder) | Visión, alcance, producción, decisiones, versiones, DevOps y marketing. | 15 |
-| **Diego Angel Ramirez Fernandez** (Programación y diseño de juego) | Mecánicas, sistemas, niveles, contenido jugable, tecnología, pruebas y DevOps. | 20 |
-| **Dalia Jimena Chim Uc** (Arte) | Dirección de arte, personaje, animación y entornos. | 3 |
-| **Victor Alexis Yah Alpuche** (Arte e interfaz) | Interfaz visual, UX/UI y accesibilidad; apoyo a arte. | 4 |
-| **Felipe Natanael Chan Uc** (Audio y programación) | Música y efectos de sonido; guardado y configuración. | 2 |
-| **Aleksander Rocha Baeza** (Narrativa) | Historia, mundo, personajes, diálogos, poemas y ambientación. | 4 |
+| Integrante | Rol | Áreas | Responsabilidad en el GDD y en el juego | Apartados como redactor |
+|---|---|---|---|---:|
+| **Diego Roman Pedraza Keb** | Líder del proyecto | Gestión, DevOps, marketing | Visión, alcance, producción, decisiones, versiones y entrega. | 15 |
+| **Diego Angel Ramirez Fernandez** | Programación y diseño de juego | Programación, DevOps, game design, diseño de niveles | Mecánicas, sistemas, niveles, contenido jugable, tecnología y pruebas. | 20 |
+| **Dalia Jimena Chim Uc** | Arte | Diseño, concept art, pixel art | Dirección de arte, personaje, animación y entornos. | 3 |
+| **Victor Alexis Yah Alpuche** | Arte e interfaz | Arte, diseño, UI/UX | Interfaz visual, UX/UI y accesibilidad; apoyo a arte. | 4 |
+| **Felipe Natanael Chan Uc** | Audio y programación | Audio, programación | Música y efectos de sonido; guardado y configuración. | 2 |
+| **Aleksander Rocha Baeza** | Narrativa | Narrativa, ambientación | Historia, mundo, personajes, diálogos, poemas y ambientación. | 4 |
 
 La cantidad de archivos no mide la carga por sí sola: una ficha de animaciones o un inventario de interfaz requiere mucho detalle.
 

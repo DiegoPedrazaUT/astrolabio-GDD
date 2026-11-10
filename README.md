@@ -12,11 +12,11 @@ Es el proyecto integrador del equipo de la Universidad Tecnológica de Cancún. 
 
 | Aspecto | Estado |
 | --- | --- |
-| **Versión del GDD** | 0.7.0 (ver [[04 - Historial de Versiones]]) |
+| **Versión del GDD** | 0.8.0 (ver [[04 - Historial de Versiones]]) |
 | **Desarrollo** | En producción |
 | **Motor** | Unity 6000.6.4f1, URP 2D, nuevo Input System, C# |
 | **Plataforma** | PC (Windows), un jugador |
-| **Alcance de la demo** | Entrañas del Reloj (tutorial, 18 salas) → elevador del Pozo Celeste → llegada al Eje Central → el Almanaque cruza las puertas de Géminis → fin de la demo |
+| **Alcance de la demo** | Entrañas del Reloj (18 salas) → elevador del Pozo Celeste → fin de la demo con tarjeta de estadísticas |
 | **Pruebas automáticas** | 86 de EditMode y 212 de PlayMode en verde, análisis estático sin avisos (07/11/2026) |
 | **Pruebas a mano** | Aún no hechas con teclado, ratón o mando físicos, ni en WebGL (ver [[02 - Pruebas]]) |
 

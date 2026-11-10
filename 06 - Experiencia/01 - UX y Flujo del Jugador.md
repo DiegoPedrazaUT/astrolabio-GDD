@@ -1,20 +1,23 @@
 # UX y flujo del jugador
 
 ```text
-Inicio → Menú → Nueva partida → Introducción con Efeméride → Entrañas del Reloj (tutorial)
-       → Elevador del Pozo Celeste → Eje Central → Puertas de Géminis → Fin de la demo
+Splash Screen → Menú → Jugar → Nueva partida → Entrañas del Reloj → Elevador del Pozo Celeste → Fin de la demo
 ```
+
+La demo termina al subir en el elevador del Pozo Celeste: después salen la conversación final y la tarjeta con las estadísticas.
 
 El jugador debe entender cada herramienta jugándola, no leyendo: cada idea nueva se presenta primero en un espacio seguro y después se examina con riesgo. Los controles se enseñan con carteles pintados en el escenario.
 
 | Momento (objetivo) | Qué descubre                                                                                                            |
 | ------------------ | ----------------------------------------------------------------------------------------------------------------------- |
 | Minuto 0           | Despierta en un nicho y escucha a Efeméride; no controla al personaje hasta la última burbuja                           |
-| Minutos 1 a 3      | Aprende a moverse y a saltar en la Sala de los Nichos, por demostraciones en el escenario                               |
-| Minutos 3 a 6      | Aprende a agarrarse y escalar en la Galería de Engranajes; la cuerda se agota y se recarga al tocar suelo               |
+| Minutos 1 a 3      | Aprende a moverse en la Sala de los Nichos, por demostraciones en el escenario                                          |
+| Minutos 3 a 6      | Aprende a saltar, agarrarse y escalar en la Galería de Engranajes; la cuerda se agota y se recarga al tocar suelo       |
 | Minutos 6 a 9      | Recibe el gancho en el Puente Roto: balanceo, arrastre y faroles                                                        |
 | Minutos 9 a 14     | Pone a prueba todo en el Pozo de Cadenas y recibe la estrella ancla en el Pozo Celeste                                  |
-| Minutos 14 a 15    | Obtiene el primer fragmento de estrella y sube en el elevador hacia el Eje Central                                      |
+| Minutos 14 a 15    | Obtiene el primer fragmento de estrella y sube en el elevador, donde termina la demo                                    |
+
+Estos tiempos son una estimación; falta medirlos con jugadores nuevos (ver [[02 - Pruebas]]).
 
 Cada acción importante tiene una señal visual y una sonora propias (ver [[04 - Controles]] y [[05 - Audio y Música]]). Al morir se ve el peligro que mató al personaje y se reaparece de inmediato en 0,4 s; no existe pantalla de derrota. El cambio de sala usa una transición de cámara de 0,5 s sin pausar el juego.
 

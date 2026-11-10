@@ -9,6 +9,7 @@ El HUD es mínimo: anillos del Astrolabio para los usos del gancho y de la estre
 | Éxito         | Destello al escribir una estrella y brillo del Astrolabio al guardar un fragmento                      |
 | Error         | La mira de la estrella ancla se pone roja si la posición no es válida                                  |
 | Muerte        | Efecto breve de destrucción y reaparición; no hay pantalla de derrota                                  |
+| Guardado      | Indicador pequeño «Guardando…» en el HUD mientras se escribe el registro                               |
 
 La jerarquía visual es: el personaje y los peligros inmediatos, los objetivos enganchables y las superficies, los recursos y, al final, el texto de Efeméride, que no compite con la acción porque solo aparece en pausas.
 

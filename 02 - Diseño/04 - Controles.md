@@ -9,10 +9,9 @@
 | Gancho: balanceo               |                 | Clic izquierdo       | RT (mantener)             |
 | Gancho: arrastre               |                 | Clic derecho         | RB                        |
 | Estrella ancla                 | E               |                      | LB                        |
-| Interactuar (leer)             | W               |                      | Y                         |
 | Menú / pausa                   | Esc o P         |                      | Start                     |
 
-Pulsar de nuevo el botón del modo en uso corta el gancho. La estrella ancla se puede colocar en cualquier estado (suelo, aire o pared). El salto y el gancho perdonan la entrada (coyote time y buffer de pulsación). Teclado y mando se pueden reasignar desde Configuración › Controles (ver [[04 - Guardado y Configuración]]).
+Cómo se corta el gancho depende del modo elegido en Configuración › Jugabilidad: soltar el botón (modo predeterminado), pulsar de nuevo el botón o pulsar Saltar (ver [[04 - Guardado y Configuración]]). La estrella ancla se puede colocar en cualquier estado (suelo, aire o pared). El salto y el gancho perdonan la entrada (coyote time y buffer de pulsación). No hay acción de interactuar: el entorno no se usa con una tecla, y los poemas se leen al recogerlos.
 
 | Entrada        | Señal para el jugador                                                               |
 | -------------- | ----------------------------------------------------------------------------------- |
